@@ -1,0 +1,8 @@
+{
+  "name": "min3 then clamp",
+  "expect": 2,
+  "steps": [
+    {"name": "xylem:math.min3", "args": [3, 7, 5]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 2], "language": "python"}
+  ]
+}

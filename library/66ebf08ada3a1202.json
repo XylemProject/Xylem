@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "66ebf08ada3a12023db52e1dd392ad9619e0409e73b4e5db4e7c60c0f37fe5e8",
+  "short_id": "xylem-v1:66ebf08ada3a1202",
+  "hierarchical_name": "xylem:math.min3",
+  "job": "xylem:math.min3",
+  "language": "python",
+  "timing_us": 0.13,
+  "function_name": "min3",
+  "category": "math",
+  "intent": "return the smallest of three numbers",
+  "depends_on": [],
+  "source_file": "examples/min3.py",
+  "normalized_length": 121,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-19T20:49:35.392818+00:00",
+  "updated_at": "2026-11-19T20:49:35.392831+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/min3.py"
+  ]
+}

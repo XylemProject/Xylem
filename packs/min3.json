@@ -1,0 +1,8 @@
+{
+  "pack": "pack:math.min3",
+  "description": "Min3, then clamp. Order only. Parameters stay in the run file.",
+  "order": [
+    "xylem:math.min3",
+    "xylem:util.clamp"
+  ]
+}
