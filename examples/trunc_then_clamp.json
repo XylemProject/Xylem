@@ -1,0 +1,8 @@
+{
+  "name": "trunc then clamp",
+  "expect": 1,
+  "steps": [
+    {"name": "xylem:math.trunc", "args": [2.8]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 1], "language": "python"}
+  ]
+}

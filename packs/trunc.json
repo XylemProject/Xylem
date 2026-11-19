@@ -1,0 +1,8 @@
+{
+  "pack": "pack:math.trunc",
+  "description": "Trunc, then clamp. Order only. Parameters stay in the run file.",
+  "order": [
+    "xylem:math.trunc",
+    "xylem:util.clamp"
+  ]
+}
