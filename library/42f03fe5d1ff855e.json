@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "42f03fe5d1ff855e7d5afb03113b37c79f29a04624f9808af8d6f47ea3f7d985",
+  "short_id": "xylem-v1:42f03fe5d1ff855e",
+  "hierarchical_name": "xylem:physics.apply_gravity",
+  "job": "xylem:physics.apply_gravity",
+  "language": "python",
+  "timing_us": 0.465,
+  "function_name": "apply_gravity",
+  "category": "physics",
+  "intent": "add gravity to vertical velocity for one time step",
+  "depends_on": [],
+  "source_file": "examples/apply_gravity.py",
+  "normalized_length": 144,
+  "tests_passed": 6,
+  "tests_total": 6,
+  "created_at": "2026-10-06T14:43:44.014933+00:00",
+  "updated_at": "2026-10-06T14:43:44.014965+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/apply_gravity.py"
+  ]
+}

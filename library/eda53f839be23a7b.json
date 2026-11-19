@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "eda53f839be23a7b7c7f296eb8860480bb51c0054b1f72e21404264cefb416b0",
+  "short_id": "xylem-v1:eda53f839be23a7b",
+  "hierarchical_name": "xylem:math.dist",
+  "job": "xylem:math.dist",
+  "language": "python",
+  "timing_us": 0.612,
+  "function_name": "dist",
+  "category": "math",
+  "intent": "euclidean distance between two points",
+  "depends_on": [],
+  "source_file": "examples/dist.py",
+  "normalized_length": 138,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:03:30.573237+00:00",
+  "updated_at": "2026-10-29T19:03:30.573266+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/dist.py"
+  ]
+}

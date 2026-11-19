@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "90a3be30c07a093ce9245b5dfdddcd91a5de3b99c1f9058eb6d6c55f46bf4b67",
+  "short_id": "xylem-v1:90a3be30c07a093c",
+  "hierarchical_name": "xylem:math.pulse_wave",
+  "job": "xylem:math.pulse_wave",
+  "language": "python",
+  "timing_us": 0.193,
+  "function_name": "pulse_wave",
+  "category": "math",
+  "intent": "Pulse wave with period 1: 1 while the phase is below duty, else 0. Refuses duty outside (0, 1) by returning None.",
+  "depends_on": [],
+  "source_file": "examples/pulse_wave.py",
+  "normalized_length": 250,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-05T17:09:22.270565+00:00",
+  "updated_at": "2026-11-05T17:09:22.270577+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/pulse_wave.py"
+  ]
+}

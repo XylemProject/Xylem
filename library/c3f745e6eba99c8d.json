@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "c3f745e6eba99c8de00e5b9b635a09b24962af1bd7676fd41715b64707ca03d6",
+  "short_id": "xylem-v1:c3f745e6eba99c8d",
+  "hierarchical_name": "xylem:math.mul",
+  "job": "xylem:math.mul",
+  "language": "python",
+  "timing_us": 0.212,
+  "function_name": "mul",
+  "category": "math",
+  "intent": "x times y",
+  "depends_on": [],
+  "source_file": "examples/mul.py",
+  "normalized_length": 59,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:50:09.327291+00:00",
+  "updated_at": "2026-10-28T19:50:09.327310+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/mul.py"
+  ]
+}

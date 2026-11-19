@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "a8254aca689bfb7a3a46c69fc8067ab7e51c0cb6bd6a9b31a113cccec24c267a",
+  "short_id": "xylem-v1:a8254aca689bfb7a",
+  "hierarchical_name": "xylem:math.inverse_lerp",
+  "job": "xylem:math.inverse_lerp",
+  "language": "python",
+  "timing_us": 0.262,
+  "function_name": "inverse_lerp",
+  "category": "math",
+  "intent": "fraction of the way x is from a to b",
+  "depends_on": [],
+  "source_file": "examples/inverse_lerp.py",
+  "normalized_length": 118,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:52:31.411951+00:00",
+  "updated_at": "2026-10-28T19:52:31.411969+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/inverse_lerp.py"
+  ]
+}

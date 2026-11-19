@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "410cfe0f8e34fcb95a579cd22650ecd6fcb2e8b94acd5d46c1655e8518e22614",
+  "short_id": "xylem-v1:410cfe0f8e34fcb9",
+  "hierarchical_name": "xylem:math.clamp_angle",
+  "job": "xylem:math.clamp_angle",
+  "language": "python",
+  "timing_us": 0.244,
+  "function_name": "clamp_angle",
+  "category": "math",
+  "intent": "Clamp an angle in degrees to the arc from lo counterclockwise to hi, handling wrap. Result in [0, 360). Outside the arc it returns the nearer end, hi on a tie.",
+  "depends_on": [],
+  "source_file": "examples/clamp_angle.py",
+  "normalized_length": 390,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-05T17:15:00.094639+00:00",
+  "updated_at": "2026-11-05T17:15:00.094652+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/clamp_angle.py"
+  ]
+}

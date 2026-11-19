@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "2795d8deb2f5e1cf7dc73030de3fc11a446ae993fc98003cf3aecd027601fa2e",
+  "short_id": "xylem-v1:2795d8deb2f5e1cf",
+  "hierarchical_name": "xylem:rust.elastic_in_rs",
+  "job": "xylem:math.elastic_in",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "elastic_in_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\elastic_in.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:13:34.689497+00:00",
+  "updated_at": "2026-11-05T20:13:34.689510+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\elastic_in.rs"
+  ]
+}

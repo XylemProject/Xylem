@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "5945e0c6766e57ee1c3682ff5fe2853deda439c0f7da3098f393b8d8e2009a68",
+  "short_id": "xylem-v1:5945e0c6766e57ee",
+  "hierarchical_name": "xylem:math.mix_safe",
+  "job": "xylem:math.mix_safe",
+  "language": "python",
+  "timing_us": 0.315,
+  "function_name": "mix_safe",
+  "category": "math",
+  "intent": "mix safe",
+  "depends_on": [],
+  "source_file": "examples/mix_safe.py",
+  "normalized_length": 233,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-05T17:55:45.339711+00:00",
+  "updated_at": "2026-11-05T17:55:45.339727+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/mix_safe.py"
+  ]
+}

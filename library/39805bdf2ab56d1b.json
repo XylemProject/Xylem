@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "39805bdf2ab56d1bab14dd80bab5d896424cca55f203424b766551cd8e64ce55",
+  "short_id": "xylem-v1:39805bdf2ab56d1b",
+  "hierarchical_name": "xylem:math.hypot",
+  "job": "xylem:math.hypot",
+  "language": "python",
+  "timing_us": 0.777,
+  "function_name": "hypot",
+  "category": "math",
+  "intent": "hypotenuse of two numbers",
+  "depends_on": [],
+  "source_file": "examples/hypot.py",
+  "normalized_length": 94,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:03:25.294128+00:00",
+  "updated_at": "2026-10-29T19:03:25.294177+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/hypot.py"
+  ]
+}

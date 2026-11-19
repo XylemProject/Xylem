@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "a29504cf7082bb22700b3c6d7c4639cffc93c347bec50f82b07bfbbee45cf8d6",
+  "short_id": "xylem-v1:a29504cf7082bb22",
+  "hierarchical_name": "xylem:rust.lt_rs",
+  "job": "xylem:math.lt",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "lt_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\lt.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:45:01.223125+00:00",
+  "updated_at": "2026-11-05T20:45:01.223137+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\lt.rs"
+  ]
+}

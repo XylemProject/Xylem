@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "a81de3c2f6fe76dd037047bd263c227ff37b2a1f09d24794866ca947a42eb26b",
+  "short_id": "xylem-v1:a81de3c2f6fe76dd",
+  "hierarchical_name": "xylem:rust.ne_rs",
+  "job": "xylem:math.ne",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "ne_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\ne.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:44:57.721988+00:00",
+  "updated_at": "2026-11-05T20:44:57.722002+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\ne.rs"
+  ]
+}

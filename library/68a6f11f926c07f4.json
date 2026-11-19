@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "68a6f11f926c07f4f4dcb4479b2519145da9b1a1373f98150292796314c1efaf",
+  "short_id": "xylem-v1:68a6f11f926c07f4",
+  "hierarchical_name": "xylem:math.lerp",
+  "job": "xylem:math.lerp",
+  "language": "python",
+  "timing_us": 0.537,
+  "function_name": "lerp",
+  "category": "math",
+  "intent": "linear interpolate from start to end by t in 0..1",
+  "depends_on": [],
+  "source_file": "examples/lerp.py",
+  "normalized_length": 122,
+  "tests_passed": 7,
+  "tests_total": 7,
+  "created_at": "2026-10-06T14:52:46.600079+00:00",
+  "updated_at": "2026-10-06T14:52:46.600109+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/lerp.py"
+  ]
+}

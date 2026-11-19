@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "93b023816c58bf1283133019573ed777eceed509ebc36c7b3c2f84185cf08221",
+  "short_id": "xylem-v1:93b023816c58bf12",
+  "hierarchical_name": "xylem:math.hypot3",
+  "job": "xylem:math.hypot3",
+  "language": "python",
+  "timing_us": 0.729,
+  "function_name": "hypot3",
+  "category": "math",
+  "intent": "hypotenuse of three numbers",
+  "depends_on": [],
+  "source_file": "examples/hypot3.py",
+  "normalized_length": 116,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:07:02.729348+00:00",
+  "updated_at": "2026-10-29T19:07:02.729375+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/hypot3.py"
+  ]
+}

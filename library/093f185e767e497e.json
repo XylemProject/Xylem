@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "093f185e767e497e48bb85c6d1a4a3445049f6e5d48c2f2422a5deef0d288ef8",
+  "short_id": "xylem-v1:093f185e767e497e",
+  "hierarchical_name": "xylem:math.circ_in_out",
+  "job": "xylem:math.circ_in_out",
+  "language": "python",
+  "timing_us": 0.305,
+  "function_name": "circ_in_out",
+  "category": "math",
+  "intent": "circular ease in and out",
+  "depends_on": [],
+  "source_file": "examples/circ_in_out.py",
+  "normalized_length": 145,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:08:54.540953+00:00",
+  "updated_at": "2026-10-28T20:08:54.540967+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/circ_in_out.py"
+  ]
+}

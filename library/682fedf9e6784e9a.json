@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "682fedf9e6784e9a448cc8cfcc2d1a95a21402466e8dd642f7cdecadcd0419b4",
+  "short_id": "xylem-v1:682fedf9e6784e9a",
+  "hierarchical_name": "xylem:math.smootherstep",
+  "job": "xylem:math.smootherstep",
+  "language": "python",
+  "timing_us": 0.503,
+  "function_name": "smootherstep",
+  "category": "math",
+  "intent": "smoother s-curve between two edges",
+  "depends_on": [],
+  "source_file": "examples/smootherstep.py",
+  "normalized_length": 205,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:56:08.185384+00:00",
+  "updated_at": "2026-10-28T19:56:08.185404+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/smootherstep.py"
+  ]
+}

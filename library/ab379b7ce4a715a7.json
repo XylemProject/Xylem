@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ab379b7ce4a715a78d4eeaf1bef88dd52f6ecc38f9e82b7fe4ccfb569d3092be",
+  "short_id": "xylem-v1:ab379b7ce4a715a7",
+  "hierarchical_name": "xylem:math.hypot_deg",
+  "job": "xylem:math.hypot_deg",
+  "language": "python",
+  "timing_us": 0.386,
+  "function_name": "hypot_deg",
+  "category": "math",
+  "intent": "Angle in degrees opposite leg a, from a over the hypotenuse of a and b. Refuses a zero hypotenuse by returning None.",
+  "depends_on": [],
+  "source_file": "examples/hypot_deg.py",
+  "normalized_length": 262,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-03T16:56:38.357420+00:00",
+  "updated_at": "2026-11-03T16:56:38.357435+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/hypot_deg.py"
+  ]
+}

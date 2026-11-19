@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "da6a557ac7552ea1e844e67a4205e37307243f06e454ea4a704b141568a8676b",
+  "short_id": "xylem-v1:da6a557ac7552ea1",
+  "hierarchical_name": "xylem:math.sine_in",
+  "job": "xylem:math.sine_in",
+  "language": "python",
+  "timing_us": 0.445,
+  "function_name": "sine_in",
+  "category": "math",
+  "intent": "sine ease in",
+  "depends_on": [],
+  "source_file": "examples/sine_in.py",
+  "normalized_length": 98,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:17:48.107060+00:00",
+  "updated_at": "2026-10-28T20:17:48.107078+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/sine_in.py"
+  ]
+}

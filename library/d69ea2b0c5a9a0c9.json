@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d69ea2b0c5a9a0c973f44b80556a47a45d3a1f2c4172782a80f5e14cf6037d9a",
+  "short_id": "xylem-v1:d69ea2b0c5a9a0c9",
+  "hierarchical_name": "xylem:rust.smooth_min_rs",
+  "job": "xylem:math.smooth_min",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "smooth_min_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\smooth_min.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:18:08.767941+00:00",
+  "updated_at": "2026-11-05T20:18:08.767962+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\smooth_min.rs"
+  ]
+}

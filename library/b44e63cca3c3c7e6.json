@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "b44e63cca3c3c7e6855672b0715bed4ede03be7f7e2504a1ca6d315a962abaa1",
+  "short_id": "xylem-v1:b44e63cca3c3c7e6",
+  "hierarchical_name": "xylem:physics.aabb_overlap",
+  "job": "xylem:physics.aabb_overlap",
+  "language": "python",
+  "timing_us": 0.696,
+  "function_name": "aabb_overlap",
+  "category": "physics",
+  "intent": "return True if two axis-aligned boxes overlap",
+  "depends_on": [],
+  "source_file": "examples/aabb_overlap.py",
+  "normalized_length": 181,
+  "tests_passed": 6,
+  "tests_total": 6,
+  "created_at": "2026-10-06T14:48:26.742688+00:00",
+  "updated_at": "2026-10-06T14:48:26.742720+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/aabb_overlap.py"
+  ]
+}

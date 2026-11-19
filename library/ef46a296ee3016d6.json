@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ef46a296ee3016d6c547eedbb4240d03b0c29dd6cc0e53c390d4740c6bea7c9e",
+  "short_id": "xylem-v1:ef46a296ee3016d6",
+  "hierarchical_name": "xylem:math.sqrt_safe",
+  "job": "xylem:math.sqrt_safe",
+  "language": "python",
+  "timing_us": 0.343,
+  "function_name": "sqrt_safe",
+  "category": "math",
+  "intent": "square root, refuses negative input",
+  "depends_on": [],
+  "source_file": "examples/sqrt_safe.py",
+  "normalized_length": 153,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-10-29T19:29:05.820316+00:00",
+  "updated_at": "2026-10-29T19:29:05.820339+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/sqrt_safe.py"
+  ]
+}

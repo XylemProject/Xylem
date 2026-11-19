@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "179762a7e7cf06d2cccb99b83d51f49ebfb32fd2309a0513092d42caa45396b4",
+  "short_id": "xylem-v1:179762a7e7cf06d2",
+  "hierarchical_name": "xylem:rust.manhattan_safe_rs",
+  "job": "xylem:math.manhattan_safe",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "manhattan_safe_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\manhattan_safe.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:47:19.591765+00:00",
+  "updated_at": "2026-11-05T20:47:19.591777+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\manhattan_safe.rs"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "4508f3a0c2d8e2a5325fed01a4f95b0fe31b38af1f43bbeb6a96a9ccfc8f977f",
+  "short_id": "xylem-v1:4508f3a0c2d8e2a5",
+  "hierarchical_name": "xylem:math.half",
+  "job": "xylem:math.half",
+  "language": "python",
+  "timing_us": 0.193,
+  "function_name": "half",
+  "category": "math",
+  "intent": "half of x",
+  "depends_on": [],
+  "source_file": "examples/half.py",
+  "normalized_length": 59,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:44:15.654985+00:00",
+  "updated_at": "2026-10-28T19:44:15.655003+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/half.py"
+  ]
+}

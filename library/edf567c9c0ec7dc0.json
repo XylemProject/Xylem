@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "edf567c9c0ec7dc0676a5821fe8bca9b7d59bf607169c5c4f243b0c94fc96d06",
+  "short_id": "xylem-v1:edf567c9c0ec7dc0",
+  "hierarchical_name": "xylem:math.saturate01",
+  "job": "xylem:math.saturate01",
+  "language": "python",
+  "timing_us": 0.304,
+  "function_name": "saturate01",
+  "category": "math",
+  "intent": "Saturate x to the range 0 to 1 using min and max.",
+  "depends_on": [],
+  "source_file": "examples/saturate01.py",
+  "normalized_length": 120,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-11-03T16:58:51.431489+00:00",
+  "updated_at": "2026-11-03T16:58:51.431507+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/saturate01.py"
+  ]
+}

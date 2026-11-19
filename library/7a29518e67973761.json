@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "7a29518e67973761cb9f9992d518c7656cbf0310b5ff930d6e0cb831212ecebe",
+  "short_id": "xylem-v1:7a29518e67973761",
+  "hierarchical_name": "xylem:math.manhattan_safe",
+  "job": "xylem:math.manhattan_safe",
+  "language": "python",
+  "timing_us": 0.327,
+  "function_name": "manhattan_safe",
+  "category": "math",
+  "intent": "manhattan safe",
+  "depends_on": [],
+  "source_file": "examples/manhattan_safe.py",
+  "normalized_length": 398,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-05T17:53:24.529950+00:00",
+  "updated_at": "2026-11-05T17:53:24.529962+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/manhattan_safe.py"
+  ]
+}

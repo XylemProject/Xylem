@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "2ad93f2596cb76d8eac631baf13a7eb2b6e820d4be0ac03a1b9097131d32a9fe",
+  "short_id": "xylem-v1:2ad93f2596cb76d8",
+  "hierarchical_name": "xylem:rust.inc_rs",
+  "job": "xylem:math.inc",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "inc_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\inc.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:14:54.118336+00:00",
+  "updated_at": "2026-11-05T20:14:54.118349+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\inc.rs"
+  ]
+}

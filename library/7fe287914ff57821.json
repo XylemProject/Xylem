@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "7fe287914ff5782171cb5431aef548cf9fef8bc0be2ad9ca96aed201830bc096",
+  "short_id": "xylem-v1:7fe287914ff57821",
+  "hierarchical_name": "xylem:math.ge",
+  "job": "xylem:math.ge",
+  "language": "python",
+  "timing_us": 0.218,
+  "function_name": "ge",
+  "category": "math",
+  "intent": "true if x is at least y",
+  "depends_on": [],
+  "source_file": "examples/ge.py",
+  "normalized_length": 89,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:49:40.402513+00:00",
+  "updated_at": "2026-10-28T19:49:40.402531+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/ge.py"
+  ]
+}

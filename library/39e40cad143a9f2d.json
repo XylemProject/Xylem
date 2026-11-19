@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "39e40cad143a9f2d9a052ec7b28b38b5b04222d3c61b02e439843f8677af3ffd",
+  "short_id": "xylem-v1:39e40cad143a9f2d",
+  "hierarchical_name": "xylem:rust.asin_deg_rs",
+  "job": "xylem:math.asin_deg",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "asin_deg_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\asin_deg.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:46:57.109552+00:00",
+  "updated_at": "2026-11-05T20:46:57.109568+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\asin_deg.rs"
+  ]
+}

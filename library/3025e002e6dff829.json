@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "3025e002e6dff829612ff6f9a37ccec16b508cbb4860b641bd91f7654e8535b6",
+  "short_id": "xylem-v1:3025e002e6dff829",
+  "hierarchical_name": "xylem:math.abs_value",
+  "job": "xylem:math.abs_value",
+  "language": "python",
+  "timing_us": 0.192,
+  "function_name": "abs_value",
+  "category": "math",
+  "intent": "return the absolute value of a number",
+  "depends_on": [],
+  "source_file": "examples/abs_value.py",
+  "normalized_length": 127,
+  "tests_passed": 7,
+  "tests_total": 7,
+  "created_at": "2026-10-28T14:00:53.186193+00:00",
+  "updated_at": "2026-10-28T14:00:53.186218+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/abs_value.py"
+  ]
+}

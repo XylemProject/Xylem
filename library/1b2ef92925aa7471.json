@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "1b2ef92925aa74715c4b92a8d5a19d064372ad25d8f7320eace7c4e0bfb9b029",
+  "short_id": "xylem-v1:1b2ef92925aa7471",
+  "hierarchical_name": "xylem:math.mix",
+  "job": "xylem:math.mix",
+  "language": "python",
+  "timing_us": 0.303,
+  "function_name": "mix",
+  "category": "math",
+  "intent": "blend from a to b by t",
+  "depends_on": [],
+  "source_file": "examples/mix.py",
+  "normalized_length": 78,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:33:11.714572+00:00",
+  "updated_at": "2026-10-28T19:33:11.714592+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/mix.py"
+  ]
+}

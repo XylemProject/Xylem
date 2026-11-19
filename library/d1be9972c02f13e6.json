@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d1be9972c02f13e6754603653570086dd95327e32c8060dd95b4f3a30f500b42",
+  "short_id": "xylem-v1:d1be9972c02f13e6",
+  "hierarchical_name": "xylem:math.dec",
+  "job": "xylem:math.dec",
+  "language": "python",
+  "timing_us": 0.097,
+  "function_name": "dec",
+  "category": "math",
+  "intent": "x minus one",
+  "depends_on": [],
+  "source_file": "examples/dec.py",
+  "normalized_length": 58,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:46:12.541633+00:00",
+  "updated_at": "2026-10-28T19:46:12.541646+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/dec.py"
+  ]
+}

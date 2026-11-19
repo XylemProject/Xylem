@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "62ed5af535c6b45cf9c1f0672ca998734cfd6dbcd1785ed68dbf34805640dd20",
+  "short_id": "xylem-v1:62ed5af535c6b45c",
+  "hierarchical_name": "xylem:math.quart_in",
+  "job": "xylem:math.quart_in",
+  "language": "python",
+  "timing_us": 0.136,
+  "function_name": "quart_in",
+  "category": "math",
+  "intent": "quartic ease in",
+  "depends_on": [],
+  "source_file": "examples/quart_in.py",
+  "normalized_length": 73,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:18:26.242059+00:00",
+  "updated_at": "2026-10-28T20:18:26.242124+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/quart_in.py"
+  ]
+}

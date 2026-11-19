@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "096915f97b9522e43157994a6c9f35f7a8d0311a06bcf96f211bf0e2be2223ff",
+  "short_id": "xylem-v1:096915f97b9522e4",
+  "hierarchical_name": "xylem:math.remap",
+  "job": "xylem:math.remap",
+  "language": "python",
+  "timing_us": 0.191,
+  "function_name": "remap",
+  "category": "math",
+  "intent": "map x from one range to another",
+  "depends_on": [],
+  "source_file": "examples/remap.py",
+  "normalized_length": 168,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:56:02.043139+00:00",
+  "updated_at": "2026-10-28T19:56:02.043153+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/remap.py"
+  ]
+}

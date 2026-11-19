@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "8daca12c5f7d0e0f739d369b1e34dd0bef00f862a3b865b8700cc34044777acd",
+  "short_id": "xylem-v1:8daca12c5f7d0e0f",
+  "hierarchical_name": "xylem:math.lerp_unclamped",
+  "job": "xylem:math.lerp_unclamped",
+  "language": "python",
+  "timing_us": 0.233,
+  "function_name": "lerp_unclamped",
+  "category": "math",
+  "intent": "linear interpolation without clamping t",
+  "depends_on": [],
+  "source_file": "examples/lerp_unclamped.py",
+  "normalized_length": 116,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:52:27.485345+00:00",
+  "updated_at": "2026-10-28T19:52:27.485361+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/lerp_unclamped.py"
+  ]
+}

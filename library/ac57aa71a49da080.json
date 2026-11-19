@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ac57aa71a49da080310fce54e3983dca56f5ba0baf9d3afaa81e217f4d60736b",
+  "short_id": "xylem-v1:ac57aa71a49da080",
+  "hierarchical_name": "xylem:math.saw",
+  "job": "xylem:math.saw",
+  "language": "python",
+  "timing_us": 0.245,
+  "function_name": "saw",
+  "category": "math",
+  "intent": "sawtooth wave with period one",
+  "depends_on": [],
+  "source_file": "examples/saw.py",
+  "normalized_length": 72,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:05:36.069918+00:00",
+  "updated_at": "2026-10-28T20:05:36.069938+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/saw.py"
+  ]
+}

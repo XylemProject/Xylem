@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d171ae2682e53ab2dcbe67eca65ee91c125740cfd75238008c5f189f1577dc42",
+  "short_id": "xylem-v1:d171ae2682e53ab2",
+  "hierarchical_name": "xylem:rust.wrap_degrees_rs",
+  "job": "xylem:math.wrap_degrees",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "wrap_degrees_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\wrap_degrees.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:18:59.383090+00:00",
+  "updated_at": "2026-11-05T20:18:59.383103+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\wrap_degrees.rs"
+  ]
+}

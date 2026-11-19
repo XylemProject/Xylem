@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "4284f2c47100306b019be7cc9fb6ac4c6c1ee5d8695dccbdd3eb1ecb338ab75e",
+  "short_id": "xylem-v1:4284f2c47100306b",
+  "hierarchical_name": "xylem:math.wrap_degrees_safe",
+  "job": "xylem:math.wrap_degrees_safe",
+  "language": "python",
+  "timing_us": 0.342,
+  "function_name": "wrap_degrees_safe",
+  "category": "math",
+  "intent": "wrap degrees safe",
+  "depends_on": [],
+  "source_file": "examples/wrap_degrees_safe.py",
+  "normalized_length": 203,
+  "tests_passed": 15,
+  "tests_total": 15,
+  "created_at": "2026-11-05T18:29:48.608160+00:00",
+  "updated_at": "2026-11-05T18:29:48.608188+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/wrap_degrees_safe.py"
+  ]
+}

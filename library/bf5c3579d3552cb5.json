@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "bf5c3579d3552cb572b2fca0de4fc2e116e58f75ab33e37de4c9e2e7c5b532f8",
+  "short_id": "xylem-v1:bf5c3579d3552cb5",
+  "hierarchical_name": "xylem:math.hermite",
+  "job": "xylem:math.hermite",
+  "language": "python",
+  "timing_us": 0.213,
+  "function_name": "hermite",
+  "category": "math",
+  "intent": "cubic hermite curve",
+  "depends_on": [],
+  "source_file": "examples/hermite.py",
+  "normalized_length": 82,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:06:05.853437+00:00",
+  "updated_at": "2026-10-28T20:06:05.853452+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/hermite.py"
+  ]
+}

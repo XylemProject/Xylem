@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "bf4d949b2bf71d1ffa3ec08f4ffb3400710e392cf49603f2888eba5591d172bb",
+  "short_id": "xylem-v1:bf4d949b2bf71d1f",
+  "hierarchical_name": "xylem:rust.ceil_rs",
+  "job": "xylem:math.ceil",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "ceil_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\ceil.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:08:44.436466+00:00",
+  "updated_at": "2026-11-05T20:08:44.436479+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\ceil.rs"
+  ]
+}

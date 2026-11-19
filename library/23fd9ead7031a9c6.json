@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "23fd9ead7031a9c6751815d6e46da96785fa5c26c18e503000b87ca015c6e774",
+  "short_id": "xylem-v1:23fd9ead7031a9c6",
+  "hierarchical_name": "xylem:math.pow_safe",
+  "job": "xylem:math.pow_safe",
+  "language": "python",
+  "timing_us": 0.367,
+  "function_name": "pow_safe",
+  "category": "math",
+  "intent": "power that stays real, negative base with fractional exponent gives 0",
+  "depends_on": [],
+  "source_file": "examples/pow_safe.py",
+  "normalized_length": 229,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-10-29T19:14:46.937773+00:00",
+  "updated_at": "2026-10-29T19:14:46.937792+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/pow_safe.py"
+  ]
+}

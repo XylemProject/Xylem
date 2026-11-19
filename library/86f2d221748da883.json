@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "86f2d221748da883f1dc43b7a5eb9a43cd00a14a2b8067c7064940484b1619fc",
+  "short_id": "xylem-v1:86f2d221748da883",
+  "hierarchical_name": "xylem:rust.gain_safe_rs",
+  "job": "xylem:math.gain_safe",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "gain_safe_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\gain_safe.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:48:04.419431+00:00",
+  "updated_at": "2026-11-05T20:48:04.419443+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\gain_safe.rs"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "c64c657a7a75a1ff679e31e6edebe331bd472bfb2db8a265a5a62859ec6b6928",
+  "short_id": "xylem-v1:c64c657a7a75a1ff",
+  "hierarchical_name": "xylem:math.deg_lerp",
+  "job": "xylem:math.deg_lerp",
+  "language": "python",
+  "timing_us": 0.363,
+  "function_name": "deg_lerp",
+  "category": "math",
+  "intent": "Lerp from a to b in degrees along the shortest path, result not wrapped. An exact 180 tie goes the negative way.",
+  "depends_on": [],
+  "source_file": "examples/deg_lerp.py",
+  "normalized_length": 213,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-05T17:14:53.621660+00:00",
+  "updated_at": "2026-11-05T17:14:53.621677+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/deg_lerp.py"
+  ]
+}

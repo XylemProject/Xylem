@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "3fe6f086f06601d47104818b8dbb96435f87a1aa03305ce0b678ed046ff3e3a6",
+  "short_id": "xylem-v1:3fe6f086f06601d4",
+  "hierarchical_name": "xylem:rust.sign_rs",
+  "job": "xylem:math.sign",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "sign_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples/sign.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T19:22:16.891438+00:00",
+  "updated_at": "2026-11-05T19:22:16.891462+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples/sign.rs"
+  ]
+}

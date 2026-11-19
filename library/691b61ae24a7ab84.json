@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "691b61ae24a7ab84bc050263aaf21f633162ebaaf77c550db633e5466b2601fb",
+  "short_id": "xylem-v1:691b61ae24a7ab84",
+  "hierarchical_name": "xylem:math.sign",
+  "job": "xylem:math.sign",
+  "language": "python",
+  "timing_us": 0.175,
+  "function_name": "sign",
+  "category": "math",
+  "intent": "return -1, 0, or 1 for the sign of a number",
+  "depends_on": [],
+  "source_file": "examples/sign.py",
+  "normalized_length": 155,
+  "tests_passed": 7,
+  "tests_total": 7,
+  "created_at": "2026-10-06T17:29:43.239958+00:00",
+  "updated_at": "2026-10-06T17:37:59.153037+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/sign.py"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "f6ff16d15b639b16384b3cabbc8499b88c4ca58c88df061369b644b16cad4cb0",
+  "short_id": "xylem-v1:f6ff16d15b639b16",
+  "hierarchical_name": "xylem:rust.quantize_rs",
+  "job": "xylem:math.quantize",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "quantize_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\quantize.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:16:21.000077+00:00",
+  "updated_at": "2026-11-05T20:16:21.000089+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\quantize.rs"
+  ]
+}

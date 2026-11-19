@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "861926ba7f8bcae4f986f63a51e1d77c0779d69e505a482eeec2a211170c6ef0",
+  "short_id": "xylem-v1:861926ba7f8bcae4",
+  "hierarchical_name": "xylem:math.cbrt",
+  "job": "xylem:math.cbrt",
+  "language": "python",
+  "timing_us": 0.335,
+  "function_name": "cbrt",
+  "category": "math",
+  "intent": "real cube root, works for negative input",
+  "depends_on": [],
+  "source_file": "examples/cbrt.py",
+  "normalized_length": 136,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-10-29T19:29:09.480748+00:00",
+  "updated_at": "2026-10-29T19:29:09.480761+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/cbrt.py"
+  ]
+}

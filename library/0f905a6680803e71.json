@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "0f905a6680803e7187ecd9d3f10ce0fbd75497d31a52c91b1d412d86c8d2276b",
+  "short_id": "xylem-v1:0f905a6680803e71",
+  "hierarchical_name": "xylem:math.square_wave_1",
+  "job": "xylem:math.square_wave_1",
+  "language": "python",
+  "timing_us": 0.142,
+  "function_name": "square_wave_1",
+  "category": "math",
+  "intent": "Square wave with period 1: 1 for the first half of each period, 0 for the second.",
+  "depends_on": [],
+  "source_file": "examples/square_wave_1.py",
+  "normalized_length": 163,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-05T17:14:50.398578+00:00",
+  "updated_at": "2026-11-05T17:14:50.398591+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/square_wave_1.py"
+  ]
+}

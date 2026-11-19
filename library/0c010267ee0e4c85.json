@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "0c010267ee0e4c8562ce6e0d85228a80662c24040d1f8bcb384594d7996c7d46",
+  "short_id": "xylem-v1:0c010267ee0e4c85",
+  "hierarchical_name": "xylem:math.ceil",
+  "job": "xylem:math.ceil",
+  "language": "python",
+  "timing_us": 0.451,
+  "function_name": "ceil",
+  "category": "math",
+  "intent": "round x up to a whole number",
+  "depends_on": [],
+  "source_file": "examples/ceil.py",
+  "normalized_length": 84,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:39:14.540279+00:00",
+  "updated_at": "2026-10-28T19:39:14.540295+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/ceil.py"
+  ]
+}

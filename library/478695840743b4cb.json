@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "478695840743b4cb436947ce48dd75219edcfe1322c3b4077d1b4a80c71f9e55",
+  "short_id": "xylem-v1:478695840743b4cb",
+  "hierarchical_name": "xylem:math.exp",
+  "job": "xylem:math.exp",
+  "language": "python",
+  "timing_us": 0.472,
+  "function_name": "exp",
+  "category": "math",
+  "intent": "e raised to a power",
+  "depends_on": [],
+  "source_file": "examples/exp.py",
+  "normalized_length": 72,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:14:23.325357+00:00",
+  "updated_at": "2026-10-29T19:14:23.325378+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/exp.py"
+  ]
+}

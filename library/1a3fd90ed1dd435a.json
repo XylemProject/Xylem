@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "1a3fd90ed1dd435a598e6df04405fb443a84330d9ba5c332fdf5661a18db2de0",
+  "short_id": "xylem-v1:1a3fd90ed1dd435a",
+  "hierarchical_name": "xylem:rust.angle_lerp_deg_rs",
+  "job": "xylem:math.angle_lerp_deg",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "angle_lerp_deg_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\angle_lerp_deg.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:11:31.838240+00:00",
+  "updated_at": "2026-11-05T20:11:31.838259+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\angle_lerp_deg.rs"
+  ]
+}

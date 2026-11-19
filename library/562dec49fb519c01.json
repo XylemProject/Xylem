@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "562dec49fb519c014a262b367cedfd9ab86ddde7ebddc7c2cbc8e40d1e82d7be",
+  "short_id": "xylem-v1:562dec49fb519c01",
+  "hierarchical_name": "xylem:math.log_safe",
+  "job": "xylem:math.log_safe",
+  "language": "python",
+  "timing_us": 0.186,
+  "function_name": "log_safe",
+  "category": "math",
+  "intent": "log safe",
+  "depends_on": [],
+  "source_file": "examples/log_safe.py",
+  "normalized_length": 194,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-05T17:40:11.205440+00:00",
+  "updated_at": "2026-11-05T17:40:11.205455+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/log_safe.py"
+  ]
+}

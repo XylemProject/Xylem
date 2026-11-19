@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "87374476e9927521d0d5a701503f0c752c72785eaddfa2dc923218a49ee529fc",
+  "short_id": "xylem-v1:87374476e9927521",
+  "hierarchical_name": "xylem:math.sign_nonzero",
+  "job": "xylem:math.sign_nonzero",
+  "language": "python",
+  "timing_us": 0.154,
+  "function_name": "sign_nonzero",
+  "category": "math",
+  "intent": "Sign of x as -1, 0 or 1, returning 0 only for exact zero.",
+  "depends_on": [],
+  "source_file": "examples/sign_nonzero.py",
+  "normalized_length": 130,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-11-05T17:19:19.813624+00:00",
+  "updated_at": "2026-11-05T17:19:19.813636+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/sign_nonzero.py"
+  ]
+}

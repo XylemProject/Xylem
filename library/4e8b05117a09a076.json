@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "4e8b05117a09a0765c514bd067dd20de56be5bb05c0536f65aefbf81712bf634",
+  "short_id": "xylem-v1:4e8b05117a09a076",
+  "hierarchical_name": "xylem:math.saw_wave_safe",
+  "job": "xylem:math.saw_wave_safe",
+  "language": "python",
+  "timing_us": 0.553,
+  "function_name": "saw_wave_safe",
+  "category": "math",
+  "intent": "saw wave safe",
+  "depends_on": [],
+  "source_file": "examples/saw_wave_safe.py",
+  "normalized_length": 230,
+  "tests_passed": 14,
+  "tests_total": 14,
+  "created_at": "2026-11-05T18:28:05.416199+00:00",
+  "updated_at": "2026-11-05T18:28:05.416221+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/saw_wave_safe.py"
+  ]
+}

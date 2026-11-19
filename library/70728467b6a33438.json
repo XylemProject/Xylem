@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "70728467b6a3343868ae2d1f47a1156817a64300abffe70549d4c1237c61c199",
+  "short_id": "xylem-v1:70728467b6a33438",
+  "hierarchical_name": "xylem:math.step_unclamped",
+  "job": "xylem:math.step_unclamped",
+  "language": "python",
+  "timing_us": 0.16,
+  "function_name": "step_unclamped",
+  "category": "math",
+  "intent": "Linear step through edge with the given width, centered so x == edge gives 0.5, without clamping. Refuses width <= 0 by returning None.",
+  "depends_on": [],
+  "source_file": "examples/step_unclamped.py",
+  "normalized_length": 269,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-05T17:16:31.267302+00:00",
+  "updated_at": "2026-11-05T17:16:31.267315+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/step_unclamped.py"
+  ]
+}

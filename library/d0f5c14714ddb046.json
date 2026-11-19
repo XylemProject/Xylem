@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d0f5c14714ddb046afe2d4f96d65635c41e2139c602855e7399080b734aeff6d",
+  "short_id": "xylem-v1:d0f5c14714ddb046",
+  "hierarchical_name": "xylem:math.smoothstep_unclamped",
+  "job": "xylem:math.smoothstep_unclamped",
+  "language": "python",
+  "timing_us": 0.211,
+  "function_name": "smoothstep_unclamped",
+  "category": "math",
+  "intent": "Smoothstep from edge0 to edge1 without clamping. Refuses equal edges by returning None.",
+  "depends_on": [],
+  "source_file": "examples/smoothstep_unclamped.py",
+  "normalized_length": 265,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-05T17:04:49.131969+00:00",
+  "updated_at": "2026-11-05T17:04:49.131983+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/smoothstep_unclamped.py"
+  ]
+}

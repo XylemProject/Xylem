@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "24a403573273562f1cd4819c49ee91752e138b339c820a7f6edcefaad0403bee",
+  "short_id": "xylem-v1:24a403573273562f",
+  "hierarchical_name": "xylem:math.remap_unclamped",
+  "job": "xylem:math.remap_unclamped",
+  "language": "python",
+  "timing_us": 0.231,
+  "function_name": "remap_unclamped",
+  "category": "math",
+  "intent": "Map x from one range onto another, without clamping. Refuses an empty input range by returning None.",
+  "depends_on": [],
+  "source_file": "examples/remap_unclamped.py",
+  "normalized_length": 302,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-05T16:19:13.331490+00:00",
+  "updated_at": "2026-11-05T16:19:13.331503+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/remap_unclamped.py"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "38722d3ca35719ebd8d5645bc6ae9fe9f3c8da980ad0b325a61f6aff5799fb6d",
+  "short_id": "xylem-v1:38722d3ca35719eb",
+  "hierarchical_name": "xylem:math.pulse",
+  "job": "xylem:math.pulse",
+  "language": "python",
+  "timing_us": 0.138,
+  "function_name": "pulse",
+  "category": "math",
+  "intent": "one inside a range, zero outside",
+  "depends_on": [],
+  "source_file": "examples/pulse.py",
+  "normalized_length": 132,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:56:13.089127+00:00",
+  "updated_at": "2026-10-28T19:56:13.089140+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/pulse.py"
+  ]
+}

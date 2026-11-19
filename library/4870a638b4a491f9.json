@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "4870a638b4a491f90c0d82949251ea4cc3336424d0330f1404008cd7d33f98e5",
+  "short_id": "xylem-v1:4870a638b4a491f9",
+  "hierarchical_name": "xylem:rust.zero_rs",
+  "job": "xylem:math.zero",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "zero_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\zero.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:45:15.888147+00:00",
+  "updated_at": "2026-11-05T20:45:15.888171+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\zero.rs"
+  ]
+}

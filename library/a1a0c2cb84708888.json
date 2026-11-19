@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "a1a0c2cb84708888f39a66f65e2b3e9d45a4d472b5491abef3f80437cff9923a",
+  "short_id": "xylem-v1:a1a0c2cb84708888",
+  "hierarchical_name": "xylem:rust.reciprocal_rs",
+  "job": "xylem:math.reciprocal",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "reciprocal_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\reciprocal.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:16:39.891810+00:00",
+  "updated_at": "2026-11-05T20:16:39.891828+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\reciprocal.rs"
+  ]
+}

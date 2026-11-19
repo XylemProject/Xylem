@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "e2e1ecfddb9b636ed808afd87424a1527082547340491d8a7c627a94ef324ff2",
+  "short_id": "xylem-v1:e2e1ecfddb9b636e",
+  "hierarchical_name": "xylem:rust.ease_in_out_rs",
+  "job": "xylem:math.ease_in_out",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "ease_in_out_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\ease_in_out.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:10:26.009306+00:00",
+  "updated_at": "2026-11-05T20:10:26.009326+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\ease_in_out.rs"
+  ]
+}

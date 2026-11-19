@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "f6f791fb25d7dabc7839ec04b27bc64d60b972592c50d167b143fc2bba05f45c",
+  "short_id": "xylem-v1:f6f791fb25d7dabc",
+  "hierarchical_name": "xylem:math.quad_out",
+  "job": "xylem:math.quad_out",
+  "language": "python",
+  "timing_us": 0.122,
+  "function_name": "quad_out",
+  "category": "math",
+  "intent": "quadratic ease out curve",
+  "depends_on": [],
+  "source_file": "examples/quad_out.py",
+  "normalized_length": 74,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:18:05.095611+00:00",
+  "updated_at": "2026-10-28T20:18:05.095625+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/quad_out.py"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "91e2d63b5a2d3f429d6cb9defe368c6d92010bae98c313a929549dd588d1760d",
+  "short_id": "xylem-v1:91e2d63b5a2d3f42",
+  "hierarchical_name": "xylem:math.double",
+  "job": "xylem:math.double",
+  "language": "python",
+  "timing_us": 0.185,
+  "function_name": "double",
+  "category": "math",
+  "intent": "twice x",
+  "depends_on": [],
+  "source_file": "examples/double.py",
+  "normalized_length": 57,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:44:50.800793+00:00",
+  "updated_at": "2026-10-28T19:44:50.800815+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/double.py"
+  ]
+}

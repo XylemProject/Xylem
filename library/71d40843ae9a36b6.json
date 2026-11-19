@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "71d40843ae9a36b664a9b0db0788b28484074f5ab73c408368fce5bcdc9eb5f6",
+  "short_id": "xylem-v1:71d40843ae9a36b6",
+  "hierarchical_name": "xylem:rust.damp_safe_rs",
+  "job": "xylem:math.damp_safe",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "damp_safe_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\damp_safe.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:48:54.538742+00:00",
+  "updated_at": "2026-11-05T20:48:54.538755+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\damp_safe.rs"
+  ]
+}

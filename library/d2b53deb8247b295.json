@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d2b53deb8247b295839467a584cb256dbd46b4117673a1cb322ad1b211e1a705",
+  "short_id": "xylem-v1:d2b53deb8247b295",
+  "hierarchical_name": "xylem:rust.square_rs",
+  "job": "xylem:math.square",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "square_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples/square.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T19:33:43.900451+00:00",
+  "updated_at": "2026-11-05T19:33:43.900470+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples/square.rs"
+  ]
+}

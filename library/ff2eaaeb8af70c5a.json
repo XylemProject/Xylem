@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ff2eaaeb8af70c5a8102d2c7f70ce5e3ddbf3af99bc2b9fd3affe34ff1cd0964",
+  "short_id": "xylem-v1:ff2eaaeb8af70c5a",
+  "hierarchical_name": "xylem:rust.exp2_safe_rs",
+  "job": "xylem:math.exp2_safe",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "exp2_safe_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\exp2_safe.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:46:45.862708+00:00",
+  "updated_at": "2026-11-05T20:46:45.862721+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\exp2_safe.rs"
+  ]
+}

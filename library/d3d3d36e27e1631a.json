@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d3d3d36e27e1631a991174fa101959283434d1aa88d3c009e0eeae4306a3d5f9",
+  "short_id": "xylem-v1:d3d3d36e27e1631a",
+  "hierarchical_name": "xylem:math.elastic_out",
+  "job": "xylem:math.elastic_out",
+  "language": "python",
+  "timing_us": 0.591,
+  "function_name": "elastic_out",
+  "category": "math",
+  "intent": "elastic ease out",
+  "depends_on": [],
+  "source_file": "examples/elastic_out.py",
+  "normalized_length": 141,
+  "tests_passed": 9,
+  "tests_total": 9,
+  "created_at": "2026-10-28T20:09:13.394882+00:00",
+  "updated_at": "2026-10-28T20:09:13.394906+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/elastic_out.py"
+  ]
+}

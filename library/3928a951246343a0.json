@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "3928a951246343a0f3207c63e4294cc622431e898a0b4eb0a9f2e8de6df321d1",
+  "short_id": "xylem-v1:3928a951246343a0",
+  "hierarchical_name": "xylem:rust.sine_in_rs",
+  "job": "xylem:math.sine_in",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "sine_in_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\sine_in.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:17:43.243229+00:00",
+  "updated_at": "2026-11-05T20:17:43.243247+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\sine_in.rs"
+  ]
+}

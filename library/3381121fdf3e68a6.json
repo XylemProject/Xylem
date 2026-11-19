@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "3381121fdf3e68a6150d476d9cd21bd3b21a6487fb67ba14f1c6381c55872b36",
+  "short_id": "xylem-v1:3381121fdf3e68a6",
+  "hierarchical_name": "xylem:math.round",
+  "job": "xylem:math.round",
+  "language": "python",
+  "timing_us": 0.273,
+  "function_name": "round",
+  "category": "math",
+  "intent": "round x to the nearest whole number, halves up",
+  "depends_on": [],
+  "source_file": "examples/round.py",
+  "normalized_length": 103,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:40:05.781866+00:00",
+  "updated_at": "2026-10-28T19:40:05.781882+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/round.py"
+  ]
+}

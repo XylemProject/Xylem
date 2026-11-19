@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "04d2124045a0b0bd8d23a0e4e98263ab1f3b79f3c1410cbb949729002b242f61",
+  "short_id": "xylem-v1:04d2124045a0b0bd",
+  "hierarchical_name": "xylem:math.log",
+  "job": "xylem:math.log",
+  "language": "python",
+  "timing_us": 0.553,
+  "function_name": "log",
+  "category": "math",
+  "intent": "natural logarithm, refuses non-positive input",
+  "depends_on": [],
+  "source_file": "examples/log.py",
+  "normalized_length": 151,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:14:29.920940+00:00",
+  "updated_at": "2026-10-29T19:14:29.920966+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/log.py"
+  ]
+}

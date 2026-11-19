@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "4f8c7298eb6ef83c1cb1232509a0819671e2fb02fa23232857bd8ff394f49d46",
+  "short_id": "xylem-v1:4f8c7298eb6ef83c",
+  "hierarchical_name": "xylem:math.smooth_max",
+  "job": "xylem:math.smooth_max",
+  "language": "python",
+  "timing_us": 0.367,
+  "function_name": "smooth_max",
+  "category": "math",
+  "intent": "Polynomial smooth maximum of a and b with blend width k. k <= 0 gives the plain maximum.",
+  "depends_on": [],
+  "source_file": "examples/smooth_max.py",
+  "normalized_length": 251,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-05T17:16:37.659407+00:00",
+  "updated_at": "2026-11-05T17:16:37.659419+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/smooth_max.py"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "9e0120ec2e7337c7f2824726640a39b92136eafc89406740fa66fbf4bfa678e8",
+  "short_id": "xylem-v1:9e0120ec2e7337c7",
+  "hierarchical_name": "xylem:rust.saturate01_rs",
+  "job": "xylem:math.saturate01",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "saturate01_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\saturate01.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:16:51.377882+00:00",
+  "updated_at": "2026-11-05T20:16:51.377896+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\saturate01.rs"
+  ]
+}

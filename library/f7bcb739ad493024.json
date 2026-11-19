@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "f7bcb739ad4930244b2e9bc42ca41513f5e13e6c95a7d307376352e56ce2d2ab",
+  "short_id": "xylem-v1:f7bcb739ad493024",
+  "hierarchical_name": "xylem:math.elastic_in",
+  "job": "xylem:math.elastic_in",
+  "language": "python",
+  "timing_us": 0.491,
+  "function_name": "elastic_in",
+  "category": "math",
+  "intent": "elastic ease in",
+  "depends_on": [],
+  "source_file": "examples/elastic_in.py",
+  "normalized_length": 143,
+  "tests_passed": 9,
+  "tests_total": 9,
+  "created_at": "2026-10-28T20:09:08.557393+00:00",
+  "updated_at": "2026-10-28T20:09:08.557531+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/elastic_in.py"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "4ccac62bce30136259a84c2eb3d0afb80320aaa59c0da56388dd4dd400e19476",
+  "short_id": "xylem-v1:4ccac62bce301362",
+  "hierarchical_name": "xylem:rust.gt_rs",
+  "job": "xylem:math.gt",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "gt_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\gt.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:45:08.636988+00:00",
+  "updated_at": "2026-11-05T20:45:08.637002+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\gt.rs"
+  ]
+}

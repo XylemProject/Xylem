@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ad889586dac7a20da40e92397bb4adc54eb8a6592233747d0d61e06ce48bcb63",
+  "short_id": "xylem-v1:ad889586dac7a20d",
+  "hierarchical_name": "xylem:math.cubic_in",
+  "job": "xylem:math.cubic_in",
+  "language": "python",
+  "timing_us": 0.194,
+  "function_name": "cubic_in",
+  "category": "math",
+  "intent": "cubic ease in",
+  "depends_on": [],
+  "source_file": "examples/cubic_in.py",
+  "normalized_length": 67,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:18:13.851682+00:00",
+  "updated_at": "2026-10-28T20:18:13.851705+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/cubic_in.py"
+  ]
+}

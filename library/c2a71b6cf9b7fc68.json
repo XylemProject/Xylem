@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "c2a71b6cf9b7fc6840ef649335412a88f582ea79e6cb00eceb218ca5acd8194c",
+  "short_id": "xylem-v1:c2a71b6cf9b7fc68",
+  "hierarchical_name": "xylem:rust.deg_lerp_safe_rs",
+  "job": "xylem:math.deg_lerp_safe",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "deg_lerp_safe_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\deg_lerp_safe.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:49:01.975557+00:00",
+  "updated_at": "2026-11-05T20:49:01.975570+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\deg_lerp_safe.rs"
+  ]
+}

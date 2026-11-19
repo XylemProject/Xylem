@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "6ca92eccc028ff681869f92016688d579139c8fa6435876f024f946708910547",
+  "short_id": "xylem-v1:6ca92eccc028ff68",
+  "hierarchical_name": "xylem:rust.even_rs",
+  "job": "xylem:math.even",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "even_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\even.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:45:38.131459+00:00",
+  "updated_at": "2026-11-05T20:45:38.131472+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\even.rs"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "a067e4a39185850ad906f6bdd1fdbb9c955bd80fa0daca63154e0c6832f693b2",
+  "short_id": "xylem-v1:a067e4a39185850a",
+  "hierarchical_name": "xylem:rust.odd_rs",
+  "job": "xylem:math.odd",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "odd_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\odd.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:45:42.847976+00:00",
+  "updated_at": "2026-11-05T20:45:42.847989+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\odd.rs"
+  ]
+}

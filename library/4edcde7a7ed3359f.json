@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "4edcde7a7ed3359f07897565ce534d49dadff4df02279295ba3c9fd1c1776d61",
+  "short_id": "xylem-v1:4edcde7a7ed3359f",
+  "hierarchical_name": "xylem:math.bounce_out",
+  "job": "xylem:math.bounce_out",
+  "language": "python",
+  "timing_us": 0.453,
+  "function_name": "bounce_out",
+  "category": "math",
+  "intent": "bounce ease out",
+  "depends_on": [],
+  "source_file": "examples/bounce_out.py",
+  "normalized_length": 252,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:09:24.390310+00:00",
+  "updated_at": "2026-10-28T20:09:24.390332+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/bounce_out.py"
+  ]
+}

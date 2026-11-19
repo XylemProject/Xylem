@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "5402c1f0eb729934090dec2915dd88a8ab4ed26c77128937358b35cf3e5ec6dd",
+  "short_id": "xylem-v1:5402c1f0eb729934",
+  "hierarchical_name": "xylem:math.diff",
+  "job": "xylem:math.diff",
+  "language": "python",
+  "timing_us": 0.21,
+  "function_name": "diff",
+  "category": "math",
+  "intent": "absolute difference of two values",
+  "depends_on": [],
+  "source_file": "examples/diff.py",
+  "normalized_length": 111,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:52:06.750869+00:00",
+  "updated_at": "2026-10-28T19:52:06.750882+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/diff.py"
+  ]
+}

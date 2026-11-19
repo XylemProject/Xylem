@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ede191d97c92e4f23c007bc841ffce2c5a1c61306bc4ce99a0b915ff40fd8739",
+  "short_id": "xylem-v1:ede191d97c92e4f2",
+  "hierarchical_name": "xylem:math.square_wave",
+  "job": "xylem:math.square_wave",
+  "language": "python",
+  "timing_us": 0.254,
+  "function_name": "square_wave",
+  "category": "math",
+  "intent": "square wave with period two",
+  "depends_on": [],
+  "source_file": "examples/square_wave.py",
+  "normalized_length": 96,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:05:44.815274+00:00",
+  "updated_at": "2026-10-28T20:05:44.815291+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/square_wave.py"
+  ]
+}

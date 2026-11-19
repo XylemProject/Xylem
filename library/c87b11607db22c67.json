@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "c87b11607db22c673ab1b96eb9d90fb7c78002b4da84d49f523e564893e917ce",
+  "short_id": "xylem-v1:c87b11607db22c67",
+  "hierarchical_name": "xylem:rust.noise01_rs",
+  "job": "xylem:math.noise01",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "noise01_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\noise01.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:15:40.224420+00:00",
+  "updated_at": "2026-11-05T20:15:40.224433+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\noise01.rs"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "9d02cacdece88ab486d7f963fe4a336a1ca3f650c9a0a974cbb022a14f6e0ea3",
+  "short_id": "xylem-v1:9d02cacdece88ab4",
+  "hierarchical_name": "xylem:rust.wrap_value_rs",
+  "job": "xylem:math.wrap_value",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "wrap_value_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\wrap_value.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T19:38:32.381263+00:00",
+  "updated_at": "2026-11-05T19:38:32.381275+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\wrap_value.rs"
+  ]
+}

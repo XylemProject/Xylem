@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "0688c2282e4b18ab0419cedd72a228ad473a3f0c692c8ff4237329c379d3fd1b",
+  "short_id": "xylem-v1:0688c2282e4b18ab",
+  "hierarchical_name": "xylem:math.bounce_in",
+  "job": "xylem:math.bounce_in",
+  "language": "python",
+  "timing_us": 0.366,
+  "function_name": "bounce_in",
+  "category": "math",
+  "intent": "bounce ease in",
+  "depends_on": [],
+  "source_file": "examples/bounce_in.py",
+  "normalized_length": 335,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:09:19.543726+00:00",
+  "updated_at": "2026-10-28T20:09:19.543739+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/bounce_in.py"
+  ]
+}

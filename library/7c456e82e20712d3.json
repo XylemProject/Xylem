@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "7c456e82e20712d39367006c9234d890e035b66029938dcd94807ac2343c2b71",
+  "short_id": "xylem-v1:7c456e82e20712d3",
+  "hierarchical_name": "xylem:math.cube",
+  "job": "xylem:math.cube",
+  "language": "python",
+  "timing_us": 0.194,
+  "function_name": "cube",
+  "category": "math",
+  "intent": "x cubed",
+  "depends_on": [],
+  "source_file": "examples/cube.py",
+  "normalized_length": 59,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:41:49.171062+00:00",
+  "updated_at": "2026-10-28T19:41:49.171083+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/cube.py"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "668cdedcb3c6e9049879c7b79ce30198f0a59753291ad10e125e109440ddd942",
+  "short_id": "xylem-v1:668cdedcb3c6e904",
+  "hierarchical_name": "xylem:math.rad_norm",
+  "job": "xylem:math.rad_norm",
+  "language": "python",
+  "timing_us": 0.307,
+  "function_name": "rad_norm",
+  "category": "math",
+  "intent": "normalize radians to 0 to 2 pi",
+  "depends_on": [],
+  "source_file": "examples/rad_norm.py",
+  "normalized_length": 100,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-10-29T19:36:56.163558+00:00",
+  "updated_at": "2026-10-29T19:36:56.163581+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/rad_norm.py"
+  ]
+}

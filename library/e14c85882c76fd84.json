@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "e14c85882c76fd84634b0f39dcc017ac2b5e650194acec9f11a2610dad47fc47",
+  "short_id": "xylem-v1:e14c85882c76fd84",
+  "hierarchical_name": "xylem:rust.heal_rs",
+  "job": "xylem:health.heal",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "heal_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\heal.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T19:39:33.916749+00:00",
+  "updated_at": "2026-11-05T19:39:33.916761+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\heal.rs"
+  ]
+}

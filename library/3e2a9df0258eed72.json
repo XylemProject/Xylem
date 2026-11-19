@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "3e2a9df0258eed72ec4a062c020169c1a031b2ea5a4bdbed8ef801609be7846f",
+  "short_id": "xylem-v1:3e2a9df0258eed72",
+  "hierarchical_name": "xylem:math.fract",
+  "job": "xylem:math.fract",
+  "language": "python",
+  "timing_us": 0.239,
+  "function_name": "fract",
+  "category": "math",
+  "intent": "fractional part of x",
+  "depends_on": [],
+  "source_file": "examples/fract.py",
+  "normalized_length": 98,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:34:14.025569+00:00",
+  "updated_at": "2026-10-28T19:34:14.025586+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/fract.py"
+  ]
+}

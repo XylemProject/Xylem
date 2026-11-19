@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "e7b64538c1819ed6ff6347760a120ec3826d9787b38378a72ecdfcb071ab9774",
+  "short_id": "xylem-v1:e7b64538c1819ed6",
+  "hierarchical_name": "xylem:rust.step_rs",
+  "job": "xylem:math.step",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "step_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\step.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:18:40.759451+00:00",
+  "updated_at": "2026-11-05T20:18:40.759463+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\step.rs"
+  ]
+}

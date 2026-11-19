@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "af3dd5d6cee5b233fa66548d7be05ca14eb9b68b99b0c8c4f4de3c47c83bf3ca",
+  "short_id": "xylem-v1:af3dd5d6cee5b233",
+  "hierarchical_name": "xylem:math.avg",
+  "job": "xylem:math.avg",
+  "language": "python",
+  "timing_us": 0.203,
+  "function_name": "avg",
+  "category": "math",
+  "intent": "average of two values",
+  "depends_on": [],
+  "source_file": "examples/avg.py",
+  "normalized_length": 80,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:52:01.534008+00:00",
+  "updated_at": "2026-10-28T19:52:01.534089+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/avg.py"
+  ]
+}

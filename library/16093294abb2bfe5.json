@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "16093294abb2bfe54201ba7dc4cc7f7ed3f7d3a7a58229fc28fe0af194ff8dc0",
+  "short_id": "xylem-v1:16093294abb2bfe5",
+  "hierarchical_name": "xylem:math.bias_safe",
+  "job": "xylem:math.bias_safe",
+  "language": "python",
+  "timing_us": 0.66,
+  "function_name": "bias_safe",
+  "category": "math",
+  "intent": "bias safe",
+  "depends_on": [],
+  "source_file": "examples/bias_safe.py",
+  "normalized_length": 241,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-05T18:27:48.502066+00:00",
+  "updated_at": "2026-11-05T18:27:48.502084+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/bias_safe.py"
+  ]
+}

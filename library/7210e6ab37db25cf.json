@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "7210e6ab37db25cfe828321a5ed42ebacd5ac4b8ee440a272cd864f22d5a36eb",
+  "short_id": "xylem-v1:7210e6ab37db25cf",
+  "hierarchical_name": "xylem:rust.hash01_rs",
+  "job": "xylem:math.hash01",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "hash01_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\hash01.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:14:39.726764+00:00",
+  "updated_at": "2026-11-05T20:14:39.726777+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\hash01.rs"
+  ]
+}

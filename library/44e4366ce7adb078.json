@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "44e4366ce7adb078c5d94a035e004fe33f87dc182be64550a238365dbe465078",
+  "short_id": "xylem-v1:44e4366ce7adb078",
+  "hierarchical_name": "xylem:math.lerp_safe",
+  "job": "xylem:math.lerp_safe",
+  "language": "python",
+  "timing_us": 0.266,
+  "function_name": "lerp_safe",
+  "category": "math",
+  "intent": "lerp safe",
+  "depends_on": [],
+  "source_file": "examples/lerp_safe.py",
+  "normalized_length": 275,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-05T17:53:33.838950+00:00",
+  "updated_at": "2026-11-05T17:53:33.838975+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/lerp_safe.py"
+  ]
+}

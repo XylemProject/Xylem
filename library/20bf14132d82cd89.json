@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "20bf14132d82cd8966362b4f13fdb8c4a228514a33db5c5a70f9ea859f912b38",
+  "short_id": "xylem-v1:20bf14132d82cd89",
+  "hierarchical_name": "xylem:math.asin_deg",
+  "job": "xylem:math.asin_deg",
+  "language": "python",
+  "timing_us": 0.441,
+  "function_name": "asin_deg",
+  "category": "math",
+  "intent": "Arcsine returning degrees. Refuses input outside [-1, 1] by returning None.",
+  "depends_on": [],
+  "source_file": "examples/asin_deg.py",
+  "normalized_length": 197,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-02T17:42:31.113237+00:00",
+  "updated_at": "2026-11-02T17:42:31.113257+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/asin_deg.py"
+  ]
+}

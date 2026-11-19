@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "184cc7c6914346b1ccfd02cf8b4c2d25d43f9be0d1124d0a0fc4a769d20a4119",
+  "short_id": "xylem-v1:184cc7c6914346b1",
+  "hierarchical_name": "xylem:rust.clamp_rs",
+  "job": "xylem:util.clamp",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "clamp_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples/clamp.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T19:16:27.848143+00:00",
+  "updated_at": "2026-11-05T19:16:27.848161+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples/clamp.rs"
+  ]
+}

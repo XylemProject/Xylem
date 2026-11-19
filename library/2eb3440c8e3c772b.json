@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "2eb3440c8e3c772b0e4ffc78ea6f6628c58072a51114e48f68582795d9a080c4",
+  "short_id": "xylem-v1:2eb3440c8e3c772b",
+  "hierarchical_name": "xylem:math.in_range",
+  "job": "xylem:math.in_range",
+  "language": "python",
+  "timing_us": 0.237,
+  "function_name": "in_range",
+  "category": "math",
+  "intent": "true if x is between low and high inclusive",
+  "depends_on": [],
+  "source_file": "examples/in_range.py",
+  "normalized_length": 118,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:52:19.193420+00:00",
+  "updated_at": "2026-10-28T19:52:19.193441+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/in_range.py"
+  ]
+}

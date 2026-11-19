@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "0b95ebcf2a27477bf10825d5421e36cc37207ca29db38b40ae8442d358a8f11a",
+  "short_id": "xylem-v1:0b95ebcf2a27477b",
+  "hierarchical_name": "xylem:math.damp_safe",
+  "job": "xylem:math.damp_safe",
+  "language": "python",
+  "timing_us": 0.398,
+  "function_name": "damp_safe",
+  "category": "math",
+  "intent": "Critically damped approach of current toward target. Refuses non-finite input or dt <= 0 by returning None.",
+  "depends_on": [],
+  "source_file": "examples/damp_safe.py",
+  "normalized_length": 406,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-05T17:19:26.314691+00:00",
+  "updated_at": "2026-11-05T17:19:26.314703+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/damp_safe.py"
+  ]
+}

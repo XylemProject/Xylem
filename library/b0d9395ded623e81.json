@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "b0d9395ded623e810e2758b31d8afac6780eafc46eeac373a81b6a44adf39c3d",
+  "short_id": "xylem-v1:b0d9395ded623e81",
+  "hierarchical_name": "xylem:rust.tan_deg_rs",
+  "job": "xylem:math.tan_deg",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "tan_deg_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\tan_deg.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:47:00.879016+00:00",
+  "updated_at": "2026-11-05T20:47:00.879030+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\tan_deg.rs"
+  ]
+}

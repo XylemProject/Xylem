@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "584e8b41fb7e22445b1c06062fb11e7667cb53ed3090af023f8897267ef0975e",
+  "short_id": "xylem-v1:584e8b41fb7e2244",
+  "hierarchical_name": "xylem:math.fade",
+  "job": "xylem:math.fade",
+  "language": "python",
+  "timing_us": 1.569,
+  "function_name": "fade",
+  "category": "math",
+  "intent": "quintic fade curve",
+  "depends_on": [],
+  "source_file": "examples/fade.py",
+  "normalized_length": 94,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:06:01.229750+00:00",
+  "updated_at": "2026-10-28T20:06:01.229773+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/fade.py"
+  ]
+}

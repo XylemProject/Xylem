@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "557dc746b7049e82208cdd1426aa0dab0afd0997ad14bd8e611b7c8cca0f84d5",
+  "short_id": "xylem-v1:557dc746b7049e82",
+  "hierarchical_name": "xylem:rust.triangle_rs",
+  "job": "xylem:math.triangle",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "triangle_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\triangle.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:18:45.639996+00:00",
+  "updated_at": "2026-11-05T20:18:45.640009+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\triangle.rs"
+  ]
+}

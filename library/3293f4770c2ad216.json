@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "3293f4770c2ad2167c518a4c661a741140ec7893ee041e147784794b96b0c56a",
+  "short_id": "xylem-v1:3293f4770c2ad216",
+  "hierarchical_name": "xylem:math.div",
+  "job": "xylem:math.div",
+  "language": "python",
+  "timing_us": 0.118,
+  "function_name": "div",
+  "category": "math",
+  "intent": "x divided by y",
+  "depends_on": [],
+  "source_file": "examples/div.py",
+  "normalized_length": 64,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:50:14.370424+00:00",
+  "updated_at": "2026-10-28T19:50:14.370437+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/div.py"
+  ]
+}

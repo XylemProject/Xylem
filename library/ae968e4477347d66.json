@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ae968e4477347d6637a1c0e71a4b967161b0f8712990097002aea1b649ea370e",
+  "short_id": "xylem-v1:ae968e4477347d66",
+  "hierarchical_name": "xylem:math.smoothstep",
+  "job": "xylem:math.smoothstep",
+  "language": "python",
+  "timing_us": 0.53,
+  "function_name": "smoothstep",
+  "category": "math",
+  "intent": "smooth hermite step from edge0 to edge1",
+  "depends_on": [],
+  "source_file": "examples/smoothstep.py",
+  "normalized_length": 231,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:31:32.719442+00:00",
+  "updated_at": "2026-10-28T19:31:32.719474+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/smoothstep.py"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "0d9e3b49ebe1672b1ee7ed53b1e4a430c8670f7e1e9ba3c9ebb5e47ec8390ca0",
+  "short_id": "xylem-v1:0d9e3b49ebe1672b",
+  "hierarchical_name": "xylem:math.bounce",
+  "job": "xylem:math.bounce",
+  "language": "python",
+  "timing_us": 0.307,
+  "function_name": "bounce",
+  "category": "math",
+  "intent": "bounce between zero and one",
+  "depends_on": [],
+  "source_file": "examples/bounce.py",
+  "normalized_length": 96,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:00:05.347997+00:00",
+  "updated_at": "2026-10-28T20:00:05.348014+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/bounce.py"
+  ]
+}

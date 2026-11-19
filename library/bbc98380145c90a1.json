@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "bbc98380145c90a188d7ebef7a665e9670d70205bee8fef87d5dbf43583c847e",
+  "short_id": "xylem-v1:bbc98380145c90a1",
+  "hierarchical_name": "xylem:math.wrap_pi",
+  "job": "xylem:math.wrap_pi",
+  "language": "python",
+  "timing_us": 0.192,
+  "function_name": "wrap_pi",
+  "category": "math",
+  "intent": "Wrap radians to (-pi, pi].",
+  "depends_on": [],
+  "source_file": "examples/wrap_pi.py",
+  "normalized_length": 149,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-03T16:56:43.442523+00:00",
+  "updated_at": "2026-11-03T16:56:43.442536+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/wrap_pi.py"
+  ]
+}

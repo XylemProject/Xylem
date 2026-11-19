@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "69f589ec9e905000aea677b293bca53533fc6841325f054b85db3095d6174d21",
+  "short_id": "xylem-v1:69f589ec9e905000",
+  "hierarchical_name": "xylem:math.triangle_wave_safe",
+  "job": "xylem:math.triangle_wave_safe",
+  "language": "python",
+  "timing_us": 0.222,
+  "function_name": "triangle_wave_safe",
+  "category": "math",
+  "intent": "triangle wave safe",
+  "depends_on": [],
+  "source_file": "examples/triangle_wave_safe.py",
+  "normalized_length": 257,
+  "tests_passed": 14,
+  "tests_total": 14,
+  "created_at": "2026-11-05T18:29:38.341658+00:00",
+  "updated_at": "2026-11-05T18:29:38.341673+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/triangle_wave_safe.py"
+  ]
+}

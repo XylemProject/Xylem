@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "7a87c30eaf2ad34723a1d292c3959d4693ff5a288e8502ef5f698c0c59838671",
+  "short_id": "xylem-v1:7a87c30eaf2ad347",
+  "hierarchical_name": "xylem:physics.apply_drag",
+  "job": "xylem:physics.apply_drag",
+  "language": "python",
+  "timing_us": 0.357,
+  "function_name": "apply_drag",
+  "category": "physics",
+  "intent": "reduce velocity by drag over one time step",
+  "depends_on": [],
+  "source_file": "examples/apply_drag.py",
+  "normalized_length": 156,
+  "tests_passed": 7,
+  "tests_total": 7,
+  "created_at": "2026-10-28T14:24:59.346465+00:00",
+  "updated_at": "2026-10-28T14:24:59.346484+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/apply_drag.py"
+  ]
+}

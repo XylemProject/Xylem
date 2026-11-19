@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "4fd1806931644a837df0a20e6d7243e5997fd52695c8f7d918d839bb66457f7d",
+  "short_id": "xylem-v1:4fd1806931644a83",
+  "hierarchical_name": "xylem:math.lerp_angle",
+  "job": "xylem:math.lerp_angle",
+  "language": "python",
+  "timing_us": 0.965,
+  "function_name": "lerp_angle",
+  "category": "math",
+  "intent": "lerp between two angles along the shortest path",
+  "depends_on": [],
+  "source_file": "examples/lerp_angle.py",
+  "normalized_length": 174,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:06:57.365097+00:00",
+  "updated_at": "2026-10-29T19:06:57.365128+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/lerp_angle.py"
+  ]
+}

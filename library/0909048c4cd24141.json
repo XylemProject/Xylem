@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "0909048c4cd2414120f99819903fc535a3e00235d8f35909bc2068e6e4ccfbb3",
+  "short_id": "xylem-v1:0909048c4cd24141",
+  "hierarchical_name": "xylem:math.log10",
+  "job": "xylem:math.log10",
+  "language": "python",
+  "timing_us": 0.26,
+  "function_name": "log10",
+  "category": "math",
+  "intent": "logarithm base 10, refuses non-positive input",
+  "depends_on": [],
+  "source_file": "examples/log10.py",
+  "normalized_length": 155,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:14:41.143595+00:00",
+  "updated_at": "2026-10-29T19:14:41.143617+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/log10.py"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "c5a6ea8e7dade49e7a4907643bb958f04edd81684d72a2eb088f5314c8d9ff38",
+  "short_id": "xylem-v1:c5a6ea8e7dade49e",
+  "hierarchical_name": "xylem:math.nonzero",
+  "job": "xylem:math.nonzero",
+  "language": "python",
+  "timing_us": 0.179,
+  "function_name": "nonzero",
+  "category": "math",
+  "intent": "true if x is not zero",
+  "depends_on": [],
+  "source_file": "examples/nonzero.py",
+  "normalized_length": 73,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:49:24.840579+00:00",
+  "updated_at": "2026-10-28T19:49:24.840612+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/nonzero.py"
+  ]
+}

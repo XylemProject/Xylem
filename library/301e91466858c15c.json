@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "301e91466858c15c13a2be2724682fa85b124b2e57421564c662d32b906e3a9f",
+  "short_id": "xylem-v1:301e91466858c15c",
+  "hierarchical_name": "xylem:rust.expo_out_rs",
+  "job": "xylem:math.expo_out",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "expo_out_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\expo_out.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:13:25.567335+00:00",
+  "updated_at": "2026-11-05T20:13:25.567348+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\expo_out.rs"
+  ]
+}

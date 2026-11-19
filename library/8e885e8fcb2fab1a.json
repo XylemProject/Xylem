@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "8e885e8fcb2fab1a978c7a0e9231e7f3471512b181a52c9c970cab2ae115dbce",
+  "short_id": "xylem-v1:8e885e8fcb2fab1a",
+  "hierarchical_name": "xylem:math.quintic",
+  "job": "xylem:math.quintic",
+  "language": "python",
+  "timing_us": 0.228,
+  "function_name": "quintic",
+  "category": "math",
+  "intent": "quintic curve t to the fifth",
+  "depends_on": [],
+  "source_file": "examples/quintic.py",
+  "normalized_length": 83,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:06:15.409710+00:00",
+  "updated_at": "2026-10-28T20:06:15.409730+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/quintic.py"
+  ]
+}

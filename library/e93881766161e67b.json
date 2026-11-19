@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "e93881766161e67b130ac779fe1e6767c5c319a3be3d21257b3414d0cd1ccb82",
+  "short_id": "xylem-v1:e93881766161e67b",
+  "hierarchical_name": "xylem:math.sine_in_out",
+  "job": "xylem:math.sine_in_out",
+  "language": "python",
+  "timing_us": 0.403,
+  "function_name": "sine_in_out",
+  "category": "math",
+  "intent": "sine ease in and out",
+  "depends_on": [],
+  "source_file": "examples/sine_in_out.py",
+  "normalized_length": 110,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:17:57.365728+00:00",
+  "updated_at": "2026-10-28T20:17:57.365743+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/sine_in_out.py"
+  ]
+}

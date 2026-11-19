@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "0eeba7d55a752309addf17a6cde2b4ca84c8235c827cbbc671908378db22ff41",
+  "short_id": "xylem-v1:0eeba7d55a752309",
+  "hierarchical_name": "xylem:math.wrap_value",
+  "job": "xylem:math.wrap_value",
+  "language": "python",
+  "timing_us": 0.212,
+  "function_name": "wrap_value",
+  "category": "math",
+  "intent": "wrap a value into a half-open range",
+  "depends_on": [],
+  "source_file": "examples/wrap_value.py",
+  "normalized_length": 207,
+  "tests_passed": 7,
+  "tests_total": 7,
+  "created_at": "2026-10-28T14:18:45.024145+00:00",
+  "updated_at": "2026-10-28T14:18:45.024158+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/wrap_value.py"
+  ]
+}

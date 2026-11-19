@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "f1e3c271e56a36838c76887ca5383beb868c9d60ef2c086e1fa849a50305324d",
+  "short_id": "xylem-v1:f1e3c271e56a3683",
+  "hierarchical_name": "xylem:math.sub",
+  "job": "xylem:math.sub",
+  "language": "python",
+  "timing_us": 0.098,
+  "function_name": "sub",
+  "category": "math",
+  "intent": "x minus y",
+  "depends_on": [],
+  "source_file": "examples/sub.py",
+  "normalized_length": 59,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:50:04.511765+00:00",
+  "updated_at": "2026-10-28T19:50:04.511778+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/sub.py"
+  ]
+}

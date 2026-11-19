@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "1bb9cced653914b98b1cf1df90fe08b6f474d72f79c7a883281e42b4ef4c7183",
+  "short_id": "xylem-v1:1bb9cced653914b9",
+  "hierarchical_name": "xylem:rust.hypot_safe_rs",
+  "job": "xylem:math.hypot_safe",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "hypot_safe_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\hypot_safe.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:47:08.308850+00:00",
+  "updated_at": "2026-11-05T20:47:08.308863+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\hypot_safe.rs"
+  ]
+}

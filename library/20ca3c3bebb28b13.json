@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "20ca3c3bebb28b13cbf1a40c2c15c52e5bc6994876ddd626cc9521043e66bd57",
+  "short_id": "xylem-v1:20ca3c3bebb28b13",
+  "hierarchical_name": "xylem:math.deg_norm",
+  "job": "xylem:math.deg_norm",
+  "language": "python",
+  "timing_us": 0.108,
+  "function_name": "deg_norm",
+  "category": "math",
+  "intent": "normalize degrees to 0 to 360",
+  "depends_on": [],
+  "source_file": "examples/deg_norm.py",
+  "normalized_length": 89,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-10-29T19:36:52.924373+00:00",
+  "updated_at": "2026-10-29T19:36:52.924392+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/deg_norm.py"
+  ]
+}

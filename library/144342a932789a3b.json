@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "144342a932789a3be648c6c5d61ea017adfba6e602e7dff083926d704eaebc7c",
+  "short_id": "xylem-v1:144342a932789a3b",
+  "hierarchical_name": "xylem:math.dist_safe",
+  "job": "xylem:math.dist_safe",
+  "language": "python",
+  "timing_us": 0.567,
+  "function_name": "dist_safe",
+  "category": "math",
+  "intent": "dist safe",
+  "depends_on": [],
+  "source_file": "examples/dist_safe.py",
+  "normalized_length": 394,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-05T17:50:01.137684+00:00",
+  "updated_at": "2026-11-05T17:50:01.137698+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/dist_safe.py"
+  ]
+}

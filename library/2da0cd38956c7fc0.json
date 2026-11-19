@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "2da0cd38956c7fc05eac34f05034fd42e186627066922f11103397ca711ed81d",
+  "short_id": "xylem-v1:2da0cd38956c7fc0",
+  "hierarchical_name": "xylem:rust.radians_rs",
+  "job": "xylem:math.radians",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "radians_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\radians.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:16:36.253183+00:00",
+  "updated_at": "2026-11-05T20:16:36.253197+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\radians.rs"
+  ]
+}

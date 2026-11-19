@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "b2864259efce8020fc8db1d8d49cf71a032dbe064597cc4fed42bb61c7f4140a",
+  "short_id": "xylem-v1:b2864259efce8020",
+  "hierarchical_name": "xylem:rust.dist_safe_rs",
+  "job": "xylem:math.dist_safe",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "dist_safe_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\dist_safe.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:47:15.681679+00:00",
+  "updated_at": "2026-11-05T20:47:15.681695+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\dist_safe.rs"
+  ]
+}

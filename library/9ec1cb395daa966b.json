@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "9ec1cb395daa966b5ded096c0b7c46225c4e74dc9cf817afd7ba41eb171a02d8",
+  "short_id": "xylem-v1:9ec1cb395daa966b",
+  "hierarchical_name": "xylem:math.trunc",
+  "job": "xylem:math.trunc",
+  "language": "python",
+  "timing_us": 0.192,
+  "function_name": "trunc",
+  "category": "math",
+  "intent": "return the integer part of x toward zero",
+  "depends_on": [],
+  "source_file": "examples/trunc.py",
+  "normalized_length": 234,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-19T16:58:49.527211+00:00",
+  "updated_at": "2026-11-19T16:58:49.527225+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/trunc.py"
+  ]
+}

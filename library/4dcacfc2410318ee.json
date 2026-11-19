@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "4dcacfc2410318ee91f9c2c90d7284418e00d9f5b6fa1b8397258764665f2a09",
+  "short_id": "xylem-v1:4dcacfc2410318ee",
+  "hierarchical_name": "xylem:math.gt",
+  "job": "xylem:math.gt",
+  "language": "python",
+  "timing_us": 0.185,
+  "function_name": "gt",
+  "category": "math",
+  "intent": "true if x is greater than y",
+  "depends_on": [],
+  "source_file": "examples/gt.py",
+  "normalized_length": 76,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:49:29.766517+00:00",
+  "updated_at": "2026-10-28T19:49:29.766544+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/gt.py"
+  ]
+}

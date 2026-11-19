@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "87f9c6bd2e9d9b66bec6e99e2ff01c7fc4198507798f64f0f41df62ae058ff1f",
+  "short_id": "xylem-v1:87f9c6bd2e9d9b66",
+  "hierarchical_name": "xylem:math.cbrt_safe",
+  "job": "xylem:math.cbrt_safe",
+  "language": "python",
+  "timing_us": 0.31,
+  "function_name": "cbrt_safe",
+  "category": "math",
+  "intent": "cbrt safe",
+  "depends_on": [],
+  "source_file": "examples/cbrt_safe.py",
+  "normalized_length": 234,
+  "tests_passed": 14,
+  "tests_total": 14,
+  "created_at": "2026-11-05T17:49:57.912051+00:00",
+  "updated_at": "2026-11-05T17:49:57.912064+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/cbrt_safe.py"
+  ]
+}

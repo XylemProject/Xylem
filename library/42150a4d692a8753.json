@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "42150a4d692a87538694f593a65963b0115bb7240eab6464f434bf4a72226737",
+  "short_id": "xylem-v1:42150a4d692a8753",
+  "hierarchical_name": "xylem:math.pulse_safe",
+  "job": "xylem:math.pulse_safe",
+  "language": "python",
+  "timing_us": 0.249,
+  "function_name": "pulse_safe",
+  "category": "math",
+  "intent": "pulse safe",
+  "depends_on": [],
+  "source_file": "examples/pulse_safe.py",
+  "normalized_length": 345,
+  "tests_passed": 14,
+  "tests_total": 14,
+  "created_at": "2026-11-05T18:27:57.334495+00:00",
+  "updated_at": "2026-11-05T18:27:57.334508+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/pulse_safe.py"
+  ]
+}

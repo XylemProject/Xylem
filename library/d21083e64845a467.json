@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d21083e64845a46700918562dec92c9b5a0a1800e0805d644ddaf964f27cb19c",
+  "short_id": "xylem-v1:d21083e64845a467",
+  "hierarchical_name": "xylem:math.exp2_safe",
+  "job": "xylem:math.exp2_safe",
+  "language": "python",
+  "timing_us": 0.304,
+  "function_name": "exp2_safe",
+  "category": "math",
+  "intent": "exp2 safe",
+  "depends_on": [],
+  "source_file": "examples/exp2_safe.py",
+  "normalized_length": 260,
+  "tests_passed": 14,
+  "tests_total": 14,
+  "created_at": "2026-11-05T17:40:04.636813+00:00",
+  "updated_at": "2026-11-05T17:40:04.636829+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/exp2_safe.py"
+  ]
+}

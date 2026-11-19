@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "9fb76702d5d6a96bc4ee7a5cfbe07b0f172ac3698ff293179f167d8e60832d95",
+  "short_id": "xylem-v1:9fb76702d5d6a96b",
+  "hierarchical_name": "xylem:math.hypot4",
+  "job": "xylem:math.hypot4",
+  "language": "python",
+  "timing_us": 0.37,
+  "function_name": "hypot4",
+  "category": "math",
+  "intent": "hypotenuse of four numbers",
+  "depends_on": [],
+  "source_file": "examples/hypot4.py",
+  "normalized_length": 126,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:29:13.124969+00:00",
+  "updated_at": "2026-10-29T19:29:13.124983+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/hypot4.py"
+  ]
+}

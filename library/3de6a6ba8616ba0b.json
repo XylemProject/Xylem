@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "3de6a6ba8616ba0bf0fe79b379176a705bf8d35c256a362a359ac08daad2f059",
+  "short_id": "xylem-v1:3de6a6ba8616ba0b",
+  "hierarchical_name": "xylem:rust.inverse_lerp_rs",
+  "job": "xylem:math.inverse_lerp",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "inverse_lerp_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\inverse_lerp.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:08:52.593290+00:00",
+  "updated_at": "2026-11-05T20:08:52.593302+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\inverse_lerp.rs"
+  ]
+}

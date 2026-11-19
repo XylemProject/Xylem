@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d5129e0c64ff86b5efc6e071fa2e46c9f95d37aaa5b484d079cace826c558235",
+  "short_id": "xylem-v1:d5129e0c64ff86b5",
+  "hierarchical_name": "xylem:rust.mix_safe_rs",
+  "job": "xylem:math.mix_safe",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "mix_safe_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\mix_safe.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:48:16.800164+00:00",
+  "updated_at": "2026-11-05T20:48:16.800178+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\mix_safe.rs"
+  ]
+}

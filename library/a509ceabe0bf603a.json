@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "a509ceabe0bf603abe360e953670d589acb3c11732d68544f08da2abc807232a",
+  "short_id": "xylem-v1:a509ceabe0bf603a",
+  "hierarchical_name": "xylem:math.tan_deg",
+  "job": "xylem:math.tan_deg",
+  "language": "python",
+  "timing_us": 0.408,
+  "function_name": "tan_deg",
+  "category": "math",
+  "intent": "Tangent of an angle given in degrees. Refuses odd multiples of 90 by returning None.",
+  "depends_on": [],
+  "source_file": "examples/tan_deg.py",
+  "normalized_length": 202,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-02T17:42:27.589657+00:00",
+  "updated_at": "2026-11-02T17:42:27.589674+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/tan_deg.py"
+  ]
+}

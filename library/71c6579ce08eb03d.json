@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "71c6579ce08eb03d6cf11ef1d2bd19bcc101c05c07569dad0ec3b63728e71a61",
+  "short_id": "xylem-v1:71c6579ce08eb03d",
+  "hierarchical_name": "xylem:math.negative",
+  "job": "xylem:math.negative",
+  "language": "python",
+  "timing_us": 0.167,
+  "function_name": "negative",
+  "category": "math",
+  "intent": "true if x is less than zero",
+  "depends_on": [],
+  "source_file": "examples/negative.py",
+  "normalized_length": 79,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:49:15.204816+00:00",
+  "updated_at": "2026-10-28T19:49:15.204835+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/negative.py"
+  ]
+}

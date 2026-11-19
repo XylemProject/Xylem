@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ba5705f53f42fbc9724b76d02bec53765341ce586972a20896aba5ffb5f5101d",
+  "short_id": "xylem-v1:ba5705f53f42fbc9",
+  "hierarchical_name": "xylem:math.odd",
+  "job": "xylem:math.odd",
+  "language": "python",
+  "timing_us": 0.202,
+  "function_name": "odd",
+  "category": "math",
+  "intent": "true if x is odd",
+  "depends_on": [],
+  "source_file": "examples/odd.py",
+  "normalized_length": 68,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:47:27.344499+00:00",
+  "updated_at": "2026-10-28T19:47:27.344513+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/odd.py"
+  ]
+}

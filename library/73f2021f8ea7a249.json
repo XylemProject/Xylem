@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "73f2021f8ea7a249d5a0cf1ee2a0fa53b44d029a79c63697e2b3c5c7babd3b65",
+  "short_id": "xylem-v1:73f2021f8ea7a249",
+  "hierarchical_name": "xylem:math.ceil_to",
+  "job": "xylem:math.ceil_to",
+  "language": "python",
+  "timing_us": 0.22,
+  "function_name": "ceil_to",
+  "category": "math",
+  "intent": "round up to a multiple of step",
+  "depends_on": [],
+  "source_file": "examples/ceil_to.py",
+  "normalized_length": 108,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:59:34.950353+00:00",
+  "updated_at": "2026-10-28T19:59:34.950367+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/ceil_to.py"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "5ac9e10caa1bac5411d936a43ca0ca54132498a025ef3b4e3fb5e761c32886be",
+  "short_id": "xylem-v1:5ac9e10caa1bac54",
+  "hierarchical_name": "xylem:math.triangle_wave",
+  "job": "xylem:math.triangle_wave",
+  "language": "python",
+  "timing_us": 0.222,
+  "function_name": "triangle_wave",
+  "category": "math",
+  "intent": "Triangle wave with period 1, rising from 0 at x=0 to 1 at x=0.5 and back to 0.",
+  "depends_on": [],
+  "source_file": "examples/triangle_wave.py",
+  "normalized_length": 159,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-05T17:04:55.472196+00:00",
+  "updated_at": "2026-11-05T17:04:55.472209+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/triangle_wave.py"
+  ]
+}

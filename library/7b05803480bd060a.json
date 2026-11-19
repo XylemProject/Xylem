@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "7b05803480bd060a02b46ef21d0ae36ec6573ed1f5020090de089d67c77ac521",
+  "short_id": "xylem-v1:7b05803480bd060a",
+  "hierarchical_name": "xylem:math.shortest_arc_deg",
+  "job": "xylem:math.shortest_arc_deg",
+  "language": "python",
+  "timing_us": 0.261,
+  "function_name": "shortest_arc_deg",
+  "category": "math",
+  "intent": "Shortest signed arc from a to b in degrees, in (-180, 180].",
+  "depends_on": [],
+  "source_file": "examples/shortest_arc_deg.py",
+  "normalized_length": 178,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-03T16:56:53.943975+00:00",
+  "updated_at": "2026-11-03T16:56:53.944010+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/shortest_arc_deg.py"
+  ]
+}

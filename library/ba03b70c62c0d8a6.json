@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ba03b70c62c0d8a6cdc16260e2a603d23450686f18c82d6f777e84ab290170cc",
+  "short_id": "xylem-v1:ba03b70c62c0d8a6",
+  "hierarchical_name": "xylem:math.lt",
+  "job": "xylem:math.lt",
+  "language": "python",
+  "timing_us": 0.103,
+  "function_name": "lt",
+  "category": "math",
+  "intent": "true if x is less than y",
+  "depends_on": [],
+  "source_file": "examples/lt.py",
+  "normalized_length": 73,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:49:34.829696+00:00",
+  "updated_at": "2026-10-28T19:49:34.829710+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/lt.py"
+  ]
+}

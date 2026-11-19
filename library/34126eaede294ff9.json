@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "34126eaede294ff9448512c6a9d9aba20f26407c6f643aad4cd5d1c112860455",
+  "short_id": "xylem-v1:34126eaede294ff9",
+  "hierarchical_name": "xylem:rust.positive_rs",
+  "job": "xylem:math.positive",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "positive_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\positive.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:45:23.838469+00:00",
+  "updated_at": "2026-11-05T20:45:23.838482+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\positive.rs"
+  ]
+}

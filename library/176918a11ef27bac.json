@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "176918a11ef27bacca66d48c3b0c51f2f62c33f8e945e3dbef1929bb0b0f37ae",
+  "short_id": "xylem-v1:176918a11ef27bac",
+  "hierarchical_name": "xylem:math.sqrt",
+  "job": "xylem:math.sqrt",
+  "language": "python",
+  "timing_us": 0.321,
+  "function_name": "sqrt",
+  "category": "math",
+  "intent": "square root of x",
+  "depends_on": [],
+  "source_file": "examples/sqrt.py",
+  "normalized_length": 71,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:37:38.693338+00:00",
+  "updated_at": "2026-10-28T19:37:38.693358+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/sqrt.py"
+  ]
+}

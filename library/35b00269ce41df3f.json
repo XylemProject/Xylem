@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "35b00269ce41df3f4d86e3c7b9935fbfafac7c790802bb38a21cb6475bbe3bfc",
+  "short_id": "xylem-v1:35b00269ce41df3f",
+  "hierarchical_name": "xylem:math.clamp_angle_safe",
+  "job": "xylem:math.clamp_angle_safe",
+  "language": "python",
+  "timing_us": 0.902,
+  "function_name": "clamp_angle_safe",
+  "category": "math",
+  "intent": "clamp angle safe",
+  "depends_on": [],
+  "source_file": "examples/clamp_angle_safe.py",
+  "normalized_length": 534,
+  "tests_passed": 15,
+  "tests_total": 15,
+  "created_at": "2026-11-05T18:29:54.805272+00:00",
+  "updated_at": "2026-11-05T18:29:54.805298+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/clamp_angle_safe.py"
+  ]
+}

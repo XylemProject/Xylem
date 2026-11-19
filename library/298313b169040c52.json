@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "298313b169040c5296e3e3f81bfeee8831cad92089232a1b141066c72edaed7b",
+  "short_id": "xylem-v1:298313b169040c52",
+  "hierarchical_name": "xylem:math.inverse_lerp_unclamped",
+  "job": "xylem:math.inverse_lerp_unclamped",
+  "language": "python",
+  "timing_us": 0.145,
+  "function_name": "inverse_lerp_unclamped",
+  "category": "math",
+  "intent": "Where x falls between a and b as a fraction, without clamping. Refuses a == b by returning None.",
+  "depends_on": [],
+  "source_file": "examples/inverse_lerp_unclamped.py",
+  "normalized_length": 220,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-05T16:19:07.025838+00:00",
+  "updated_at": "2026-11-05T16:19:07.025856+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/inverse_lerp_unclamped.py"
+  ]
+}

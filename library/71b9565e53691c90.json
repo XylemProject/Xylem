@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "71b9565e53691c90a9d8e5c2453a98cd7e47027d243300cf0aa4bb00b86e76a5",
+  "short_id": "xylem-v1:71b9565e53691c90",
+  "hierarchical_name": "xylem:math.exp_decay",
+  "job": "xylem:math.exp_decay",
+  "language": "python",
+  "timing_us": 0.477,
+  "function_name": "exp_decay",
+  "category": "math",
+  "intent": "exponential decay of a value over time",
+  "depends_on": [],
+  "source_file": "examples/exp_decay.py",
+  "normalized_length": 135,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:06:42.157816+00:00",
+  "updated_at": "2026-10-29T19:06:42.157837+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/exp_decay.py"
+  ]
+}

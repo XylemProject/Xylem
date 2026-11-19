@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "61a6c7c5e2e26ef39a3a78d40edc648576d737d031bfdafe4162aac7331dff84",
+  "short_id": "xylem-v1:61a6c7c5e2e26ef3",
+  "hierarchical_name": "xylem:math.gain",
+  "job": "xylem:math.gain",
+  "language": "python",
+  "timing_us": 0.267,
+  "function_name": "gain",
+  "category": "math",
+  "intent": "gain curve on a zero to one value",
+  "depends_on": [],
+  "source_file": "examples/gain.py",
+  "normalized_length": 128,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:56:17.934114+00:00",
+  "updated_at": "2026-10-28T19:56:17.934127+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/gain.py"
+  ]
+}

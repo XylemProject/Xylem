@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "2a0d4c0163902c862552faab856c9fb6af8e08a3866101100a5bc26487dcc812",
+  "short_id": "xylem-v1:2a0d4c0163902c86",
+  "hierarchical_name": "xylem:math.min2",
+  "job": "xylem:math.min2",
+  "language": "python",
+  "timing_us": 0.18,
+  "function_name": "min2",
+  "category": "math",
+  "intent": "smaller of two values",
+  "depends_on": [],
+  "source_file": "examples/min2.py",
+  "normalized_length": 86,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:51:57.271540+00:00",
+  "updated_at": "2026-10-28T19:51:57.271564+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/min2.py"
+  ]
+}

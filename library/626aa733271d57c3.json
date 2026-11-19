@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "626aa733271d57c375a4afb8c3cd68a38f37e548e84e1f66b30c5c1ec55d575a",
+  "short_id": "xylem-v1:626aa733271d57c3",
+  "hierarchical_name": "xylem:math.even",
+  "job": "xylem:math.even",
+  "language": "python",
+  "timing_us": 0.119,
+  "function_name": "even",
+  "category": "math",
+  "intent": "true if x is even",
+  "depends_on": [],
+  "source_file": "examples/even.py",
+  "normalized_length": 70,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:46:53.636979+00:00",
+  "updated_at": "2026-10-28T19:46:53.636997+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/even.py"
+  ]
+}

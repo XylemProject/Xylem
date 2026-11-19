@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "56371dbf673fda4da33c06fbc2f5b0029a89a8c81f1bd280a3c8f0c137653c42",
+  "short_id": "xylem-v1:56371dbf673fda4d",
+  "hierarchical_name": "xylem:math.radians",
+  "job": "xylem:math.radians",
+  "language": "python",
+  "timing_us": 0.243,
+  "function_name": "radians",
+  "category": "math",
+  "intent": "degrees to radians",
+  "depends_on": [],
+  "source_file": "examples/radians.py",
+  "normalized_length": 85,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:36:49.331278+00:00",
+  "updated_at": "2026-10-29T19:36:49.331295+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/radians.py"
+  ]
+}

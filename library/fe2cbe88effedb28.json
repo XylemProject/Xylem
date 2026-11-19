@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "fe2cbe88effedb282374155e28f55f3e2a76f7ec1a54df07a197cf420f59b40a",
+  "short_id": "xylem-v1:fe2cbe88effedb28",
+  "hierarchical_name": "xylem:math.wrap_angle",
+  "job": "xylem:math.wrap_angle",
+  "language": "python",
+  "timing_us": 0.738,
+  "function_name": "wrap_angle",
+  "category": "math",
+  "intent": "wrap an angle in radians to -pi to pi",
+  "depends_on": [],
+  "source_file": "examples/wrap_angle.py",
+  "normalized_length": 131,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-10-29T19:03:46.292461+00:00",
+  "updated_at": "2026-10-29T19:03:46.292495+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/wrap_angle.py"
+  ]
+}

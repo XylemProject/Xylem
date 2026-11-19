@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "b4793f2fa960504fc9dad08e0d098ff8f1576c2efa9bcb58cc7db9297608ec22",
+  "short_id": "xylem-v1:b4793f2fa960504f",
+  "hierarchical_name": "xylem:math.max2",
+  "job": "xylem:math.max2",
+  "language": "python",
+  "timing_us": 0.191,
+  "function_name": "max2",
+  "category": "math",
+  "intent": "larger of two values",
+  "depends_on": [],
+  "source_file": "examples/max2.py",
+  "normalized_length": 85,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:51:51.726837+00:00",
+  "updated_at": "2026-10-28T19:51:51.726861+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/max2.py"
+  ]
+}

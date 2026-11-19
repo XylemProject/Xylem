@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "fe392c91f7030008a9a5f5253e80c47e468f5a19ff850ff0f5da4def3ae57a59",
+  "short_id": "xylem-v1:fe392c91f7030008",
+  "hierarchical_name": "xylem:math.chebyshev_safe",
+  "job": "xylem:math.chebyshev_safe",
+  "language": "python",
+  "timing_us": 0.36,
+  "function_name": "chebyshev_safe",
+  "category": "math",
+  "intent": "chebyshev safe",
+  "depends_on": [],
+  "source_file": "examples/chebyshev_safe.py",
+  "normalized_length": 402,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-05T17:53:27.615471+00:00",
+  "updated_at": "2026-11-05T17:53:27.615485+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/chebyshev_safe.py"
+  ]
+}

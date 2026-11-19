@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "0f29ad3dc99fc15d0cf6eba841d5abccb8360f895e5ab7d6d5d5906ce8e94a6c",
+  "short_id": "xylem-v1:0f29ad3dc99fc15d",
+  "hierarchical_name": "xylem:rust.sign_nonzero_rs",
+  "job": "xylem:math.sign_nonzero",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "sign_nonzero_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\sign_nonzero.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:17:55.951642+00:00",
+  "updated_at": "2026-11-05T20:17:55.951655+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\sign_nonzero.rs"
+  ]
+}

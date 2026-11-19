@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "42e1986e32fa39519cfcac6b2405fcb6ead8d7e97ad4edad595edecd8a5111a5",
+  "short_id": "xylem-v1:42e1986e32fa3951",
+  "hierarchical_name": "xylem:math.saw_wave",
+  "job": "xylem:math.saw_wave",
+  "language": "python",
+  "timing_us": 0.154,
+  "function_name": "saw_wave",
+  "category": "math",
+  "intent": "Sawtooth wave with period 1, in [0, 1), using x minus floor(x).",
+  "depends_on": [],
+  "source_file": "examples/saw_wave.py",
+  "normalized_length": 132,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-05T17:09:16.704934+00:00",
+  "updated_at": "2026-11-05T17:09:16.704952+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/saw_wave.py"
+  ]
+}

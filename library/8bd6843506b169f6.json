@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "8bd6843506b169f6945fd76c52a9be1f08988befc47f1bb19b5e11e1f9c700da",
+  "short_id": "xylem-v1:8bd6843506b169f6",
+  "hierarchical_name": "xylem:math.clamp01",
+  "job": "xylem:math.clamp01",
+  "language": "python",
+  "timing_us": 0.197,
+  "function_name": "clamp01",
+  "category": "math",
+  "intent": "clamp x between zero and one",
+  "depends_on": [],
+  "source_file": "examples/clamp01.py",
+  "normalized_length": 99,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:52:11.145294+00:00",
+  "updated_at": "2026-10-28T19:52:11.145314+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/clamp01.py"
+  ]
+}

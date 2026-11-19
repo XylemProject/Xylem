@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ad1f2df212c8d5d9ade938285bdd260b7f14e36916499f724304134be26510d6",
+  "short_id": "xylem-v1:ad1f2df212c8d5d9",
+  "hierarchical_name": "xylem:math.eq",
+  "job": "xylem:math.eq",
+  "language": "python",
+  "timing_us": 0.195,
+  "function_name": "eq",
+  "category": "math",
+  "intent": "true if x equals y",
+  "depends_on": [],
+  "source_file": "examples/eq.py",
+  "normalized_length": 68,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:49:50.383112+00:00",
+  "updated_at": "2026-10-28T19:49:50.383133+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/eq.py"
+  ]
+}

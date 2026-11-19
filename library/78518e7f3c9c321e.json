@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "78518e7f3c9c321ec9d88540ef659e3723bb91e0558790714fe223fc0cc422ba",
+  "short_id": "xylem-v1:78518e7f3c9c321e",
+  "hierarchical_name": "xylem:rust.max_rs",
+  "job": "xylem:math.max_value",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "max_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples/max.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T19:30:16.862044+00:00",
+  "updated_at": "2026-11-05T19:30:16.862063+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples/max.rs"
+  ]
+}

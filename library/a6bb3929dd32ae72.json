@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "a6bb3929dd32ae72933a23068841e2ee20efc1ec1e39ded29eb9f5e97ab034fb",
+  "short_id": "xylem-v1:a6bb3929dd32ae72",
+  "hierarchical_name": "xylem:rust.cubic_rs",
+  "job": "xylem:math.cubic",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "cubic_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\cubic.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:08:03.112397+00:00",
+  "updated_at": "2026-11-05T20:08:03.112410+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\cubic.rs"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "e257593511b451d98bc8901e2ff686ef0c441d7be808c5af1c4483128d979be4",
+  "short_id": "xylem-v1:e257593511b451d9",
+  "hierarchical_name": "xylem:math.snap",
+  "job": "xylem:math.snap",
+  "language": "python",
+  "timing_us": 0.359,
+  "function_name": "snap",
+  "category": "math",
+  "intent": "snap to the nearest multiple of step",
+  "depends_on": [],
+  "source_file": "examples/snap.py",
+  "normalized_length": 111,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:59:45.734705+00:00",
+  "updated_at": "2026-10-28T19:59:45.734721+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/snap.py"
+  ]
+}

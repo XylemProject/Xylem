@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "f2ecb007570572abab093b485e1ee4cad4821ac74c81a1856c432e7722e4003b",
+  "short_id": "xylem-v1:f2ecb007570572ab",
+  "hierarchical_name": "xylem:rust.lerp_unclamped_rs",
+  "job": "xylem:math.lerp_unclamped",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "lerp_unclamped_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\lerp_unclamped.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:15:01.662605+00:00",
+  "updated_at": "2026-11-05T20:15:01.662620+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\lerp_unclamped.rs"
+  ]
+}

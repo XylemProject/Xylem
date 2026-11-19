@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "6d60631b2d82ebcdc6d3f3e9c1ed8121a14391871da9bfe8bf838d6a5fbda424",
+  "short_id": "xylem-v1:6d60631b2d82ebcd",
+  "hierarchical_name": "xylem:math.copysign",
+  "job": "xylem:math.copysign",
+  "language": "python",
+  "timing_us": 0.409,
+  "function_name": "copysign",
+  "category": "math",
+  "intent": "return the magnitude of x with the sign of y",
+  "depends_on": [],
+  "source_file": "examples/copysign.py",
+  "normalized_length": 290,
+  "tests_passed": 15,
+  "tests_total": 15,
+  "created_at": "2026-11-19T16:26:40.741646+00:00",
+  "updated_at": "2026-11-19T16:26:40.741665+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/copysign.py"
+  ]
+}

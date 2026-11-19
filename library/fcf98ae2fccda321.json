@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "fcf98ae2fccda321e7677d35884328075c10f554c5f3d520a9bd227ce0b82cd3",
+  "short_id": "xylem-v1:fcf98ae2fccda321",
+  "hierarchical_name": "xylem:math.le",
+  "job": "xylem:math.le",
+  "language": "python",
+  "timing_us": 0.175,
+  "function_name": "le",
+  "category": "math",
+  "intent": "true if x is at most y",
+  "depends_on": [],
+  "source_file": "examples/le.py",
+  "normalized_length": 86,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:49:45.919180+00:00",
+  "updated_at": "2026-10-28T19:49:45.919201+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/le.py"
+  ]
+}

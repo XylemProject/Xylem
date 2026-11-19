@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "6314e0739fe2e09738b471b9dd59ceb076afba21e9b5c1656f90a9a1b0b4b17e",
+  "short_id": "xylem-v1:6314e0739fe2e097",
+  "hierarchical_name": "xylem:math.noise1_safe",
+  "job": "xylem:math.noise1_safe",
+  "language": "python",
+  "timing_us": 0.515,
+  "function_name": "noise1_safe",
+  "category": "math",
+  "intent": "noise1 safe",
+  "depends_on": [],
+  "source_file": "examples/noise1_safe.py",
+  "normalized_length": 452,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-05T18:28:01.144222+00:00",
+  "updated_at": "2026-11-05T18:28:01.144238+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/noise1_safe.py"
+  ]
+}

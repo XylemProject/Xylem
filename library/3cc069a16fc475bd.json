@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "3cc069a16fc475bdb5156604ef4b6a11b389090f5c0ae90b94cac5c534096112",
+  "short_id": "xylem-v1:3cc069a16fc475bd",
+  "hierarchical_name": "xylem:math.damp",
+  "job": "xylem:math.damp",
+  "language": "python",
+  "timing_us": 0.593,
+  "function_name": "damp",
+  "category": "math",
+  "intent": "critically damped approach toward a target",
+  "depends_on": [],
+  "source_file": "examples/damp.py",
+  "normalized_length": 181,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:06:47.682147+00:00",
+  "updated_at": "2026-10-29T19:06:47.682168+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/damp.py"
+  ]
+}

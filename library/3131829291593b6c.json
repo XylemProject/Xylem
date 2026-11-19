@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "3131829291593b6ca49f193d92ea89e96d8ad9d9099ef9cb641b9a20722c772f",
+  "short_id": "xylem-v1:3131829291593b6c",
+  "hierarchical_name": "xylem:math.atan_deg",
+  "job": "xylem:math.atan_deg",
+  "language": "python",
+  "timing_us": 0.212,
+  "function_name": "atan_deg",
+  "category": "math",
+  "intent": "arctangent of x returned in degrees",
+  "depends_on": [],
+  "source_file": "examples/atan_deg.py",
+  "normalized_length": 201,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-19T17:03:15.032508+00:00",
+  "updated_at": "2026-11-19T17:03:15.032519+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/atan_deg.py"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "49cf411ec39aeacb2a4b40829a53f2706f307afb965dff61d5d161fdbe7254f7",
+  "short_id": "xylem-v1:49cf411ec39aeacb",
+  "hierarchical_name": "xylem:math.back_in",
+  "job": "xylem:math.back_in",
+  "language": "python",
+  "timing_us": 0.194,
+  "function_name": "back_in",
+  "category": "math",
+  "intent": "back ease in with overshoot",
+  "depends_on": [],
+  "source_file": "examples/back_in.py",
+  "normalized_length": 103,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:08:59.134830+00:00",
+  "updated_at": "2026-10-28T20:08:59.134845+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/back_in.py"
+  ]
+}

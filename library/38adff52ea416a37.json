@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "38adff52ea416a3741b6bf38d9795baa145468c41f564243797da9bd31dd6766",
+  "short_id": "xylem-v1:38adff52ea416a37",
+  "hierarchical_name": "xylem:rust.apply_gravity_rs",
+  "job": "xylem:physics.apply_gravity",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "apply_gravity_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\apply_gravity.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:07:59.099262+00:00",
+  "updated_at": "2026-11-05T20:07:59.099275+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\apply_gravity.rs"
+  ]
+}

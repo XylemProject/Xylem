@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "bae6462d00a8860bf1ca61807c00d84e3230e10ef793dab6cc3a43c423b0eb12",
+  "short_id": "xylem-v1:bae6462d00a8860b",
+  "hierarchical_name": "xylem:math.circ_in",
+  "job": "xylem:math.circ_in",
+  "language": "python",
+  "timing_us": 0.363,
+  "function_name": "circ_in",
+  "category": "math",
+  "intent": "circular ease in",
+  "depends_on": [],
+  "source_file": "examples/circ_in.py",
+  "normalized_length": 78,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:08:45.611569+00:00",
+  "updated_at": "2026-10-28T20:08:45.611585+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/circ_in.py"
+  ]
+}

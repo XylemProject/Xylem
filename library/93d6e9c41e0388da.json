@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "93d6e9c41e0388da2676d92401198698e89d6fe51409d713a63ce643c512f39d",
+  "short_id": "xylem-v1:93d6e9c41e0388da",
+  "hierarchical_name": "xylem:rust.wrap_180_rs",
+  "job": "xylem:math.wrap_180",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "wrap_180_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\wrap_180.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T19:38:28.565973+00:00",
+  "updated_at": "2026-11-05T19:38:28.565986+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\wrap_180.rs"
+  ]
+}

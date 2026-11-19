@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "22945bb464276e1a9ff1b3ba36c5e81ceeff4c514763f0bf6ffb99dad4a0c5d6",
+  "short_id": "xylem-v1:22945bb464276e1a",
+  "hierarchical_name": "xylem:rust.pulse_wave_rs",
+  "job": "xylem:math.pulse_wave",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "pulse_wave_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\pulse_wave.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:49:16.594007+00:00",
+  "updated_at": "2026-11-05T20:49:16.594020+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\pulse_wave.rs"
+  ]
+}

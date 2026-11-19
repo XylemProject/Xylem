@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "19451fdbace36321fb909e95e55f28e6ad4ab6d1e541aeb02fadd8c9db594a6f",
+  "short_id": "xylem-v1:19451fdbace36321",
+  "hierarchical_name": "xylem:math.sign_or_zero",
+  "job": "xylem:math.sign_or_zero",
+  "language": "python",
+  "timing_us": 0.205,
+  "function_name": "sign_or_zero",
+  "category": "math",
+  "intent": "sign of x as -1, 0, or 1",
+  "depends_on": [],
+  "source_file": "examples/sign_or_zero.py",
+  "normalized_length": 114,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:52:14.707918+00:00",
+  "updated_at": "2026-10-28T19:52:14.707931+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/sign_or_zero.py"
+  ]
+}

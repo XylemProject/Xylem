@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "f695a40923d987763511cc7da31ccd386c9fc772227e692e4766e9f730a7dbd5",
+  "short_id": "xylem-v1:f695a40923d98776",
+  "hierarchical_name": "xylem:rust.round_to_rs",
+  "job": "xylem:math.round_to",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "round_to_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\round_to.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:16:47.666059+00:00",
+  "updated_at": "2026-11-05T20:16:47.666074+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\round_to.rs"
+  ]
+}

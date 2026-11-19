@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "264983769e5c22beb5335047b82b42eb1b5e3867513225ebc1eac3d76f1a594c",
+  "short_id": "xylem-v1:264983769e5c22be",
+  "hierarchical_name": "xylem:math.log2",
+  "job": "xylem:math.log2",
+  "language": "python",
+  "timing_us": 0.428,
+  "function_name": "log2",
+  "category": "math",
+  "intent": "logarithm base 2, refuses non-positive input",
+  "depends_on": [],
+  "source_file": "examples/log2.py",
+  "normalized_length": 152,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:14:35.335935+00:00",
+  "updated_at": "2026-10-29T19:14:35.335962+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/log2.py"
+  ]
+}

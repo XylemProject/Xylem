@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "6b66b0ff1bb414ba880a6bad3ac2837ee388c90f5322d70a3c0e4917270d8774",
+  "short_id": "xylem-v1:6b66b0ff1bb414ba",
+  "hierarchical_name": "xylem:math.max_value",
+  "job": "xylem:math.max_value",
+  "language": "python",
+  "timing_us": 0.201,
+  "function_name": "max_value",
+  "category": "math",
+  "intent": "return the larger of two numbers",
+  "depends_on": [],
+  "source_file": "examples/max_value.py",
+  "normalized_length": 129,
+  "tests_passed": 7,
+  "tests_total": 7,
+  "created_at": "2026-10-28T14:16:39.316208+00:00",
+  "updated_at": "2026-10-28T14:16:39.316230+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/max_value.py"
+  ]
+}

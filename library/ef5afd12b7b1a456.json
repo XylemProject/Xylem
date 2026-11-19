@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ef5afd12b7b1a456bf2c2b4c039d32d36403ebc864ff7cd3a967681e1cd6b19c",
+  "short_id": "xylem-v1:ef5afd12b7b1a456",
+  "hierarchical_name": "xylem:rust.approach_rs",
+  "job": "xylem:math.approach",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "approach_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples/approach.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T19:35:36.863106+00:00",
+  "updated_at": "2026-11-05T19:35:36.863121+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples/approach.rs"
+  ]
+}

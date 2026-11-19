@@ -1,0 +1,22 @@
+{
+  "version": "v1",
+  "content_hash": "7cfb71957d7af049776e77f4cd950d3750018937a39d64788725348b3e701126",
+  "short_id": "xylem-v1:7cfb71957d7af049",
+  "hierarchical_name": "xylem:math.clamp_minmax",
+  "job": "xylem:util.clamp",
+  "timing_us": 0.183,
+  "function_name": "clamp_minmax",
+  "category": "math",
+  "intent": "clamp into range with min/max",
+  "depends_on": [],
+  "source_file": "examples/clamp_minmax.py",
+  "normalized_length": 153,
+  "tests_passed": 7,
+  "tests_total": 7,
+  "created_at": "2026-10-02T14:17:51.413220+00:00",
+  "updated_at": "2026-10-02T14:17:51.413233+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/clamp_minmax.py"
+  ]
+}

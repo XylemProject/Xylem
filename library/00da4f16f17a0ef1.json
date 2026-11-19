@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "00da4f16f17a0ef16affc3b89dac9a7511c490704cf843aa1282cf92736e163d",
+  "short_id": "xylem-v1:00da4f16f17a0ef1",
+  "hierarchical_name": "xylem:math.cos_deg",
+  "job": "xylem:math.cos_deg",
+  "language": "python",
+  "timing_us": 0.235,
+  "function_name": "cos_deg",
+  "category": "math",
+  "intent": "Cosine of an angle given in degrees.",
+  "depends_on": [],
+  "source_file": "examples/cos_deg.py",
+  "normalized_length": 112,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-02T17:42:24.232856+00:00",
+  "updated_at": "2026-11-02T17:42:24.232896+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/cos_deg.py"
+  ]
+}

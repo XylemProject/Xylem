@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "6a0d6d71d9ac86f1c01241a28ade2200fbb8521764314a92403c8950b82549bf",
+  "short_id": "xylem-v1:6a0d6d71d9ac86f1",
+  "hierarchical_name": "xylem:math.ease_in_out",
+  "job": "xylem:math.ease_in_out",
+  "language": "python",
+  "timing_us": 0.173,
+  "function_name": "ease_in_out",
+  "category": "math",
+  "intent": "quadratic ease in and out",
+  "depends_on": [],
+  "source_file": "examples/ease_in_out.py",
+  "normalized_length": 115,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:00:01.125136+00:00",
+  "updated_at": "2026-10-28T20:00:01.125148+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/ease_in_out.py"
+  ]
+}

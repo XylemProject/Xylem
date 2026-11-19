@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "36f60b12af17579a3893d2fdb36dbdc51278ec2a4d1639a90ce793a7cd419274",
+  "short_id": "xylem-v1:36f60b12af17579a",
+  "hierarchical_name": "xylem:math.angle_diff",
+  "job": "xylem:math.angle_diff",
+  "language": "python",
+  "timing_us": 1.151,
+  "function_name": "angle_diff",
+  "category": "math",
+  "intent": "shortest signed difference between two angles in radians",
+  "depends_on": [],
+  "source_file": "examples/angle_diff.py",
+  "normalized_length": 179,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-10-29T19:06:52.540696+00:00",
+  "updated_at": "2026-10-29T19:06:52.540741+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/angle_diff.py"
+  ]
+}

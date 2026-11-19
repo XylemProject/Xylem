@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "fe9118f5df1f1072302feb907826015a864773db0de7d2470a7ea349948ac9c4",
+  "short_id": "xylem-v1:fe9118f5df1f1072",
+  "hierarchical_name": "xylem:math.cubic_out",
+  "job": "xylem:math.cubic_out",
+  "language": "python",
+  "timing_us": 0.32,
+  "function_name": "cubic_out",
+  "category": "math",
+  "intent": "cubic ease out",
+  "depends_on": [],
+  "source_file": "examples/cubic_out.py",
+  "normalized_length": 76,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:18:18.240917+00:00",
+  "updated_at": "2026-10-28T20:18:18.240932+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/cubic_out.py"
+  ]
+}

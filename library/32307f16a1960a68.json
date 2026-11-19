@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "32307f16a1960a686f0b6058e9723e4387ccb9dc4c09911a2c5d3919e3061a49",
+  "short_id": "xylem-v1:32307f16a1960a68",
+  "hierarchical_name": "xylem:rust.bias_rs",
+  "job": "xylem:math.bias",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "bias_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\bias.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:11:35.760076+00:00",
+  "updated_at": "2026-11-05T20:11:35.760089+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\bias.rs"
+  ]
+}

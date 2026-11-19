@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "763f626abc43102407e48351197f3293e14cf7345a9d7717e6254ab883afb8d0",
+  "short_id": "xylem-v1:763f626abc431024",
+  "hierarchical_name": "xylem:math.noise1",
+  "job": "xylem:math.noise1",
+  "language": "python",
+  "timing_us": 1.052,
+  "function_name": "noise1",
+  "category": "math",
+  "intent": "Deterministic 1D value noise in [0, 1]: hashes the integer lattice and blends neighbors smoothly.",
+  "depends_on": [],
+  "source_file": "examples/noise1.py",
+  "normalized_length": 354,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-05T17:09:26.758985+00:00",
+  "updated_at": "2026-11-05T17:09:26.759011+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/noise1.py"
+  ]
+}

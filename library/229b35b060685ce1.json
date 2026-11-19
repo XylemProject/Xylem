@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "229b35b060685ce1ddc45cf8ac783754226ae6aa863a51b925a83aca5a40762f",
+  "short_id": "xylem-v1:229b35b060685ce1",
+  "hierarchical_name": "xylem:math.acos_deg",
+  "job": "xylem:math.acos_deg",
+  "language": "python",
+  "timing_us": 0.364,
+  "function_name": "acos_deg",
+  "category": "math",
+  "intent": "Arccosine returning degrees. Refuses input outside [-1, 1] by returning None.",
+  "depends_on": [],
+  "source_file": "examples/acos_deg.py",
+  "normalized_length": 199,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-02T17:42:34.456565+00:00",
+  "updated_at": "2026-11-02T17:42:34.456598+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/acos_deg.py"
+  ]
+}

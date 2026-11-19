@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "56a909e6d90bf8e154809feee7c1408fbea92e9f3da73404df7fc3e97cd06959",
+  "short_id": "xylem-v1:56a909e6d90bf8e1",
+  "hierarchical_name": "xylem:math.hypot3_safe",
+  "job": "xylem:math.hypot3_safe",
+  "language": "python",
+  "timing_us": 0.311,
+  "function_name": "hypot3_safe",
+  "category": "math",
+  "intent": "Hypotenuse of a, b and c. Refuses None or non-finite input by returning None.",
+  "depends_on": [],
+  "source_file": "examples/hypot3_safe.py",
+  "normalized_length": 327,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-05T17:19:32.954801+00:00",
+  "updated_at": "2026-11-05T17:19:32.954815+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/hypot3_safe.py"
+  ]
+}

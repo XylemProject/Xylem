@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d0aaec560620e578e29721e819157b62b7ee125fc5490f56e9c4e427e306b1e2",
+  "short_id": "xylem-v1:d0aaec560620e578",
+  "hierarchical_name": "xylem:math.bias",
+  "job": "xylem:math.bias",
+  "language": "python",
+  "timing_us": 0.659,
+  "function_name": "bias",
+  "category": "math",
+  "intent": "bias curve on a zero to one value",
+  "depends_on": [],
+  "source_file": "examples/bias.py",
+  "normalized_length": 117,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:56:22.747714+00:00",
+  "updated_at": "2026-10-28T19:56:22.747731+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/bias.py"
+  ]
+}

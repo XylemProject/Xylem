@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "16f03454ed538c3453c12de198c984da4e720fdd34de149845f8ff5aad47b1d8",
+  "short_id": "xylem-v1:16f03454ed538c34",
+  "hierarchical_name": "xylem:rust.pingpong_rs",
+  "job": "xylem:math.pingpong",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "pingpong_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\pingpong.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:15:49.390414+00:00",
+  "updated_at": "2026-11-05T20:15:49.390427+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\pingpong.rs"
+  ]
+}

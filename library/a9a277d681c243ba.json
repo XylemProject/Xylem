@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "a9a277d681c243bacb393546d91a5197015d466d382a152b5108851f3f757c45",
+  "short_id": "xylem-v1:a9a277d681c243ba",
+  "hierarchical_name": "xylem:rust.floor_rs",
+  "job": "xylem:math.floor",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "floor_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\floor.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:08:40.727127+00:00",
+  "updated_at": "2026-11-05T20:08:40.727146+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\floor.rs"
+  ]
+}

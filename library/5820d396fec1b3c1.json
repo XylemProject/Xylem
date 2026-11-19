@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "5820d396fec1b3c10f182e2c3bc8e20663fb915a5449b88dba851287ae5c0fd6",
+  "short_id": "xylem-v1:5820d396fec1b3c1",
+  "hierarchical_name": "xylem:math.wrap_positive",
+  "job": "xylem:math.wrap_positive",
+  "language": "python",
+  "timing_us": 0.202,
+  "function_name": "wrap_positive",
+  "category": "math",
+  "intent": "wrap x into zero up to period",
+  "depends_on": [],
+  "source_file": "examples/wrap_positive.py",
+  "normalized_length": 99,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:52:23.287129+00:00",
+  "updated_at": "2026-10-28T19:52:23.287176+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/wrap_positive.py"
+  ]
+}

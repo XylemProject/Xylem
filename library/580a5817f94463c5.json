@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "580a5817f94463c58824d577ed63dd3e874a73cad1f17ee7fe223831b3ed8ac5",
+  "short_id": "xylem-v1:580a5817f94463c5",
+  "hierarchical_name": "xylem:rust.back_out_rs",
+  "job": "xylem:math.back_out",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "back_out_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\back_out.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:09:41.893191+00:00",
+  "updated_at": "2026-11-05T20:09:41.893205+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\back_out.rs"
+  ]
+}

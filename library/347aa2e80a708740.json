@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "347aa2e80a70874000bd60edaf539036accad41d7161603b4cb07941be6fd3a8",
+  "short_id": "xylem-v1:347aa2e80a708740",
+  "hierarchical_name": "xylem:math.expo_out",
+  "job": "xylem:math.expo_out",
+  "language": "python",
+  "timing_us": 0.267,
+  "function_name": "expo_out",
+  "category": "math",
+  "intent": "exponential ease out",
+  "depends_on": [],
+  "source_file": "examples/expo_out.py",
+  "normalized_length": 100,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:06:24.906387+00:00",
+  "updated_at": "2026-10-28T20:06:24.906401+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/expo_out.py"
+  ]
+}

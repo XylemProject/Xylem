@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "9f4b8fd8fd2f1a30be16ee78e10dd83ce352e7b0d2ec8f47ba65245b30c4e495",
+  "short_id": "xylem-v1:9f4b8fd8fd2f1a30",
+  "hierarchical_name": "xylem:math.deadzone",
+  "job": "xylem:math.deadzone",
+  "language": "python",
+  "timing_us": 0.385,
+  "function_name": "deadzone",
+  "category": "math",
+  "intent": "return 0 when a value is within a threshold of 0",
+  "depends_on": [],
+  "source_file": "examples/deadzone.py",
+  "normalized_length": 317,
+  "tests_passed": 7,
+  "tests_total": 7,
+  "created_at": "2026-10-28T14:23:33.196986+00:00",
+  "updated_at": "2026-10-28T14:23:33.197011+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/deadzone.py"
+  ]
+}

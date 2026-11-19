@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "67d380387041bebb4359e168fc297fc77c36660132e26157df9dc4b8b78e5d45",
+  "short_id": "xylem-v1:67d380387041bebb",
+  "hierarchical_name": "xylem:math.cubic_in_out",
+  "job": "xylem:math.cubic_in_out",
+  "language": "python",
+  "timing_us": 0.239,
+  "function_name": "cubic_in_out",
+  "category": "math",
+  "intent": "cubic ease in and out",
+  "depends_on": [],
+  "source_file": "examples/cubic_in_out.py",
+  "normalized_length": 116,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:18:21.869708+00:00",
+  "updated_at": "2026-10-28T20:18:21.869721+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/cubic_in_out.py"
+  ]
+}

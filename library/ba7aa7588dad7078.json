@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ba7aa7588dad7078c4f6034cfb7faa8ceb1684c6eac55403a1f45a9bdb8da49a",
+  "short_id": "xylem-v1:ba7aa7588dad7078",
+  "hierarchical_name": "xylem:math.smoothstep_safe",
+  "job": "xylem:math.smoothstep_safe",
+  "language": "python",
+  "timing_us": 0.696,
+  "function_name": "smoothstep_safe",
+  "category": "math",
+  "intent": "smoothstep safe",
+  "depends_on": [],
+  "source_file": "examples/smoothstep_safe.py",
+  "normalized_length": 452,
+  "tests_passed": 14,
+  "tests_total": 14,
+  "created_at": "2026-11-05T17:55:37.250455+00:00",
+  "updated_at": "2026-11-05T17:55:37.250476+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/smoothstep_safe.py"
+  ]
+}

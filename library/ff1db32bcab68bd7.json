@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ff1db32bcab68bd70a22d7819504725ad58be986564d35715c7723d1bbf83077",
+  "short_id": "xylem-v1:ff1db32bcab68bd7",
+  "hierarchical_name": "xylem:rust.triangle_wave_rs",
+  "job": "xylem:math.triangle_wave",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "triangle_wave_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\triangle_wave.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:18:50.105838+00:00",
+  "updated_at": "2026-11-05T20:18:50.105851+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\triangle_wave.rs"
+  ]
+}

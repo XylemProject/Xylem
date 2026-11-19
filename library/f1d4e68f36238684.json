@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "f1d4e68f36238684288462f6edbbf6faa79f1a448bed9737ce0407b336dc7494",
+  "short_id": "xylem-v1:f1d4e68f36238684",
+  "hierarchical_name": "xylem:math.exp_decay_safe",
+  "job": "xylem:math.exp_decay_safe",
+  "language": "python",
+  "timing_us": 0.31,
+  "function_name": "exp_decay_safe",
+  "category": "math",
+  "intent": "Exponential decay value * exp(-rate * t). Refuses non-finite input or negative t by returning None.",
+  "depends_on": [],
+  "source_file": "examples/exp_decay_safe.py",
+  "normalized_length": 331,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-05T17:19:23.330469+00:00",
+  "updated_at": "2026-11-05T17:19:23.330482+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/exp_decay_safe.py"
+  ]
+}

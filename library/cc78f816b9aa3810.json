@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "cc78f816b9aa38107bf5af31149dc5f53224f5f6540372ad4e423a97f120eacc",
+  "short_id": "xylem-v1:cc78f816b9aa3810",
+  "hierarchical_name": "xylem:rust.eq_rs",
+  "job": "xylem:math.eq",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "eq_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\eq.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:44:53.894873+00:00",
+  "updated_at": "2026-11-05T20:44:53.894886+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\eq.rs"
+  ]
+}

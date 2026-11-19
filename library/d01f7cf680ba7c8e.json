@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d01f7cf680ba7c8eaf659dfdef5eee2e7516162a50e0409add82d5553f467209",
+  "short_id": "xylem-v1:d01f7cf680ba7c8e",
+  "hierarchical_name": "xylem:math.exp2",
+  "job": "xylem:math.exp2",
+  "language": "python",
+  "timing_us": 0.194,
+  "function_name": "exp2",
+  "category": "math",
+  "intent": "2 raised to a power",
+  "depends_on": [],
+  "source_file": "examples/exp2.py",
+  "normalized_length": 68,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:28:57.081506+00:00",
+  "updated_at": "2026-10-29T19:28:57.081521+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/exp2.py"
+  ]
+}

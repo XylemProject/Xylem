@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "57ae63f0295ca74049dc262ae0e66eb612cf9720133e2fa2f1829fe323e348f0",
+  "short_id": "xylem-v1:57ae63f0295ca740",
+  "hierarchical_name": "xylem:rust.abs_rs",
+  "job": "xylem:math.abs_value",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "abs_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples/abs.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T19:28:51.373431+00:00",
+  "updated_at": "2026-11-05T19:28:51.373462+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples/abs.rs"
+  ]
+}

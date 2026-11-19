@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "a2050c13fee4775a3a7adaac985ccb93d3b46aa5a3b959b30acbb485bd8e0730",
+  "short_id": "xylem-v1:a2050c13fee4775a",
+  "hierarchical_name": "xylem:math.floor",
+  "job": "xylem:math.floor",
+  "language": "python",
+  "timing_us": 0.204,
+  "function_name": "floor",
+  "category": "math",
+  "intent": "round x down to a whole number",
+  "depends_on": [],
+  "source_file": "examples/floor.py",
+  "normalized_length": 83,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:38:24.017793+00:00",
+  "updated_at": "2026-10-28T19:38:24.017809+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/floor.py"
+  ]
+}

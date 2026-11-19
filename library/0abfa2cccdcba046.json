@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "0abfa2cccdcba046693fd39e56f59e2db80e8db60cc99ef1b5857aa27b20365f",
+  "short_id": "xylem-v1:0abfa2cccdcba046",
+  "hierarchical_name": "xylem:math.smootherstep01",
+  "job": "xylem:math.smootherstep01",
+  "language": "python",
+  "timing_us": 2.33,
+  "function_name": "smootherstep01",
+  "category": "math",
+  "intent": "Smootherstep of t, assuming t is already in [0, 1].",
+  "depends_on": [],
+  "source_file": "examples/smootherstep01.py",
+  "normalized_length": 144,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-11-03T16:59:00.703833+00:00",
+  "updated_at": "2026-11-03T16:59:00.703857+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/smootherstep01.py"
+  ]
+}

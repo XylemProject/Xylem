@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d57ff8ad2f125998695df383c0676894fab6c28e74d43429bf044812da84f318",
+  "short_id": "xylem-v1:d57ff8ad2f125998",
+  "hierarchical_name": "xylem:math.deg_lerp_safe",
+  "job": "xylem:math.deg_lerp_safe",
+  "language": "python",
+  "timing_us": 0.521,
+  "function_name": "deg_lerp_safe",
+  "category": "math",
+  "intent": "deg lerp safe",
+  "depends_on": [],
+  "source_file": "examples/deg_lerp_safe.py",
+  "normalized_length": 355,
+  "tests_passed": 14,
+  "tests_total": 14,
+  "created_at": "2026-11-05T18:29:43.363690+00:00",
+  "updated_at": "2026-11-05T18:29:43.363721+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/deg_lerp_safe.py"
+  ]
+}

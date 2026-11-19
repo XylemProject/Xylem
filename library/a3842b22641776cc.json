@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "a3842b22641776ccfad3b0dee94f2d15201defe1752f6eb827b0f11b17eab6b2",
+  "short_id": "xylem-v1:a3842b22641776cc",
+  "hierarchical_name": "xylem:math.pingpong",
+  "job": "xylem:math.pingpong",
+  "language": "python",
+  "timing_us": 0.274,
+  "function_name": "pingpong",
+  "category": "math",
+  "intent": "ping pong between zero and length",
+  "depends_on": [],
+  "source_file": "examples/pingpong.py",
+  "normalized_length": 112,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:00:09.646456+00:00",
+  "updated_at": "2026-10-28T20:00:09.646477+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/pingpong.py"
+  ]
+}

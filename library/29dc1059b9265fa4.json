@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "29dc1059b9265fa4c76afa3f6e8ef745c6e6c1cf8cd8b78ecce04718e47b3ed7",
+  "short_id": "xylem-v1:29dc1059b9265fa4",
+  "hierarchical_name": "xylem:math.hash01",
+  "job": "xylem:math.hash01",
+  "language": "python",
+  "timing_us": 0.334,
+  "function_name": "hash01",
+  "category": "math",
+  "intent": "cheap hash in zero to one",
+  "depends_on": [],
+  "source_file": "examples/hash01.py",
+  "normalized_length": 84,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:05:55.887158+00:00",
+  "updated_at": "2026-10-28T20:05:55.887182+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/hash01.py"
+  ]
+}

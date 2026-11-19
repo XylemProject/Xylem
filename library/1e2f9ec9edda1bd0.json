@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "1e2f9ec9edda1bd07cee547eb348feb8b2ad5f6fd58f6748de3360de8ff37d4c",
+  "short_id": "xylem-v1:1e2f9ec9edda1bd0",
+  "hierarchical_name": "xylem:math.reciprocal",
+  "job": "xylem:math.reciprocal",
+  "language": "python",
+  "timing_us": 0.255,
+  "function_name": "reciprocal",
+  "category": "math",
+  "intent": "one divided by x",
+  "depends_on": [],
+  "source_file": "examples/reciprocal.py",
+  "normalized_length": 70,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:43:38.702355+00:00",
+  "updated_at": "2026-10-28T19:43:38.702389+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/reciprocal.py"
+  ]
+}

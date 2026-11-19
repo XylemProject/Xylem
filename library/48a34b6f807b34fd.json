@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "48a34b6f807b34fda364b79f9ee36efcbe87c8b88642e60b7c4dead0d5313fda",
+  "short_id": "xylem-v1:48a34b6f807b34fd",
+  "hierarchical_name": "xylem:math.ease_out",
+  "job": "xylem:math.ease_out",
+  "language": "python",
+  "timing_us": 0.155,
+  "function_name": "ease_out",
+  "category": "math",
+  "intent": "quadratic ease out",
+  "depends_on": [],
+  "source_file": "examples/ease_out.py",
+  "normalized_length": 74,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:59:57.037431+00:00",
+  "updated_at": "2026-10-28T19:59:57.037445+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/ease_out.py"
+  ]
+}

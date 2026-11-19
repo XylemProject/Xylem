@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "3d1013a226922f5a7c58e688a6fcc502c8fef28b199a2d7ac07d22893f6c9529",
+  "short_id": "xylem-v1:3d1013a226922f5a",
+  "hierarchical_name": "xylem:math.inverse_lerp_safe",
+  "job": "xylem:math.inverse_lerp_safe",
+  "language": "python",
+  "timing_us": 0.252,
+  "function_name": "inverse_lerp_safe",
+  "category": "math",
+  "intent": "inverse lerp safe",
+  "depends_on": [],
+  "source_file": "examples/inverse_lerp_safe.py",
+  "normalized_length": 310,
+  "tests_passed": 14,
+  "tests_total": 14,
+  "created_at": "2026-11-05T17:53:36.958734+00:00",
+  "updated_at": "2026-11-05T17:53:36.958746+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/inverse_lerp_safe.py"
+  ]
+}

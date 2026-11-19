@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "cbf9c9fc348d636668351aa874fc9a9060e39803bdb3da3fbef9db1f86c06385",
+  "short_id": "xylem-v1:cbf9c9fc348d6366",
+  "hierarchical_name": "xylem:math.cubic",
+  "job": "xylem:math.cubic",
+  "language": "python",
+  "timing_us": 0.197,
+  "function_name": "cubic",
+  "category": "math",
+  "intent": "cubic curve t cubed",
+  "depends_on": [],
+  "source_file": "examples/cubic.py",
+  "normalized_length": 60,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:06:10.332750+00:00",
+  "updated_at": "2026-10-28T20:06:10.332767+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/cubic.py"
+  ]
+}

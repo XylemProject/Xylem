@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "ae18959e56ef2ef19f6bb5ed269a1b5ff8ffca8fa68793caccb6e858406301c7",
+  "short_id": "xylem-v1:ae18959e56ef2ef1",
+  "hierarchical_name": "xylem:math.negate",
+  "job": "xylem:math.negate",
+  "language": "python",
+  "timing_us": 0.166,
+  "function_name": "negate",
+  "category": "math",
+  "intent": "flip the sign of x",
+  "depends_on": [],
+  "source_file": "examples/negate.py",
+  "normalized_length": 70,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:43:00.647417+00:00",
+  "updated_at": "2026-10-28T19:43:00.647435+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/negate.py"
+  ]
+}

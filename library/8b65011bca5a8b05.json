@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "8b65011bca5a8b053f77b5a538834efc2ad29cfc63349fd14e2be633a2130d05",
+  "short_id": "xylem-v1:8b65011bca5a8b05",
+  "hierarchical_name": "xylem:math.degrees",
+  "job": "xylem:math.degrees",
+  "language": "python",
+  "timing_us": 0.119,
+  "function_name": "degrees",
+  "category": "math",
+  "intent": "radians to degrees",
+  "depends_on": [],
+  "source_file": "examples/degrees.py",
+  "normalized_length": 85,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:36:46.029467+00:00",
+  "updated_at": "2026-10-29T19:36:46.029482+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/degrees.py"
+  ]
+}

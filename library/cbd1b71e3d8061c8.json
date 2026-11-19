@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "cbd1b71e3d8061c87ea05e988d1ec057e75194180acf379c63dabe56bdd4c17c",
+  "short_id": "xylem-v1:cbd1b71e3d8061c8",
+  "hierarchical_name": "xylem:rust.fract_rs",
+  "job": "xylem:math.fract",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "fract_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\fract.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:08:48.652683+00:00",
+  "updated_at": "2026-11-05T20:08:48.652700+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\fract.rs"
+  ]
+}

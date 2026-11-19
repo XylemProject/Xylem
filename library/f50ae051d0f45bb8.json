@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "f50ae051d0f45bb8914ff30e0fafaca03a8d76df300a6435ea821ca9d6189263",
+  "short_id": "xylem-v1:f50ae051d0f45bb8",
+  "hierarchical_name": "xylem:rust.smoothstep01_rs",
+  "job": "xylem:math.smoothstep01",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "smoothstep01_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\smoothstep01.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:18:17.066947+00:00",
+  "updated_at": "2026-11-05T20:18:17.066961+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\smoothstep01.rs"
+  ]
+}

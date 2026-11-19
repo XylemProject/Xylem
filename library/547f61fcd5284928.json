@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "547f61fcd528492803048651dfc8d45e17b4232f1c651d175eb68e7b5727850a",
+  "short_id": "xylem-v1:547f61fcd5284928",
+  "hierarchical_name": "xylem:rust.cbrt_safe_rs",
+  "job": "xylem:math.cbrt_safe",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "cbrt_safe_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\cbrt_safe.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:46:19.777916+00:00",
+  "updated_at": "2026-11-05T20:46:19.777930+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\cbrt_safe.rs"
+  ]
+}

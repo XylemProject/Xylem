@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "49b3e459b6c7f5923ce89d8a1a1d96d7d727f90c0f6823d7f7d7e41fdf490279",
+  "short_id": "xylem-v1:49b3e459b6c7f592",
+  "hierarchical_name": "xylem:math.add",
+  "job": "xylem:math.add",
+  "language": "python",
+  "timing_us": 0.182,
+  "function_name": "add",
+  "category": "math",
+  "intent": "x plus y",
+  "depends_on": [],
+  "source_file": "examples/add.py",
+  "normalized_length": 58,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T19:49:59.493443+00:00",
+  "updated_at": "2026-10-28T19:49:59.493467+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/add.py"
+  ]
+}

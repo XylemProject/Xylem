@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "6434d04256c4e1f4857ce00beb093fa5bca59b96c5ea02339aef46b91d3fc078",
+  "short_id": "xylem-v1:6434d04256c4e1f4",
+  "hierarchical_name": "xylem:math.chebyshev",
+  "job": "xylem:math.chebyshev",
+  "language": "python",
+  "timing_us": 0.445,
+  "function_name": "chebyshev",
+  "category": "math",
+  "intent": "chebyshev distance between two points",
+  "depends_on": [],
+  "source_file": "examples/chebyshev.py",
+  "normalized_length": 146,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-29T19:03:41.443715+00:00",
+  "updated_at": "2026-10-29T19:03:41.443736+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/chebyshev.py"
+  ]
+}

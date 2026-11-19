@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d0e6267ec610bc7818e8af36cbb39e9efdeb39397ec31fe2622929f17fd2af92",
+  "short_id": "xylem-v1:d0e6267ec610bc78",
+  "hierarchical_name": "xylem:math.atan2_deg",
+  "job": "xylem:math.atan2_deg",
+  "language": "python",
+  "timing_us": 1.77,
+  "function_name": "atan2_deg",
+  "category": "math",
+  "intent": "atan2 of y and x in degrees, in (-180, 180].",
+  "depends_on": [],
+  "source_file": "examples/atan2_deg.py",
+  "normalized_length": 175,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-03T16:56:30.991649+00:00",
+  "updated_at": "2026-11-03T16:56:30.991677+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/atan2_deg.py"
+  ]
+}

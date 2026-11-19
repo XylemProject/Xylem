@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "aa08578f2de074e79663f5103bfcfa0c6a30055aa997c876d08e0fe9a53a97f3",
+  "short_id": "xylem-v1:aa08578f2de074e7",
+  "hierarchical_name": "xylem:math.wrap_180",
+  "job": "xylem:math.wrap_180",
+  "language": "python",
+  "timing_us": 0.141,
+  "function_name": "wrap_180",
+  "category": "math",
+  "intent": "Wrap degrees to (-180, 180].",
+  "depends_on": [],
+  "source_file": "examples/wrap_180.py",
+  "normalized_length": 130,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-03T16:56:48.056570+00:00",
+  "updated_at": "2026-11-03T16:56:48.056583+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/wrap_180.py"
+  ]
+}

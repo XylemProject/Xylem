@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "7af0c10402f92d0b6640752ff66944e8f74170003289e4e88ef2c25b8f0121f6",
+  "short_id": "xylem-v1:7af0c10402f92d0b",
+  "hierarchical_name": "xylem:rust.min_rs",
+  "job": "xylem:math.min_value",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "min_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples/min.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T19:33:39.233788+00:00",
+  "updated_at": "2026-11-05T19:33:39.233808+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples/min.rs"
+  ]
+}

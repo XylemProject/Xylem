@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "1a62021eebe8abc10390a9df5bdd8546398c018dd77b61b5dbb7c08283279b54",
+  "short_id": "xylem-v1:1a62021eebe8abc1",
+  "hierarchical_name": "xylem:math.expo_in",
+  "job": "xylem:math.expo_in",
+  "language": "python",
+  "timing_us": 0.267,
+  "function_name": "expo_in",
+  "category": "math",
+  "intent": "exponential ease in",
+  "depends_on": [],
+  "source_file": "examples/expo_in.py",
+  "normalized_length": 99,
+  "tests_passed": 10,
+  "tests_total": 10,
+  "created_at": "2026-10-28T20:06:20.009193+00:00",
+  "updated_at": "2026-10-28T20:06:20.009207+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/expo_in.py"
+  ]
+}

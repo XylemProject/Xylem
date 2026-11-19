@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "96da4dc6ab8c089418a345a79854082d13e609fb7b8a170ccd7abd4a4e5cacc6",
+  "short_id": "xylem-v1:96da4dc6ab8c0894",
+  "hierarchical_name": "xylem:math.clamp11",
+  "job": "xylem:math.clamp11",
+  "language": "python",
+  "timing_us": 0.217,
+  "function_name": "clamp11",
+  "category": "math",
+  "intent": "Clamp x to the range -1 to 1.",
+  "depends_on": [],
+  "source_file": "examples/clamp11.py",
+  "normalized_length": 115,
+  "tests_passed": 11,
+  "tests_total": 11,
+  "created_at": "2026-11-03T16:58:46.947702+00:00",
+  "updated_at": "2026-11-03T16:58:46.947719+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/clamp11.py"
+  ]
+}

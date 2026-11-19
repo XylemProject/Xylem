@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "258bc0397498221e16d2a7c499ff02652036d6d75a8620aa3f79fbc2ae33ad8a",
+  "short_id": "xylem-v1:258bc0397498221e",
+  "hierarchical_name": "xylem:math.gain_safe",
+  "job": "xylem:math.gain_safe",
+  "language": "python",
+  "timing_us": 0.247,
+  "function_name": "gain_safe",
+  "category": "math",
+  "intent": "gain safe",
+  "depends_on": [],
+  "source_file": "examples/gain_safe.py",
+  "normalized_length": 239,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-05T18:27:52.900788+00:00",
+  "updated_at": "2026-11-05T18:27:52.900802+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/gain_safe.py"
+  ]
+}

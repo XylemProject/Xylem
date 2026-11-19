@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "f2f56b288007a4ff0f022dfa8943ba67c7adb7559fe5cd3d42cc04823538c449",
+  "short_id": "xylem-v1:f2f56b288007a4ff",
+  "hierarchical_name": "xylem:math.square",
+  "job": "xylem:math.square",
+  "language": "python",
+  "timing_us": 0.106,
+  "function_name": "square",
+  "category": "math",
+  "intent": "return the square of a number",
+  "depends_on": [],
+  "source_file": "examples/square.py",
+  "normalized_length": 84,
+  "tests_passed": 7,
+  "tests_total": 7,
+  "created_at": "2026-10-28T14:02:45.026324+00:00",
+  "updated_at": "2026-10-28T14:02:45.026344+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/square.py"
+  ]
+}

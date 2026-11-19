@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "d1a164e6887568c3db3d1eaeddd1490562f98c5d3509108ec22cb253e3e80684",
+  "short_id": "xylem-v1:d1a164e6887568c3",
+  "hierarchical_name": "xylem:rust.in_range_rs",
+  "job": "xylem:math.in_range",
+  "language": "rust",
+  "timing_us": null,
+  "function_name": "in_range_rs",
+  "category": "external",
+  "intent": "cases passed outside the Python caller",
+  "depends_on": [],
+  "source_file": "examples\\in_range.rs",
+  "normalized_length": 0,
+  "tests_passed": 3,
+  "tests_total": 3,
+  "created_at": "2026-11-05T20:45:33.044367+00:00",
+  "updated_at": "2026-11-05T20:45:33.044381+00:00",
+  "status": "verified_external",
+  "seen_sources": [
+    "examples\\in_range.rs"
+  ]
+}

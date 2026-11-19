@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "8aac561cf21b135a4d0e0f1dc48006ebf3857b26dfcf5f4f28bf0153497e5e71",
+  "short_id": "xylem-v1:8aac561cf21b135a",
+  "hierarchical_name": "xylem:math.saturate_safe",
+  "job": "xylem:math.saturate_safe",
+  "language": "python",
+  "timing_us": 0.328,
+  "function_name": "saturate_safe",
+  "category": "math",
+  "intent": "saturate safe",
+  "depends_on": [],
+  "source_file": "examples/saturate_safe.py",
+  "normalized_length": 268,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-05T17:55:49.590211+00:00",
+  "updated_at": "2026-11-05T17:55:49.590233+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/saturate_safe.py"
+  ]
+}

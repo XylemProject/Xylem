@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "1ef9759c36f48e3dba84969dd2b3064b2f6d1d74d7df18261f233517c3c56b9d",
+  "short_id": "xylem-v1:1ef9759c36f48e3d",
+  "hierarchical_name": "xylem:math.min_value",
+  "job": "xylem:math.min_value",
+  "language": "python",
+  "timing_us": 0.108,
+  "function_name": "min_value",
+  "category": "math",
+  "intent": "return the smaller of two numbers",
+  "depends_on": [],
+  "source_file": "examples/min_value.py",
+  "normalized_length": 130,
+  "tests_passed": 7,
+  "tests_total": 7,
+  "created_at": "2026-10-28T14:16:00.784672+00:00",
+  "updated_at": "2026-10-28T14:16:00.784684+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/min_value.py"
+  ]
+}
