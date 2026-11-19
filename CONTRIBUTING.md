@@ -18,7 +18,7 @@ Thank you for considering a contribution!
 
 ### Development Setup
 ```bash
-git clone https://github.com/Stone-Project/Xylem.git
+git clone https://github.com/XylemProject/Xylem.git
 cd Xylem
 pip install -e .
 Then run:
