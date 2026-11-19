@@ -1,0 +1,10 @@
+[
+  {"args": [0], "expect": 0.0},
+  {"args": [1], "expect": 45.0},
+  {"args": [-1], "expect": -45.0},
+  {"args": [1.7320508075688772], "expect": 59.99999999999999},
+  {"args": [-0.5773502691896258], "expect": -30.000000000000004},
+  {"args": [Infinity], "expect": null},
+  {"args": [NaN], "expect": null},
+  {"args": [-Infinity], "expect": null}
+]

@@ -1,0 +1,8 @@
+{
+  "name": "atan_deg then clamp",
+  "expect": 30,
+  "steps": [
+    {"name": "xylem:math.atan_deg", "args": [1]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 30], "language": "python"}
+  ]
+}

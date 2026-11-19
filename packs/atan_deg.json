@@ -1,0 +1,8 @@
+{
+  "pack": "pack:math.atan_deg",
+  "description": "Atan deg, then clamp. Order only. Parameters stay in the run file.",
+  "order": [
+    "xylem:math.atan_deg",
+    "xylem:util.clamp"
+  ]
+}
