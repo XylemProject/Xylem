@@ -1,0 +1,8 @@
+{
+  "name": "copysign then clamp",
+  "expect": 5,
+  "steps": [
+    {"name": "xylem:math.copysign", "args": [-8, 1]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 5], "language": "python"}
+  ]
+}

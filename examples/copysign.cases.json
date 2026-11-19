@@ -1,0 +1,13 @@
+[
+  {"args": [2, -1], "expect": -2},
+  {"args": [-2, 1], "expect": 2},
+  {"args": [-2, -3], "expect": -2},
+  {"args": [2, 3], "expect": 2},
+  {"args": [0, -5], "expect": 0},
+  {"args": [5, 0], "expect": 5},
+  {"args": [2.5, -1], "expect": -2.5},
+  {"args": [-0.25, 4], "expect": 0.25},
+  {"args": [Infinity, 1], "expect": null},
+  {"args": [1, NaN], "expect": null},
+  {"args": [-3, -Infinity], "expect": null}
+]
