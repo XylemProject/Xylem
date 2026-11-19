@@ -1,8 +1,8 @@
 {
   "version": "v1",
   "content_hash": "2615c1dfd2d8e74d680156c21ba4ad5e198879517efaa80f3d6dbb1e9d0039b2",
-  "short_id": "stone-v1:2615c1dfd2d8e74d",
-  "hierarchical_name": "stone:health.heal",
+  "short_id": "xylem-v1:2615c1dfd2d8e74d",
+  "hierarchical_name": "xylem:health.heal",
   "function_name": "heal",
   "category": "health",
   "intent": "add health up to a maximum",

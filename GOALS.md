@@ -84,7 +84,7 @@ Actor-Director is a separate project. It may choose Xylem jobs later. It is not 
 - The C hash is now built from language, job, and function only.
 - A matching C file is skipped.
 - The six existing C entries were re-recorded under the new hash.
-- The old entries are backed up in `%TEMP%\stone_library_backup_rerecord`.
+- The old entries are backed up in `%TEMP%\xylem_library_backup_rerecord`.
 - A .rs file is handed to the Rust path if it has two comments:
   - `// xylem:job xylem:util.clamp`
   - `// xylem:function clamp_rs`

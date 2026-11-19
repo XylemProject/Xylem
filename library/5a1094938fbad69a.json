@@ -1,9 +1,9 @@
 {
   "version": "v1",
   "content_hash": "5a1094938fbad69ae18343f837564ef81b5792b90a38055c1cbd61e71eedf05e",
-  "short_id": "stone-v1:5a1094938fbad69a",
-  "hierarchical_name": "stone:math.inverse_sqrt_quake",
-  "job": "stone:math.inverse_sqrt",
+  "short_id": "xylem-v1:5a1094938fbad69a",
+  "hierarchical_name": "xylem:math.inverse_sqrt_quake",
+  "job": "xylem:math.inverse_sqrt",
   "timing_us": 1.559,
   "function_name": "inverse_sqrt_quake",
   "category": "math",

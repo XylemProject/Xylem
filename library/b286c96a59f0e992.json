@@ -1,8 +1,8 @@
 {
   "version": "v1",
   "content_hash": "b286c96a59f0e9924cce9960ba0757a1a058d962f6a2223372bd0e2a93659244",
-  "short_id": "stone-v1:b286c96a59f0e992",
-  "hierarchical_name": "stone:health.apply_damage",
+  "short_id": "xylem-v1:b286c96a59f0e992",
+  "hierarchical_name": "xylem:health.apply_damage",
   "function_name": "apply_damage",
   "category": "health",
   "intent": "subtract damage from health without going below zero",

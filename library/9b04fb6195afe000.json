@@ -1,8 +1,8 @@
 {
   "version": "v1",
   "content_hash": "9b04fb6195afe0004fa3f7e17cc78a34b5a33e58c67b74b9c64ea04a0d448ebe",
-  "short_id": "stone-v1:9b04fb6195afe000",
-  "hierarchical_name": "stone:math.fast_inverse_sqrt",
+  "short_id": "xylem-v1:9b04fb6195afe000",
+  "hierarchical_name": "xylem:math.fast_inverse_sqrt",
   "function_name": "fast_inverse_sqrt",
   "category": "math",
   "intent": "fast inverse square root like Quake",

@@ -1,8 +1,8 @@
 {
   "version": "v1",
   "content_hash": "b02974c2ee05632b092cf8f95da65f0ca05ce13828c787311d70d129540c929b",
-  "short_id": "stone-v1:b02974c2ee05632b",
-  "hierarchical_name": "stone:math.saturate",
+  "short_id": "xylem-v1:b02974c2ee05632b",
+  "hierarchical_name": "xylem:math.saturate",
   "function_name": "saturate",
   "category": "math",
   "intent": "clamp value into 0..1",

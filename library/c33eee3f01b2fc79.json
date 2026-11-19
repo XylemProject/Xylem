@@ -1,8 +1,8 @@
 {
   "version": "v1",
   "content_hash": "c33eee3f01b2fc793345f0dcbf998708bc1839e2bb2e038dd2537921ca3a3e1c",
-  "short_id": "stone-v1:c33eee3f01b2fc79",
-  "hierarchical_name": "stone:unknown.widget_frob",
+  "short_id": "xylem-v1:c33eee3f01b2fc79",
+  "hierarchical_name": "xylem:unknown.widget_frob",
   "function_name": "widget_frob",
   "category": "unknown",
   "intent": "placeholder loop helper",

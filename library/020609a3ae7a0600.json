@@ -1,8 +1,8 @@
 {
   "version": "v1",
   "content_hash": "020609a3ae7a0600b11ea90f91c1a107343a75ccaaef13dba84a80ba12fcb3d0",
-  "short_id": "stone-v1:020609a3ae7a0600",
-  "hierarchical_name": "stone:unknown.greet",
+  "short_id": "xylem-v1:020609a3ae7a0600",
+  "hierarchical_name": "xylem:unknown.greet",
   "function_name": "greet",
   "category": "unknown",
   "intent": "say hello to a name",
