@@ -2,7 +2,7 @@
   "pack": "pack:math.clamp11",
   "description": "Clamp11, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.clamp11",
-    "stone:util.clamp"
+    "xylem:math.clamp11",
+    "xylem:util.clamp"
   ]
 }

@@ -1,5 +1,5 @@
-// stone:job stone:math.cubic_in
-// stone:function cubic_in_rs
+// xylem:job xylem:math.cubic_in
+// xylem:function cubic_in_rs
 
 #[no_mangle]
 pub extern "C" fn cubic_in_rs(t: f64) -> f64 {

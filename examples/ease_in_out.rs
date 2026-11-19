@@ -1,5 +1,5 @@
-// stone:job stone:math.ease_in_out
-// stone:function ease_in_out_rs
+// xylem:job xylem:math.ease_in_out
+// xylem:function ease_in_out_rs
 
 #[no_mangle]
 pub extern "C" fn ease_in_out_rs(t: f64) -> f64 {

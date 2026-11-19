@@ -2,7 +2,7 @@
   "pack": "pack:math.floor_to",
   "description": "Floor_to, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.floor_to",
-    "stone:util.clamp"
+    "xylem:math.floor_to",
+    "xylem:util.clamp"
   ]
 }

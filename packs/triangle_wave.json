@@ -2,7 +2,7 @@
   "pack": "pack:math.triangle_wave",
   "description": "Triangle wave, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.triangle_wave",
-    "stone:util.clamp"
+    "xylem:math.triangle_wave",
+    "xylem:util.clamp"
   ]
 }

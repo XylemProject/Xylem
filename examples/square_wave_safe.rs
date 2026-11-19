@@ -1,5 +1,5 @@
-// stone:job stone:math.square_wave_safe
-// stone:function square_wave_safe_rs
+// xylem:job xylem:math.square_wave_safe
+// xylem:function square_wave_safe_rs
 
 #[no_mangle]
 pub extern "C" fn square_wave_safe_rs(x: f64) -> f64 {

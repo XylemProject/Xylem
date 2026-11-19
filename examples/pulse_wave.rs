@@ -1,5 +1,5 @@
-// stone:job stone:math.pulse_wave
-// stone:function pulse_wave_rs
+// xylem:job xylem:math.pulse_wave
+// xylem:function pulse_wave_rs
 
 #[no_mangle]
 pub extern "C" fn pulse_wave_rs(x: f64, duty: f64) -> f64 {

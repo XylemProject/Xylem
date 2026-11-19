@@ -2,7 +2,7 @@
   "pack": "pack:math.map_range",
   "description": "Map a range, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.map_range",
-    "stone:util.clamp"
+    "xylem:math.map_range",
+    "xylem:util.clamp"
   ]
 }

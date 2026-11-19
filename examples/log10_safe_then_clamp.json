@@ -2,7 +2,7 @@
   "name": "log10_safe then clamp",
   "expect": 2,
   "steps": [
-    {"name": "stone:math.log10_safe", "args": [1000]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 2], "language": "python"}
+    {"name": "xylem:math.log10_safe", "args": [1000]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 2], "language": "python"}
   ]
 }

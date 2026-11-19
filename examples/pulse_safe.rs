@@ -1,5 +1,5 @@
-// stone:job stone:math.pulse_safe
-// stone:function pulse_safe_rs
+// xylem:job xylem:math.pulse_safe
+// xylem:function pulse_safe_rs
 
 #[no_mangle]
 pub extern "C" fn pulse_safe_rs(x: f64, duty: f64) -> f64 {

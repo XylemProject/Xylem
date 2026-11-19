@@ -2,7 +2,7 @@
   "pack": "pack:math.smooth_max",
   "description": "Smooth max, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.smooth_max",
-    "stone:util.clamp"
+    "xylem:math.smooth_max",
+    "xylem:util.clamp"
   ]
 }

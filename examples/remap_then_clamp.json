@@ -2,7 +2,7 @@
   "name": "remap then clamp",
   "expect": 20,
   "steps": [
-    {"name": "stone:math.remap", "args": [5, 0, 10, 0, 100]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 20], "language": "python"}
+    {"name": "xylem:math.remap", "args": [5, 0, 10, 0, 100]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 20], "language": "python"}
   ]
 }

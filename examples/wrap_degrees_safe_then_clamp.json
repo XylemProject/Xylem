@@ -2,7 +2,7 @@
   "name": "wrap_degrees_safe then clamp",
   "expect": 45,
   "steps": [
-    {"name": "stone:math.wrap_degrees_safe", "args": [450]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 45], "language": "python"}
+    {"name": "xylem:math.wrap_degrees_safe", "args": [450]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 45], "language": "python"}
   ]
 }

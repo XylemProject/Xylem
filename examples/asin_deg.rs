@@ -1,5 +1,5 @@
-// stone:job stone:math.asin_deg
-// stone:function asin_deg_rs
+// xylem:job xylem:math.asin_deg
+// xylem:function asin_deg_rs
 
 #[no_mangle]
 pub extern "C" fn asin_deg_rs(x: f64) -> f64 {

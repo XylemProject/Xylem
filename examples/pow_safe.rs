@@ -1,5 +1,5 @@
-// stone:job stone:math.pow_safe
-// stone:function pow_safe_rs
+// xylem:job xylem:math.pow_safe
+// xylem:function pow_safe_rs
 
 #[no_mangle]
 pub extern "C" fn pow_safe_rs(base: f64, exponent: f64) -> f64 {

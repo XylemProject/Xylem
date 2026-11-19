@@ -1,5 +1,5 @@
-// stone:job stone:math.cbrt_safe
-// stone:function cbrt_safe_rs
+// xylem:job xylem:math.cbrt_safe
+// xylem:function cbrt_safe_rs
 
 #[no_mangle]
 pub extern "C" fn cbrt_safe_rs(x: f64) -> f64 {

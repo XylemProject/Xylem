@@ -1,5 +1,5 @@
-// stone:job stone:math.inverse_lerp_unclamped
-// stone:function inverse_lerp_unclamped_rs
+// xylem:job xylem:math.inverse_lerp_unclamped
+// xylem:function inverse_lerp_unclamped_rs
 
 #[no_mangle]
 pub extern "C" fn inverse_lerp_unclamped_rs(a: f64, b: f64, x: f64) -> f64 {

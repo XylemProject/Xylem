@@ -1,5 +1,5 @@
-// stone:job stone:math.remap_unclamped
-// stone:function remap_unclamped_rs
+// xylem:job xylem:math.remap_unclamped
+// xylem:function remap_unclamped_rs
 
 #[no_mangle]
 pub extern "C" fn remap_unclamped_rs(x: f64, in_min: f64, in_max: f64, out_min: f64, out_max: f64) -> f64 {

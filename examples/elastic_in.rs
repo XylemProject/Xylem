@@ -1,5 +1,5 @@
-// stone:job stone:math.elastic_in
-// stone:function elastic_in_rs
+// xylem:job xylem:math.elastic_in
+// xylem:function elastic_in_rs
 
 #[no_mangle]
 pub extern "C" fn elastic_in_rs(t: f64) -> f64 {

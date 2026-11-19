@@ -2,7 +2,7 @@
   "name": "zero then clamp",
   "expect": 0.5,
   "steps": [
-    {"name": "stone:math.zero", "args": [0]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 0.5], "language": "python"}
+    {"name": "xylem:math.zero", "args": [0]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 0.5], "language": "python"}
   ]
 }

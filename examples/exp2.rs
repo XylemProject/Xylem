@@ -1,5 +1,5 @@
-// stone:job stone:math.exp2
-// stone:function exp2_rs
+// xylem:job xylem:math.exp2
+// xylem:function exp2_rs
 
 #[no_mangle]
 pub extern "C" fn exp2_rs(x: f64) -> f64 {

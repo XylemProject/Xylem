@@ -1,5 +1,5 @@
-// stone:job stone:util.clamp
-// stone:function clamp_rs
+// xylem:job xylem:util.clamp
+// xylem:function clamp_rs
 
 #[no_mangle]
 pub extern "C" fn clamp_rs(value: i32, minimum: i32, maximum: i32) -> i32 {

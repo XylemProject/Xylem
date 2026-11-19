@@ -1,5 +1,5 @@
-// stone:job stone:math.bias_safe
-// stone:function bias_safe_rs
+// xylem:job xylem:math.bias_safe
+// xylem:function bias_safe_rs
 
 #[no_mangle]
 pub extern "C" fn bias_safe_rs(x: f64, bias: f64) -> f64 {

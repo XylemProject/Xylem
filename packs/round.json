@@ -2,7 +2,7 @@
   "pack": "pack:math.round",
   "description": "Round, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.round",
-    "stone:util.clamp"
+    "xylem:math.round",
+    "xylem:util.clamp"
   ]
 }

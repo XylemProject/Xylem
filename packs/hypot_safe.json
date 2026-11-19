@@ -2,7 +2,7 @@
   "pack": "pack:math.hypot_safe",
   "description": "Hypot safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.hypot_safe",
-    "stone:util.clamp"
+    "xylem:math.hypot_safe",
+    "xylem:util.clamp"
   ]
 }

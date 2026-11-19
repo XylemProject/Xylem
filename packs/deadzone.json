@@ -2,7 +2,7 @@
   "pack": "pack:math.deadzone",
   "description": "Apply a deadzone, then heal. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.deadzone",
-    "stone:health.heal"
+    "xylem:math.deadzone",
+    "xylem:health.heal"
   ]
 }

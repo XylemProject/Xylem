@@ -1,14 +1,14 @@
-# Stone goals
+# Xylem goals
 
 This file is the reference. Chat context is not.
 
-## What Stone is
+## What Xylem is
 
 A catalog of jobs. A hash names one job. A job may have more than one backend. A backend is allowed only if it passes the same cases. The caller uses a verified local backend and may prefer the faster one. Packs group jobs. A run file chains calls. Parameters stay outside the hash.
 
 Language is a label on a backend, not a separate folder. `call` may filter with `--language`. A missing language refuses. It does not fall through to another language.
 
-Actor-Director is a separate project. It may choose Stone jobs later. It is not part of this repo.
+Actor-Director is a separate project. It may choose Xylem jobs later. It is not part of this repo.
 
 ## What works
 
@@ -76,8 +76,8 @@ Actor-Director is a separate project. It may choose Stone jobs later. It is not 
 - hash-dir takes an optional category.
 - That category applies to new files only. A match is still skipped.
 - A .c file is handed to the C path if it has two comments:
-  - `// stone:job stone:util.clamp`
-  - `// stone:function clamp_c`
+  - `// xylem:job xylem:util.clamp`
+  - `// xylem:function clamp_c`
 - It needs a sibling .cases.json named `<file>.c.cases.json`.
 - It is compiled once, tested, and recorded only if every case passes.
 - If gcc is missing, it is refused.
@@ -86,19 +86,19 @@ Actor-Director is a separate project. It may choose Stone jobs later. It is not 
 - The six existing C entries were re-recorded under the new hash.
 - The old entries are backed up in `%TEMP%\stone_library_backup_rerecord`.
 - A .rs file is handed to the Rust path if it has two comments:
-  - `// stone:job stone:util.clamp`
-  - `// stone:function clamp_rs`
+  - `// xylem:job xylem:util.clamp`
+  - `// xylem:function clamp_rs`
 - It needs a sibling .cases.json named `<file>.rs.cases.json`.
 - It is currently refused with "Rust loader not implemented yet."
 - The C and Python paths are unchanged.
 - A .go file is handed to the Go path if it has two comments:
-  - `// stone:job stone:util.clamp`
-  - `// stone:function clamp_go`
+  - `// xylem:job xylem:util.clamp`
+  - `// xylem:function clamp_go`
 - It needs a sibling .cases.json named `<file>.go.cases.json`.
 - It is currently refused with "Go loader not implemented yet."
 - A .zig file is handed to the Zig path if it has two comments:
-  - `// stone:job stone:util.clamp`
-  - `// stone:function clamp_zig`
+  - `// xylem:job xylem:util.clamp`
+  - `// xylem:function clamp_zig`
 - It needs a sibling .cases.json named `<file>.zig.cases.json`.
 - It is currently refused with "Zig loader not implemented yet."
 - The C, Python, and Rust paths are unchanged.
@@ -116,7 +116,7 @@ Actor-Director is a separate project. It may choose Stone jobs later. It is not 
 - A new hash version comes only if the normalization rules change.
 
 ### Pure jobs only
-- Stone is for pure jobs.
+- Xylem is for pure jobs.
 - File reads, database writes, API calls, time, and randomness are out of scope for the current verification model.
 - Impure jobs can be added later under a different protocol.
 

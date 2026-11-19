@@ -2,7 +2,7 @@
   "name": "deg_lerp_safe then clamp",
   "expect": 30,
   "steps": [
-    {"name": "stone:math.deg_lerp_safe", "args": [0, 90, 0.5]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 30], "language": "python"}
+    {"name": "xylem:math.deg_lerp_safe", "args": [0, 90, 0.5]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 30], "language": "python"}
   ]
 }

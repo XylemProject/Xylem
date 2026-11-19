@@ -1,5 +1,5 @@
-// stone:job stone:math.angle_diff_deg
-// stone:function angle_diff_deg_rs
+// xylem:job xylem:math.angle_diff_deg
+// xylem:function angle_diff_deg_rs
 
 #[no_mangle]
 pub extern "C" fn angle_diff_deg_rs(a: i32, b: i32) -> i32 {

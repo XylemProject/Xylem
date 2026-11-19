@@ -2,7 +2,7 @@
   "name": "reciprocal then clamp",
   "expect": 2,
   "steps": [
-    {"name": "stone:math.reciprocal", "args": [0.25]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 2], "language": "python"}
+    {"name": "xylem:math.reciprocal", "args": [0.25]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 2], "language": "python"}
   ]
 }

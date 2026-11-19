@@ -2,7 +2,7 @@
   "pack": "pack:math.approach",
   "description": "Approach a target, then heal. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.approach",
-    "stone:health.heal"
+    "xylem:math.approach",
+    "xylem:health.heal"
   ]
 }

@@ -2,7 +2,7 @@
   "name": "angle_lerp_deg then clamp",
   "expect": 30,
   "steps": [
-    {"name": "stone:math.angle_lerp_deg", "args": [0, 90, 0.5]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 30], "language": "python"}
+    {"name": "xylem:math.angle_lerp_deg", "args": [0, 90, 0.5]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 30], "language": "python"}
   ]
 }

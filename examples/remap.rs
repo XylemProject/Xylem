@@ -1,5 +1,5 @@
-// stone:job stone:math.remap
-// stone:function remap_rs
+// xylem:job xylem:math.remap
+// xylem:function remap_rs
 
 #[no_mangle]
 pub extern "C" fn remap_rs(x: i32, in_min: i32, in_max: i32, out_min: i32, out_max: i32) -> i32 {

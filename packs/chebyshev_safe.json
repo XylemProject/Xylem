@@ -2,7 +2,7 @@
   "pack": "pack:math.chebyshev_safe",
   "description": "Chebyshev safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.chebyshev_safe",
-    "stone:util.clamp"
+    "xylem:math.chebyshev_safe",
+    "xylem:util.clamp"
   ]
 }

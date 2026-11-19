@@ -1,10 +1,10 @@
 Adding a language
 
-Stone does not invent a loader when it sees an unknown file. A person or an AI adds a language with this sequence. Skip a step and the file stays unrecognized or held.
+Xylem does not invent a loader when it sees an unknown file. A person or an AI adds a language with this sequence. Skip a step and the file stays unrecognized or held.
 
 1. Name it
 
-Add one row in stone/hasher/languages.py.
+Add one row in xylem/hasher/languages.py.
 
 - language: short name, such as rust
 - extensions: file suffixes, such as .rs
@@ -15,11 +15,11 @@ verify-examples can then say "known language, no loader yet" instead of "unknown
 
 2. Do not install the tool
 
-Stone does not download a compiler. The how-to can name the install command. The user runs it. If the tool is missing, the verifier says the loader exists and the tool is missing.
+Xylem does not download a compiler. The how-to can name the install command. The user runs it. If the tool is missing, the verifier says the loader exists and the tool is missing.
 
 3. Add a caller
 
-A caller compiles or loads one local file and calls one symbol. Python's caller is the importer. C's caller is stone/hasher/c_caller.py. A new language gets its own file. It does not share the C compiler flags.
+A caller compiles or loads one local file and calls one symbol. Python's caller is the importer. C's caller is xylem/hasher/c_caller.py. A new language gets its own file. It does not share the C compiler flags.
 
 The caller must:
 

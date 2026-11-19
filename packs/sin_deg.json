@@ -2,7 +2,7 @@
   "pack": "pack:math.sin_deg",
   "description": "Sin deg, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.sin_deg",
-    "stone:util.clamp"
+    "xylem:math.sin_deg",
+    "xylem:util.clamp"
   ]
 }

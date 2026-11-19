@@ -2,7 +2,7 @@
   "pack": "pack:math.remap_safe",
   "description": "Remap safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.remap_safe",
-    "stone:util.clamp"
+    "xylem:math.remap_safe",
+    "xylem:util.clamp"
   ]
 }

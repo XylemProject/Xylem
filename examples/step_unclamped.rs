@@ -1,5 +1,5 @@
-// stone:job stone:math.step_unclamped
-// stone:function step_unclamped_rs
+// xylem:job xylem:math.step_unclamped
+// xylem:function step_unclamped_rs
 
 #[no_mangle]
 pub extern "C" fn step_unclamped_rs(edge: f64, x: f64, width: f64) -> f64 {

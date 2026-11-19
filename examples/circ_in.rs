@@ -1,5 +1,5 @@
-// stone:job stone:math.circ_in
-// stone:function circ_in_rs
+// xylem:job xylem:math.circ_in
+// xylem:function circ_in_rs
 
 #[no_mangle]
 pub extern "C" fn circ_in_rs(t: f64) -> f64 {

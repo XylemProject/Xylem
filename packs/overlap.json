@@ -2,6 +2,6 @@
   "pack": "pack:physics.overlap",
   "description": "Axis-aligned overlap. One job. Parameters stay in the run file.",
   "order": [
-    "stone:physics.aabb_overlap"
+    "xylem:physics.aabb_overlap"
   ]
 }

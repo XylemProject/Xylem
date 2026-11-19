@@ -1,5 +1,5 @@
-// stone:job stone:math.square
-// stone:function square_rs
+// xylem:job xylem:math.square
+// xylem:function square_rs
 
 #[no_mangle]
 pub extern "C" fn square_rs(value: i32) -> i32 {

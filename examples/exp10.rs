@@ -1,5 +1,5 @@
-// stone:job stone:math.exp10
-// stone:function exp10_rs
+// xylem:job xylem:math.exp10
+// xylem:function exp10_rs
 
 #[no_mangle]
 pub extern "C" fn exp10_rs(x: f64) -> f64 {

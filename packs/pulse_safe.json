@@ -2,7 +2,7 @@
   "pack": "pack:math.pulse_safe",
   "description": "Pulse safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.pulse_safe",
-    "stone:util.clamp"
+    "xylem:math.pulse_safe",
+    "xylem:util.clamp"
   ]
 }

@@ -1,5 +1,5 @@
-// stone:job stone:math.elastic_out
-// stone:function elastic_out_rs
+// xylem:job xylem:math.elastic_out
+// xylem:function elastic_out_rs
 
 #[no_mangle]
 pub extern "C" fn elastic_out_rs(t: f64) -> f64 {

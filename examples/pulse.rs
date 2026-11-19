@@ -1,5 +1,5 @@
-// stone:job stone:math.pulse
-// stone:function pulse_rs
+// xylem:job xylem:math.pulse
+// xylem:function pulse_rs
 
 #[no_mangle]
 pub extern "C" fn pulse_rs(x: f64, low: f64, high: f64) -> f64 {

@@ -2,7 +2,7 @@
   "pack": "pack:math.log2_safe",
   "description": "Log2 safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.log2_safe",
-    "stone:util.clamp"
+    "xylem:math.log2_safe",
+    "xylem:util.clamp"
   ]
 }

@@ -2,7 +2,7 @@
   "pack": "pack:math.eq",
   "description": "Eq, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.eq",
-    "stone:util.clamp"
+    "xylem:math.eq",
+    "xylem:util.clamp"
   ]
 }

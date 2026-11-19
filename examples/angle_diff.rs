@@ -1,5 +1,5 @@
-// stone:job stone:math.angle_diff
-// stone:function angle_diff_rs
+// xylem:job xylem:math.angle_diff
+// xylem:function angle_diff_rs
 
 #[no_mangle]
 pub extern "C" fn angle_diff_rs(a: f64, b: f64) -> f64 {

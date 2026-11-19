@@ -2,7 +2,7 @@
   "pack": "pack:math.cubic_out",
   "description": "Cubic_out, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.cubic_out",
-    "stone:util.clamp"
+    "xylem:math.cubic_out",
+    "xylem:util.clamp"
   ]
 }

@@ -2,7 +2,7 @@
   "name": "hypot_deg then clamp",
   "expect": 30,
   "steps": [
-    {"name": "stone:math.hypot_deg", "args": [3, 4]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 30], "language": "python"}
+    {"name": "xylem:math.hypot_deg", "args": [3, 4]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 30], "language": "python"}
   ]
 }

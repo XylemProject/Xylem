@@ -1,5 +1,5 @@
-// stone:job stone:math.deg_lerp_safe
-// stone:function deg_lerp_safe_rs
+// xylem:job xylem:math.deg_lerp_safe
+// xylem:function deg_lerp_safe_rs
 
 #[no_mangle]
 pub extern "C" fn deg_lerp_safe_rs(a: f64, b: f64, t: f64) -> f64 {

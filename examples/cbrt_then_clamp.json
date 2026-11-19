@@ -2,7 +2,7 @@
   "name": "cbrt then clamp",
   "expect": 2,
   "steps": [
-    {"name": "stone:math.cbrt", "args": [27]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 2], "language": "python"}
+    {"name": "xylem:math.cbrt", "args": [27]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 2], "language": "python"}
   ]
 }

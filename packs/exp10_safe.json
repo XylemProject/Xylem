@@ -2,7 +2,7 @@
   "pack": "pack:math.exp10_safe",
   "description": "Exp10 safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.exp10_safe",
-    "stone:util.clamp"
+    "xylem:math.exp10_safe",
+    "xylem:util.clamp"
   ]
 }

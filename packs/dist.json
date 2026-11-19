@@ -2,7 +2,7 @@
   "pack": "pack:math.dist",
   "description": "Dist, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.dist",
-    "stone:util.clamp"
+    "xylem:math.dist",
+    "xylem:util.clamp"
   ]
 }

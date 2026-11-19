@@ -1,5 +1,5 @@
-// stone:job stone:math.clamp_angle_safe
-// stone:function clamp_angle_safe_rs
+// xylem:job xylem:math.clamp_angle_safe
+// xylem:function clamp_angle_safe_rs
 
 #[no_mangle]
 pub extern "C" fn clamp_angle_safe_rs(a: f64, lo: f64, hi: f64) -> f64 {

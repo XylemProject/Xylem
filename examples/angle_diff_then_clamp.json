@@ -2,7 +2,7 @@
   "name": "angle_diff then clamp",
   "expect": 0.2,
   "steps": [
-    {"name": "stone:math.angle_diff", "args": [3, -3]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 0.2], "language": "python"}
+    {"name": "xylem:math.angle_diff", "args": [3, -3]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 0.2], "language": "python"}
   ]
 }

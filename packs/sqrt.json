@@ -2,7 +2,7 @@
   "pack": "pack:math.sqrt",
   "description": "Sqrt, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.sqrt",
-    "stone:util.clamp"
+    "xylem:math.sqrt",
+    "xylem:util.clamp"
   ]
 }

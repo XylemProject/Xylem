@@ -2,7 +2,7 @@
   "pack": "pack:math.acos_deg",
   "description": "Acos deg, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.acos_deg",
-    "stone:util.clamp"
+    "xylem:math.acos_deg",
+    "xylem:util.clamp"
   ]
 }

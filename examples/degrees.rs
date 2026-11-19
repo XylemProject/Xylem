@@ -1,5 +1,5 @@
-// stone:job stone:math.degrees
-// stone:function degrees_rs
+// xylem:job xylem:math.degrees
+// xylem:function degrees_rs
 
 #[no_mangle]
 pub extern "C" fn degrees_rs(r: f64) -> f64 {

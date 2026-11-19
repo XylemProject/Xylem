@@ -2,7 +2,7 @@
   "pack": "pack:math.square",
   "description": "Square, then heal. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.square",
-    "stone:health.heal"
+    "xylem:math.square",
+    "xylem:health.heal"
   ]
 }

@@ -2,7 +2,7 @@
   "pack": "pack:math.damp_safe",
   "description": "Damp safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.damp_safe",
-    "stone:util.clamp"
+    "xylem:math.damp_safe",
+    "xylem:util.clamp"
   ]
 }

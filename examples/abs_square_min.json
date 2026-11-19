@@ -2,8 +2,8 @@
   "name": "abs square min",
   "expect": 10,
   "steps": [
-    {"name": "stone:math.abs_value", "args": [-4]},
-    {"name": "stone:math.square", "args": ["$prev"]},
-    {"name": "stone:math.min_value", "args": ["$prev", 10]}
+    {"name": "xylem:math.abs_value", "args": [-4]},
+    {"name": "xylem:math.square", "args": ["$prev"]},
+    {"name": "xylem:math.min_value", "args": ["$prev", 10]}
   ]
 }

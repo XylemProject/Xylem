@@ -2,7 +2,7 @@
   "pack": "pack:math.saw_wave",
   "description": "Saw wave, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.saw_wave",
-    "stone:util.clamp"
+    "xylem:math.saw_wave",
+    "xylem:util.clamp"
   ]
 }

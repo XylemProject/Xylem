@@ -1,5 +1,5 @@
-// stone:job stone:math.exp2_safe
-// stone:function exp2_safe_rs
+// xylem:job xylem:math.exp2_safe
+// xylem:function exp2_safe_rs
 
 #[no_mangle]
 pub extern "C" fn exp2_safe_rs(x: f64) -> f64 {

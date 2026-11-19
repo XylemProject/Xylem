@@ -2,7 +2,7 @@
   "pack": "pack:math.cube",
   "description": "Cube, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.cube",
-    "stone:util.clamp"
+    "xylem:math.cube",
+    "xylem:util.clamp"
   ]
 }

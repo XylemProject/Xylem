@@ -2,7 +2,7 @@
   "name": "floor then clamp",
   "expect": 5,
   "steps": [
-    {"name": "stone:math.floor", "args": [7.8]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 5], "language": "python"}
+    {"name": "xylem:math.floor", "args": [7.8]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 5], "language": "python"}
   ]
 }

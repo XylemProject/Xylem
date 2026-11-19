@@ -1,5 +1,5 @@
-// stone:job stone:health.heal
-// stone:function heal_rs
+// xylem:job xylem:health.heal
+// xylem:function heal_rs
 
 #[no_mangle]
 pub extern "C" fn heal_rs(health: i32, amount: i32, max_health: i32) -> i32 {

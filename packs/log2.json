@@ -2,7 +2,7 @@
   "pack": "pack:math.log2",
   "description": "Log2, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.log2",
-    "stone:util.clamp"
+    "xylem:math.log2",
+    "xylem:util.clamp"
   ]
 }

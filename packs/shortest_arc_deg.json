@@ -2,7 +2,7 @@
   "pack": "pack:math.shortest_arc_deg",
   "description": "Shortest arc deg, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.shortest_arc_deg",
-    "stone:util.clamp"
+    "xylem:math.shortest_arc_deg",
+    "xylem:util.clamp"
   ]
 }

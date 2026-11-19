@@ -2,7 +2,7 @@
   "pack": "pack:math.zero",
   "description": "Zero, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.zero",
-    "stone:util.clamp"
+    "xylem:math.zero",
+    "xylem:util.clamp"
   ]
 }

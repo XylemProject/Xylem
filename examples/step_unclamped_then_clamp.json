@@ -2,7 +2,7 @@
   "name": "step_unclamped then clamp",
   "expect": 1,
   "steps": [
-    {"name": "stone:math.step_unclamped", "args": [0, 2, 1]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 1], "language": "python"}
+    {"name": "xylem:math.step_unclamped", "args": [0, 2, 1]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 1], "language": "python"}
   ]
 }

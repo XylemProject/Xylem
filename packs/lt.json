@@ -2,7 +2,7 @@
   "pack": "pack:math.lt",
   "description": "Lt, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.lt",
-    "stone:util.clamp"
+    "xylem:math.lt",
+    "xylem:util.clamp"
   ]
 }

@@ -2,7 +2,7 @@
   "pack": "pack:math.triangle",
   "description": "Triangle, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.triangle",
-    "stone:util.clamp"
+    "xylem:math.triangle",
+    "xylem:util.clamp"
   ]
 }

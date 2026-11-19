@@ -1,5 +1,5 @@
-// stone:job stone:math.saturate_safe
-// stone:function saturate_safe_rs
+// xylem:job xylem:math.saturate_safe
+// xylem:function saturate_safe_rs
 
 #[no_mangle]
 pub extern "C" fn saturate_safe_rs(value: f64) -> f64 {

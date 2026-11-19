@@ -2,7 +2,7 @@
   "name": "mod then clamp",
   "expect": 1,
   "steps": [
-    {"name": "stone:math.mod", "args": [17, 5]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 1], "language": "python"}
+    {"name": "xylem:math.mod", "args": [17, 5]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 1], "language": "python"}
   ]
 }

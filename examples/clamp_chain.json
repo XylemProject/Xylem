@@ -2,7 +2,7 @@
   "name": "clamp then confirm",
   "expect": 1,
   "steps": [
-    {"name": "stone:util.clamp", "args": [5, 0, 1], "language": "python"},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 10], "language": "c"}
+    {"name": "xylem:util.clamp", "args": [5, 0, 1], "language": "python"},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 10], "language": "c"}
   ]
 }

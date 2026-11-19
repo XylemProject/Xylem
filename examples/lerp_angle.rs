@@ -1,5 +1,5 @@
-// stone:job stone:math.lerp_angle
-// stone:function lerp_angle_rs
+// xylem:job xylem:math.lerp_angle
+// xylem:function lerp_angle_rs
 
 #[no_mangle]
 pub extern "C" fn lerp_angle_rs(a: f64, b: f64, t: f64) -> f64 {

@@ -1,5 +1,5 @@
-// stone:job stone:math.noise1
-// stone:function noise1_rs
+// xylem:job xylem:math.noise1
+// xylem:function noise1_rs
 
 #[no_mangle]
 pub extern "C" fn noise1_rs(x: f64) -> f64 {

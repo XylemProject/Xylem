@@ -2,7 +2,7 @@
   "pack": "pack:math.sine_in",
   "description": "Sine_in, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.sine_in",
-    "stone:util.clamp"
+    "xylem:math.sine_in",
+    "xylem:util.clamp"
   ]
 }

@@ -2,7 +2,7 @@
   "pack": "pack:math.wrap_pi",
   "description": "Wrap pi, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.wrap_pi",
-    "stone:util.clamp"
+    "xylem:math.wrap_pi",
+    "xylem:util.clamp"
   ]
 }

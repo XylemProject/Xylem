@@ -11,7 +11,7 @@ def load_c(source_file: str, function_name: str, arg_count: int):
         raise RuntimeError("C backend requested, no gcc or clang on PATH")
     build_dir = os.path.join(os.getcwd(), "build")
     os.makedirs(build_dir, exist_ok=True)
-    dll_path = os.path.join(build_dir, "stone_c.dll")
+    dll_path = os.path.join(build_dir, "xylem_c.dll")
     command = [gcc, "-shared", "-o", dll_path, source_file, "-Wl,--export-all-symbols"]
     built = subprocess.run(command, capture_output=True, text=True)
     if built.returncode != 0:

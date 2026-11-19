@@ -2,7 +2,7 @@
   "pack": "pack:math.max2",
   "description": "Max2, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.max2",
-    "stone:util.clamp"
+    "xylem:math.max2",
+    "xylem:util.clamp"
   ]
 }

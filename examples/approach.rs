@@ -1,5 +1,5 @@
-// stone:job stone:math.approach
-// stone:function approach_rs
+// xylem:job xylem:math.approach
+// xylem:function approach_rs
 
 #[no_mangle]
 pub extern "C" fn approach_rs(current: i32, target: i32, mut step: i32) -> i32 {

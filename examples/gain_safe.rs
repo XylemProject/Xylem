@@ -1,5 +1,5 @@
-// stone:job stone:math.gain_safe
-// stone:function gain_safe_rs
+// xylem:job xylem:math.gain_safe
+// xylem:function gain_safe_rs
 
 #[no_mangle]
 pub extern "C" fn gain_safe_rs(x: f64) -> f64 {

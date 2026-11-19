@@ -2,7 +2,7 @@
   "name": "inc then clamp",
   "expect": 5,
   "steps": [
-    {"name": "stone:math.inc", "args": [7]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 5], "language": "python"}
+    {"name": "xylem:math.inc", "args": [7]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 5], "language": "python"}
   ]
 }

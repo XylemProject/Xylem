@@ -1,5 +1,5 @@
-// stone:job stone:math.fade
-// stone:function fade_rs
+// xylem:job xylem:math.fade
+// xylem:function fade_rs
 
 #[no_mangle]
 pub extern "C" fn fade_rs(t: f64) -> f64 {

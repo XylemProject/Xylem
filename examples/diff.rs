@@ -1,5 +1,5 @@
-// stone:job stone:math.diff
-// stone:function diff_rs
+// xylem:job xylem:math.diff
+// xylem:function diff_rs
 
 #[no_mangle]
 pub extern "C" fn diff_rs(x: f64, y: f64) -> f64 {

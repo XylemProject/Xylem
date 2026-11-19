@@ -2,7 +2,7 @@
   "pack": "pack:math.ease_out",
   "description": "Ease_out, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.ease_out",
-    "stone:util.clamp"
+    "xylem:math.ease_out",
+    "xylem:util.clamp"
   ]
 }

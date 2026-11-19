@@ -2,7 +2,7 @@
   "name": "max2 then clamp",
   "expect": 5,
   "steps": [
-    {"name": "stone:math.max2", "args": [3, 7]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 5], "language": "python"}
+    {"name": "xylem:math.max2", "args": [3, 7]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 5], "language": "python"}
   ]
 }

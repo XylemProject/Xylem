@@ -1,5 +1,5 @@
-// stone:job stone:math.clamp_angle
-// stone:function clamp_angle_rs
+// xylem:job xylem:math.clamp_angle
+// xylem:function clamp_angle_rs
 
 #[no_mangle]
 pub extern "C" fn clamp_angle_rs(a: i32, lo: i32, hi: i32) -> i32 {

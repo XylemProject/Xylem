@@ -1,5 +1,5 @@
-// stone:job stone:math.log
-// stone:function log_rs
+// xylem:job xylem:math.log
+// xylem:function log_rs
 
 #[no_mangle]
 pub extern "C" fn log_rs(x: f64) -> f64 {

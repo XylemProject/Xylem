@@ -2,7 +2,7 @@
   "pack": "pack:math.avg",
   "description": "Avg, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.avg",
-    "stone:util.clamp"
+    "xylem:math.avg",
+    "xylem:util.clamp"
   ]
 }

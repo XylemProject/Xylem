@@ -75,7 +75,7 @@ def load_python_function(function_name: str, filepath: str = ""):
     if not os.path.exists(candidate):
         return None
     try:
-        spec = importlib.util.spec_from_file_location("stone_test_mod", candidate)
+        spec = importlib.util.spec_from_file_location("xylem_test_mod", candidate)
         if spec is None or spec.loader is None:
             return None
         module = importlib.util.module_from_spec(spec)

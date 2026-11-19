@@ -1,5 +1,5 @@
-// stone:job stone:math.sign
-// stone:function sign_rs
+// xylem:job xylem:math.sign
+// xylem:function sign_rs
 
 #[no_mangle]
 pub extern "C" fn sign_rs(value: i32) -> i32 {

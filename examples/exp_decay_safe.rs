@@ -1,5 +1,5 @@
-// stone:job stone:math.exp_decay_safe
-// stone:function exp_decay_safe_rs
+// xylem:job xylem:math.exp_decay_safe
+// xylem:function exp_decay_safe_rs
 
 #[no_mangle]
 pub extern "C" fn exp_decay_safe_rs(value: f64, rate: f64, t: f64) -> f64 {

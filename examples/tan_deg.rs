@@ -1,5 +1,5 @@
-// stone:job stone:math.tan_deg
-// stone:function tan_deg_rs
+// xylem:job xylem:math.tan_deg
+// xylem:function tan_deg_rs
 
 #[no_mangle]
 pub extern "C" fn tan_deg_rs(d: f64) -> f64 {

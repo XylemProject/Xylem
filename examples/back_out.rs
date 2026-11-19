@@ -1,5 +1,5 @@
-// stone:job stone:math.back_out
-// stone:function back_out_rs
+// xylem:job xylem:math.back_out
+// xylem:function back_out_rs
 
 #[no_mangle]
 pub extern "C" fn back_out_rs(t: f64) -> f64 {

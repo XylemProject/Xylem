@@ -2,7 +2,7 @@
   "pack": "pack:math.diff",
   "description": "Diff, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.diff",
-    "stone:util.clamp"
+    "xylem:math.diff",
+    "xylem:util.clamp"
   ]
 }

@@ -2,7 +2,7 @@
   "pack": "pack:math.positive",
   "description": "Positive, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.positive",
-    "stone:util.clamp"
+    "xylem:math.positive",
+    "xylem:util.clamp"
   ]
 }

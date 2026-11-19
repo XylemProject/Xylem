@@ -2,7 +2,7 @@
   "pack": "pack:math.smoothstep_safe",
   "description": "Smoothstep safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.smoothstep_safe",
-    "stone:util.clamp"
+    "xylem:math.smoothstep_safe",
+    "xylem:util.clamp"
   ]
 }

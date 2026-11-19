@@ -1,5 +1,5 @@
-// stone:job stone:math.triangle_wave_safe
-// stone:function triangle_wave_safe_rs
+// xylem:job xylem:math.triangle_wave_safe
+// xylem:function triangle_wave_safe_rs
 
 #[no_mangle]
 pub extern "C" fn triangle_wave_safe_rs(x: f64) -> f64 {

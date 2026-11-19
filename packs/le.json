@@ -2,7 +2,7 @@
   "pack": "pack:math.le",
   "description": "Le, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.le",
-    "stone:util.clamp"
+    "xylem:math.le",
+    "xylem:util.clamp"
   ]
 }

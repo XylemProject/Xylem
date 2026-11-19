@@ -2,7 +2,7 @@
   "pack": "pack:math.circ_in",
   "description": "Circ_in, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.circ_in",
-    "stone:util.clamp"
+    "xylem:math.circ_in",
+    "xylem:util.clamp"
   ]
 }

@@ -2,7 +2,7 @@
   "pack": "pack:math.quart_in",
   "description": "Quart_in, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.quart_in",
-    "stone:util.clamp"
+    "xylem:math.quart_in",
+    "xylem:util.clamp"
   ]
 }

@@ -1,5 +1,5 @@
-// stone:job stone:math.manhattan_safe
-// stone:function manhattan_safe_rs
+// xylem:job xylem:math.manhattan_safe
+// xylem:function manhattan_safe_rs
 
 #[no_mangle]
 pub extern "C" fn manhattan_safe_rs(x1: f64, y1: f64, x2: f64, y2: f64) -> f64 {

@@ -2,7 +2,7 @@
   "pack": "pack:math.pulse_wave",
   "description": "Pulse wave, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.pulse_wave",
-    "stone:util.clamp"
+    "xylem:math.pulse_wave",
+    "xylem:util.clamp"
   ]
 }

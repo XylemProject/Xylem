@@ -1,15 +1,15 @@
-# Stone Hash Engine
+# Xylem Hash Engine
 
 Design document. The current repo is an auto-hasher MVP, not a running game engine.
 
 ## Pitch
 
 A game should ship keys, not private copies of every long function.
-Stone opens a pre-tested implementation. Actor-Director decides what stays baked and what must go live.
+Xylem opens a pre-tested implementation. Actor-Director decides what stays baked and what must go live.
 
 ## Layers
 
-1. **Stone hashes** — packed, versioned, tested function implementations
+1. **Xylem hashes** — packed, versioned, tested function implementations
 2. **Baked world** — stable rules/results that do not need live simulation
 3. **Director + Actors** — track only the objects that actually changed
 
@@ -20,7 +20,7 @@ Live inputs still have to be supplied. The function body should already be built
 
 - Parse a file and extract a function name
 - Normalize + basic tests, including a Python import check
-- SHA-256 content hash with `stone-v1:` short IDs
+- SHA-256 content hash with `xylem-v1:` short IDs
 - Local JSON library with list / show / delete
 - Duplicate detection
 

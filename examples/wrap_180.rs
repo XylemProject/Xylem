@@ -1,5 +1,5 @@
-// stone:job stone:math.wrap_180
-// stone:function wrap_180_rs
+// xylem:job xylem:math.wrap_180
+// xylem:function wrap_180_rs
 
 #[no_mangle]
 pub extern "C" fn wrap_180_rs(d: i32) -> i32 {

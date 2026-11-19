@@ -1,5 +1,5 @@
-// stone:job stone:math.quad_in_out
-// stone:function quad_in_out_rs
+// xylem:job xylem:math.quad_in_out
+// xylem:function quad_in_out_rs
 
 #[no_mangle]
 pub extern "C" fn quad_in_out_rs(t: f64) -> f64 {

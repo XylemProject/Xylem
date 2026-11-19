@@ -1,5 +1,5 @@
-// stone:job stone:math.cubic_out
-// stone:function cubic_out_rs
+// xylem:job xylem:math.cubic_out
+// xylem:function cubic_out_rs
 
 #[no_mangle]
 pub extern "C" fn cubic_out_rs(t: f64) -> f64 {

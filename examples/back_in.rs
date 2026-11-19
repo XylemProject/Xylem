@@ -1,5 +1,5 @@
-// stone:job stone:math.back_in
-// stone:function back_in_rs
+// xylem:job xylem:math.back_in
+// xylem:function back_in_rs
 
 #[no_mangle]
 pub extern "C" fn back_in_rs(t: f64) -> f64 {

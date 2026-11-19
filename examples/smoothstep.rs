@@ -1,5 +1,5 @@
-// stone:job stone:math.smoothstep
-// stone:function smoothstep_rs
+// xylem:job xylem:math.smoothstep
+// xylem:function smoothstep_rs
 
 #[no_mangle]
 pub extern "C" fn smoothstep_rs(edge0: f64, edge1: f64, x: f64) -> f64 {

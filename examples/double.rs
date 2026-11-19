@@ -1,5 +1,5 @@
-// stone:job stone:math.double
-// stone:function double_rs
+// xylem:job xylem:math.double
+// xylem:function double_rs
 
 #[no_mangle]
 pub extern "C" fn double_rs(x: f64) -> f64 {

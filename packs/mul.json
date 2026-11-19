@@ -2,7 +2,7 @@
   "pack": "pack:math.mul",
   "description": "Mul, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.mul",
-    "stone:util.clamp"
+    "xylem:math.mul",
+    "xylem:util.clamp"
   ]
 }

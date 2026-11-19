@@ -1,12 +1,12 @@
 {
-  "pack": "stone:pack.math_util",
+  "pack": "xylem:pack.math_util",
   "description": "Small starter pack of common numeric helpers",
   "order": [
-    "stone:math.fast_inverse_sqrt",
-    "stone:math.lerp",
-    "stone:math.map_range",
-    "stone:math.saturate",
-    "stone:util.clamp"
+    "xylem:math.fast_inverse_sqrt",
+    "xylem:math.lerp",
+    "xylem:math.map_range",
+    "xylem:math.saturate",
+    "xylem:util.clamp"
   ],
   "notes": "Atoms stay separate. This file only lists run/group order."
 }

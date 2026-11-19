@@ -1,9 +1,9 @@
 {
-  "pack": "stone:pack.physics_basic",
+  "pack": "xylem:pack.physics_basic",
   "description": "Basic motion helpers",
   "order": [
-    "stone:physics.apply_gravity",
-    "stone:physics.aabb_overlap"
+    "xylem:physics.apply_gravity",
+    "xylem:physics.aabb_overlap"
   ],
   "notes": "Gravity is a parameter. Collision stays its own atom."
 }

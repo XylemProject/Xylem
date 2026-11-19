@@ -2,7 +2,7 @@
   "pack": "pack:math.smooth_min",
   "description": "Smooth min, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.smooth_min",
-    "stone:util.clamp"
+    "xylem:math.smooth_min",
+    "xylem:util.clamp"
   ]
 }

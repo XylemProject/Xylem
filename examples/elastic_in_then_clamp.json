@@ -2,7 +2,7 @@
   "name": "elastic_in then clamp",
   "expect": 0,
   "steps": [
-    {"name": "stone:math.elastic_in", "args": [1.5]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 1], "language": "python"}
+    {"name": "xylem:math.elastic_in", "args": [1.5]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 1], "language": "python"}
   ]
 }

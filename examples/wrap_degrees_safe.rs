@@ -1,5 +1,5 @@
-// stone:job stone:math.wrap_degrees_safe
-// stone:function wrap_degrees_safe_rs
+// xylem:job xylem:math.wrap_degrees_safe
+// xylem:function wrap_degrees_safe_rs
 
 #[no_mangle]
 pub extern "C" fn wrap_degrees_safe_rs(d: f64) -> f64 {

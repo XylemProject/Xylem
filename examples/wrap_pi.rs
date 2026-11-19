@@ -1,5 +1,5 @@
-// stone:job stone:math.wrap_pi
-// stone:function wrap_pi_rs
+// xylem:job xylem:math.wrap_pi
+// xylem:function wrap_pi_rs
 
 #[no_mangle]
 pub extern "C" fn wrap_pi_rs(a: f64) -> f64 {

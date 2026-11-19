@@ -2,7 +2,7 @@
   "name": "odd then clamp",
   "expect": 0.5,
   "steps": [
-    {"name": "stone:math.odd", "args": [7]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 0.5], "language": "python"}
+    {"name": "xylem:math.odd", "args": [7]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 0.5], "language": "python"}
   ]
 }

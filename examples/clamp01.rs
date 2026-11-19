@@ -1,5 +1,5 @@
-// stone:job stone:math.clamp01
-// stone:function clamp01_rs
+// xylem:job xylem:math.clamp01
+// xylem:function clamp01_rs
 
 #[no_mangle]
 pub extern "C" fn clamp01_rs(x: f64) -> f64 {

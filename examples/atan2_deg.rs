@@ -1,5 +1,5 @@
-// stone:job stone:math.atan2_deg
-// stone:function atan2_deg_rs
+// xylem:job xylem:math.atan2_deg
+// xylem:function atan2_deg_rs
 
 #[no_mangle]
 pub extern "C" fn atan2_deg_rs(y: i32, x: i32) -> i32 {

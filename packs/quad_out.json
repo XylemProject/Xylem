@@ -2,7 +2,7 @@
   "pack": "pack:math.quad_out",
   "description": "Quad_out, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.quad_out",
-    "stone:util.clamp"
+    "xylem:math.quad_out",
+    "xylem:util.clamp"
   ]
 }

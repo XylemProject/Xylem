@@ -1,4 +1,4 @@
-# Stone library module - versioned hashing + storage
+# Xylem library module - versioned hashing + storage
 import json
 import os
 from datetime import datetime, timezone
@@ -13,7 +13,7 @@ def ensure_library_dir():
 def make_hierarchical_name(category: str, function_name: str) -> str:
     cat = (category or "unknown").strip().lower().replace(" ", "_")
     name = (function_name or "unknown").strip().lower().replace(" ", "_")
-    return f"stone:{cat}.{name}"
+    return f"xylem:{cat}.{name}"
 
 def get_hash_path(content_hash: str) -> str:
     short_id = content_hash[:16]
@@ -45,7 +45,7 @@ def save_hash(
     ensure_library_dir()
 
     short_id = content_hash[:16]
-    full_short_id = f"stone-{HASH_VERSION}:{short_id}"
+    full_short_id = f"xylem-{HASH_VERSION}:{short_id}"
     hierarchical_name = make_hierarchical_name(category, function_name)
     filepath = get_hash_path(content_hash)
 
@@ -100,15 +100,18 @@ def save_external(source_file: str, function_name: str, job: str, language: str,
     language = (language or "c").strip().lower()
     function_name = (function_name or "unknown").strip()
     job = (job or "").strip()
-    content_hash = hashlib_sha(f"{language}:{job}:{function_name}")
+    # External ids were first built under the old "stone:" job prefix. Hash with that
+    # prefix so the rename to "xylem:" keeps every existing content hash unchanged.
+    hash_job = "stone:" + job[len("xylem:"):] if job.startswith("xylem:") else job
+    content_hash = hashlib_sha(f"{language}:{hash_job}:{function_name}")
     short_id = content_hash[:16]
     filepath = get_hash_path(content_hash)
     existing = load_hash(content_hash)
     entry = {
         "version": HASH_VERSION,
         "content_hash": content_hash,
-        "short_id": f"stone-{HASH_VERSION}:{short_id}",
-        "hierarchical_name": f"stone:{language}.{function_name}",
+        "short_id": f"xylem-{HASH_VERSION}:{short_id}",
+        "hierarchical_name": f"xylem:{language}.{function_name}",
         "job": job,
         "language": language,
         "timing_us": None,
@@ -160,7 +163,7 @@ def list_hashes():
     return entries
 
 def get_by_short_id(short_id: str):
-    clean_id = short_id.replace("stone-v1:", "").replace("stone:", "").strip()
+    clean_id = short_id.replace("xylem-v1:", "").replace("stone-v1:", "").replace("xylem:", "").replace("stone:", "").strip()
     filepath = os.path.join(LIBRARY_DIR, f"{clean_id}.json")
     if not os.path.exists(filepath):
         return None
@@ -171,7 +174,7 @@ def get_by_short_id(short_id: str):
         return None
 
 def delete_hash(short_id: str) -> bool:
-    clean_id = short_id.replace("stone-v1:", "").replace("stone:", "").strip()
+    clean_id = short_id.replace("xylem-v1:", "").replace("stone-v1:", "").replace("xylem:", "").replace("stone:", "").strip()
     filepath = os.path.join(LIBRARY_DIR, f"{clean_id}.json")
     if not os.path.exists(filepath):
         return False

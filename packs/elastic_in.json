@@ -2,7 +2,7 @@
   "pack": "pack:math.elastic_in",
   "description": "Elastic_in, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.elastic_in",
-    "stone:util.clamp"
+    "xylem:math.elastic_in",
+    "xylem:util.clamp"
   ]
 }

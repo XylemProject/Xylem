@@ -2,8 +2,8 @@
   "name": "order b",
   "expect": 5,
   "steps": [
-    {"name": "stone:math.min_value", "args": [3, 9]},
-    {"name": "stone:math.abs_value", "args": ["$prev"]},
-    {"name": "stone:math.max_value", "args": ["$prev", 5]}
+    {"name": "xylem:math.min_value", "args": [3, 9]},
+    {"name": "xylem:math.abs_value", "args": ["$prev"]},
+    {"name": "xylem:math.max_value", "args": ["$prev", 5]}
   ]
 }

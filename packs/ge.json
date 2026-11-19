@@ -2,7 +2,7 @@
   "pack": "pack:math.ge",
   "description": "Ge, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.ge",
-    "stone:util.clamp"
+    "xylem:math.ge",
+    "xylem:util.clamp"
   ]
 }

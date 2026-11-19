@@ -2,7 +2,7 @@
   "pack": "pack:math.exp",
   "description": "Exp, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.exp",
-    "stone:util.clamp"
+    "xylem:math.exp",
+    "xylem:util.clamp"
   ]
 }

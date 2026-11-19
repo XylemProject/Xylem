@@ -1,5 +1,5 @@
-// stone:job stone:math.deadzone
-// stone:function deadzone_rs
+// xylem:job xylem:math.deadzone
+// xylem:function deadzone_rs
 
 #[no_mangle]
 pub extern "C" fn deadzone_rs(value: f64, threshold: f64) -> f64 {

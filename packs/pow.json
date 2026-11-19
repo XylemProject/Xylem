@@ -2,7 +2,7 @@
   "pack": "pack:math.pow",
   "description": "Pow, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.pow",
-    "stone:util.clamp"
+    "xylem:math.pow",
+    "xylem:util.clamp"
   ]
 }

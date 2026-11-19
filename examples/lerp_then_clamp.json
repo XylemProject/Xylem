@@ -2,7 +2,7 @@
   "name": "lerp then clamp",
   "expect": 4,
   "steps": [
-    {"name": "stone:math.lerp", "args": [0, 10, 0.5]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 4], "language": "python"}
+    {"name": "xylem:math.lerp", "args": [0, 10, 0.5]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 4], "language": "python"}
   ]
 }

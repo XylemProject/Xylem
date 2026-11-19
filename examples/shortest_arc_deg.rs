@@ -1,5 +1,5 @@
-// stone:job stone:math.shortest_arc_deg
-// stone:function shortest_arc_deg_rs
+// xylem:job xylem:math.shortest_arc_deg
+// xylem:function shortest_arc_deg_rs
 
 #[no_mangle]
 pub extern "C" fn shortest_arc_deg_rs(a: i32, b: i32) -> i32 {

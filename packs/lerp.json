@@ -2,7 +2,7 @@
   "pack": "pack:math.lerp",
   "description": "Lerp, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.lerp",
-    "stone:util.clamp"
+    "xylem:math.lerp",
+    "xylem:util.clamp"
   ]
 }

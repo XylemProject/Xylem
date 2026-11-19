@@ -2,7 +2,7 @@
   "pack": "pack:math.expo_in",
   "description": "Expo_in, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.expo_in",
-    "stone:util.clamp"
+    "xylem:math.expo_in",
+    "xylem:util.clamp"
   ]
 }

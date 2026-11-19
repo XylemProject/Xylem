@@ -1,4 +1,4 @@
-# Contributing to Stone
+# Contributing to Xylem
 
 Thank you for considering a contribution!
 
@@ -10,7 +10,7 @@ Thank you for considering a contribution!
    - You must confirm in your PR: "This is original or from allowed sources."
 
 2. **Hashing Workflow**
-   - Use `stone hash-function` to add new functions.
+   - Use `xylem hash-function` to add new functions.
    - All submissions must pass the automatic test suite.
 
 3. **Code of Conduct**
@@ -18,11 +18,11 @@ Thank you for considering a contribution!
 
 ### Development Setup
 ```bash
-git clone https://github.com/stone-lang/stone.git
-cd stone
+git clone https://github.com/Stone-Project/Xylem.git
+cd Xylem
 pip install -e .
 Then run:
-Bashstone hash-function examples/test_func.py
+xylem hash-function examples/test_func.py
 We welcome:
 
 New hashed functions

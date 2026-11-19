@@ -2,7 +2,7 @@
   "pack": "pack:physics.step",
   "description": "Gravity, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:physics.apply_gravity",
-    "stone:util.clamp"
+    "xylem:physics.apply_gravity",
+    "xylem:util.clamp"
   ]
 }

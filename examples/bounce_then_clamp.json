@@ -2,7 +2,7 @@
   "name": "bounce then clamp",
   "expect": 0.5,
   "steps": [
-    {"name": "stone:math.bounce", "args": [1]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 0.5], "language": "python"}
+    {"name": "xylem:math.bounce", "args": [1]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 0.5], "language": "python"}
   ]
 }

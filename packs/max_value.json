@@ -2,7 +2,7 @@
   "pack": "pack:math.max",
   "description": "Maximum of two numbers, then heal. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.max_value",
-    "stone:health.heal"
+    "xylem:math.max_value",
+    "xylem:health.heal"
   ]
 }

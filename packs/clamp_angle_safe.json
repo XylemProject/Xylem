@@ -2,7 +2,7 @@
   "pack": "pack:math.clamp_angle_safe",
   "description": "Clamp angle safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.clamp_angle_safe",
-    "stone:util.clamp"
+    "xylem:math.clamp_angle_safe",
+    "xylem:util.clamp"
   ]
 }

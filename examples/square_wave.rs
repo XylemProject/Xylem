@@ -1,5 +1,5 @@
-// stone:job stone:math.square_wave
-// stone:function square_wave_rs
+// xylem:job xylem:math.square_wave
+// xylem:function square_wave_rs
 
 #[no_mangle]
 pub extern "C" fn square_wave_rs(x: f64) -> f64 {

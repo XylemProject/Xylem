@@ -2,7 +2,7 @@
   "name": "circ_in_out then clamp",
   "expect": 0.5,
   "steps": [
-    {"name": "stone:math.circ_in_out", "args": [0.625]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 0.5], "language": "python"}
+    {"name": "xylem:math.circ_in_out", "args": [0.625]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 0.5], "language": "python"}
   ]
 }

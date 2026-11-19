@@ -2,7 +2,7 @@
   "pack": "pack:math.lerp_angle",
   "description": "Lerp angle, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.lerp_angle",
-    "stone:util.clamp"
+    "xylem:math.lerp_angle",
+    "xylem:util.clamp"
   ]
 }

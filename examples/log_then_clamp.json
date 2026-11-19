@@ -2,7 +2,7 @@
   "name": "log then clamp",
   "expect": 2.302585092994046,
   "steps": [
-    {"name": "stone:math.log", "args": [10]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 3], "language": "python"}
+    {"name": "xylem:math.log", "args": [10]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 3], "language": "python"}
   ]
 }

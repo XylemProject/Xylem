@@ -2,7 +2,7 @@
   "pack": "pack:math.saturate_safe",
   "description": "Saturate safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.saturate_safe",
-    "stone:util.clamp"
+    "xylem:math.saturate_safe",
+    "xylem:util.clamp"
   ]
 }

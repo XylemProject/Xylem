@@ -1,5 +1,5 @@
-// stone:job stone:math.log_safe
-// stone:function log_safe_rs
+// xylem:job xylem:math.log_safe
+// xylem:function log_safe_rs
 
 #[no_mangle]
 pub extern "C" fn log_safe_rs(x: f64) -> f64 {

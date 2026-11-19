@@ -1,5 +1,5 @@
-// stone:job stone:math.remap_safe
-// stone:function remap_safe_rs
+// xylem:job xylem:math.remap_safe
+// xylem:function remap_safe_rs
 
 #[no_mangle]
 pub extern "C" fn remap_safe_rs(x: f64, in_min: f64, in_max: f64, out_min: f64, out_max: f64) -> f64 {

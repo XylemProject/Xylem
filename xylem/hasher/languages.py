@@ -44,7 +44,7 @@ def describe_languages():
 
 
 def admit_source(path: str):
-    """Say what Stone can do with a file. Does not download a compiler or invent a loader."""
+    """Say what Xylem can do with a file. Does not download a compiler or invent a loader."""
     row = language_for_path(path)
     if row is None:
         return {"ok": False, "reason": "unknown language, no loader"}

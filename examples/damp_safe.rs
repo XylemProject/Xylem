@@ -1,5 +1,5 @@
-// stone:job stone:math.damp_safe
-// stone:function damp_safe_rs
+// xylem:job xylem:math.damp_safe
+// xylem:function damp_safe_rs
 
 #[no_mangle]
 pub extern "C" fn damp_safe_rs(current: f64, target: f64, rate: f64, dt: f64) -> f64 {

@@ -2,7 +2,7 @@
   "pack": "pack:math.hypot3",
   "description": "Hypot3, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.hypot3",
-    "stone:util.clamp"
+    "xylem:math.hypot3",
+    "xylem:util.clamp"
   ]
 }

@@ -2,7 +2,7 @@
   "pack": "pack:math.gain",
   "description": "Gain, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.gain",
-    "stone:util.clamp"
+    "xylem:math.gain",
+    "xylem:util.clamp"
   ]
 }

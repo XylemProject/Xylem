@@ -2,7 +2,7 @@
   "pack": "pack:physics.drag",
   "description": "Apply drag, then heal. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:physics.apply_drag",
-    "stone:health.heal"
+    "xylem:physics.apply_drag",
+    "xylem:health.heal"
   ]
 }

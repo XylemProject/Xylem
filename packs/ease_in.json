@@ -2,7 +2,7 @@
   "pack": "pack:math.ease_in",
   "description": "Ease_in, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.ease_in",
-    "stone:util.clamp"
+    "xylem:math.ease_in",
+    "xylem:util.clamp"
   ]
 }

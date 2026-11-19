@@ -2,7 +2,7 @@
   "pack": "pack:math.mod",
   "description": "Mod, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.mod",
-    "stone:util.clamp"
+    "xylem:math.mod",
+    "xylem:util.clamp"
   ]
 }

@@ -43,12 +43,12 @@ def load_rust(source_file: str, function_name: str, arg_count: int):
     build_dir = os.path.join(os.getcwd(), "build")
     os.makedirs(build_dir, exist_ok=True)
     safe = "".join(ch if ch.isalnum() or ch in "-_" else "_" for ch in function_name) or "fn"
-    dll_path = os.path.join(build_dir, f"stone_rs_{safe}.dll")
+    dll_path = os.path.join(build_dir, f"xylem_rs_{safe}.dll")
     command = [rustc, "--crate-type", "cdylib", "-O", "-o", dll_path, source_file]
     built = subprocess.run(command, capture_output=True, text=True)
     if built.returncode != 0:
         # Windows may lock a prior DLL; fall back to a unique output path.
-        dll_path = os.path.join(build_dir, f"stone_rs_{safe}_{os.getpid()}.dll")
+        dll_path = os.path.join(build_dir, f"xylem_rs_{safe}_{os.getpid()}.dll")
         command = [rustc, "--crate-type", "cdylib", "-O", "-o", dll_path, source_file]
         built = subprocess.run(command, capture_output=True, text=True)
         if built.returncode != 0:

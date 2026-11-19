@@ -1,5 +1,5 @@
-// stone:job stone:math.expo_in
-// stone:function expo_in_rs
+// xylem:job xylem:math.expo_in
+// xylem:function expo_in_rs
 
 #[no_mangle]
 pub extern "C" fn expo_in_rs(t: f64) -> f64 {

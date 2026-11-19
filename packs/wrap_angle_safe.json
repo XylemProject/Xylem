@@ -2,7 +2,7 @@
   "pack": "pack:math.wrap_angle_safe",
   "description": "Wrap angle safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.wrap_angle_safe",
-    "stone:util.clamp"
+    "xylem:math.wrap_angle_safe",
+    "xylem:util.clamp"
   ]
 }

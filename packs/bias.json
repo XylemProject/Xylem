@@ -2,7 +2,7 @@
   "pack": "pack:math.bias",
   "description": "Bias, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.bias",
-    "stone:util.clamp"
+    "xylem:math.bias",
+    "xylem:util.clamp"
   ]
 }

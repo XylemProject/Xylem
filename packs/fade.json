@@ -2,7 +2,7 @@
   "pack": "pack:math.fade",
   "description": "Fade, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.fade",
-    "stone:util.clamp"
+    "xylem:math.fade",
+    "xylem:util.clamp"
   ]
 }

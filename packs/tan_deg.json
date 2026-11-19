@@ -2,7 +2,7 @@
   "pack": "pack:math.tan_deg",
   "description": "Tan deg, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.tan_deg",
-    "stone:util.clamp"
+    "xylem:math.tan_deg",
+    "xylem:util.clamp"
   ]
 }

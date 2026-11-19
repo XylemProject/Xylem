@@ -1,5 +1,5 @@
-// stone:job stone:math.wrap_angle
-// stone:function wrap_angle_rs
+// xylem:job xylem:math.wrap_angle
+// xylem:function wrap_angle_rs
 
 #[no_mangle]
 pub extern "C" fn wrap_angle_rs(a: f64) -> f64 {

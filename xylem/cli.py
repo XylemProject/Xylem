@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Stone CLI"""
+"""Xylem CLI"""
 
 import sys
 import os
@@ -57,11 +57,11 @@ def extract_category(argv):
 
 def print_help():
     print("""
-Stone - Semantic Function Hashing CLI
+Xylem - Semantic Function Hashing CLI
 =====================================
 
 Usage:
-  python -m stone.cli <command> [arguments]
+  python -m xylem.cli <command> [arguments]
 
 Commands:
   hash-function <file> [--intent "what it does"] [--depends name ...] [--job name] [--language python] [--category name]
@@ -86,12 +86,12 @@ Commands:
   help
 
 Examples:
-  python -m stone.cli hash-function examples/inverse_sqrt_quake.py --intent "fast inverse square root" --job stone:math.inverse_sqrt
-  python -m stone.cli backends stone:math.inverse_sqrt
-  python -m stone.cli call stone:math.inverse_sqrt 4 --backend inverse_sqrt_quake
-  python -m stone.cli run examples/health_turn.json
-  python -m stone.cli list math
-  python -m stone.cli show stone-v1:9b04fb6195afe000
+  python -m xylem.cli hash-function examples/inverse_sqrt_quake.py --intent "fast inverse square root" --job xylem:math.inverse_sqrt
+  python -m xylem.cli backends xylem:math.inverse_sqrt
+  python -m xylem.cli call xylem:math.inverse_sqrt 4 --backend inverse_sqrt_quake
+  python -m xylem.cli run examples/health_turn.json
+  python -m xylem.cli list math
+  python -m xylem.cli show xylem-v1:9b04fb6195afe000
 """)
 
 def print_entries(entries):
@@ -99,7 +99,7 @@ def print_entries(entries):
         print("No matching hashes.")
         return
 
-    print(f"Stone Library ({len(entries)} entries)\n")
+    print(f"Xylem Library ({len(entries)} entries)\n")
     for entry in entries:
         print(f"  {entry.get('short_id')}")
         print(f"     Name    : {entry.get('hierarchical_name', 'n/a')}")
@@ -127,7 +127,7 @@ def load_entry_function(entry):
     function_name = entry.get("function_name") or ""
     if not source or not os.path.isfile(source):
         raise FileNotFoundError(f"Source file not found: {source}")
-    spec = importlib.util.spec_from_file_location("stone_call_mod", source)
+    spec = importlib.util.spec_from_file_location("xylem_call_mod", source)
     if spec is None or spec.loader is None:
         raise RuntimeError(f"Could not load {source}")
     module = importlib.util.module_from_spec(spec)
@@ -346,7 +346,7 @@ def set_category(short_id: str, category: str):
     data["category"] = category
     name = entry.get("function_name") or entry.get("name") or ""
     if name:
-        data["hierarchical_name"] = f"stone:{category}.{name}"
+        data["hierarchical_name"] = f"xylem:{category}.{name}"
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
     print(f"Category: {category}")
@@ -377,12 +377,12 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
                 with open(path, "r", encoding="utf-8") as f:
                     for line in f:
                         text = line.strip()
-                        if text.startswith("// stone:job "):
-                            zig_job = text[len("// stone:job "):].strip()
-                        elif text.startswith("// stone:function "):
-                            zig_function = text[len("// stone:function "):].strip()
+                        if text.startswith("// xylem:job "):
+                            zig_job = text[len("// xylem:job "):].strip()
+                        elif text.startswith("// xylem:function "):
+                            zig_function = text[len("// xylem:function "):].strip()
                 if not zig_job or not zig_function:
-                    print(f"{name} Refused. No stone:job or stone:function.")
+                    print(f"{name} Refused. No xylem:job or xylem:function.")
                     failed += 1
                     refused += 1
                     continue
@@ -399,12 +399,12 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
                 with open(path, "r", encoding="utf-8") as f:
                     for line in f:
                         text = line.strip()
-                        if text.startswith("// stone:job "):
-                            go_job = text[len("// stone:job "):].strip()
-                        elif text.startswith("// stone:function "):
-                            go_function = text[len("// stone:function "):].strip()
+                        if text.startswith("// xylem:job "):
+                            go_job = text[len("// xylem:job "):].strip()
+                        elif text.startswith("// xylem:function "):
+                            go_function = text[len("// xylem:function "):].strip()
                 if not go_job or not go_function:
-                    print(f"{name} Refused. No stone:job or stone:function.")
+                    print(f"{name} Refused. No xylem:job or xylem:function.")
                     failed += 1
                     refused += 1
                     continue
@@ -421,12 +421,12 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
                 with open(path, "r", encoding="utf-8") as f:
                     for line in f:
                         text = line.strip()
-                        if text.startswith("// stone:job "):
-                            rs_job = text[len("// stone:job "):].strip()
-                        elif text.startswith("// stone:function "):
-                            rs_function = text[len("// stone:function "):].strip()
+                        if text.startswith("// xylem:job "):
+                            rs_job = text[len("// xylem:job "):].strip()
+                        elif text.startswith("// xylem:function "):
+                            rs_function = text[len("// xylem:function "):].strip()
                 if not rs_job or not rs_function:
-                    print(f"{name} Refused. No stone:job or stone:function.")
+                    print(f"{name} Refused. No xylem:job or xylem:function.")
                     failed += 1
                     refused += 1
                     continue
@@ -445,7 +445,7 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
                 if rs_ok:
                     build_dir = os.path.join(os.getcwd(), "build")
                     os.makedirs(build_dir, exist_ok=True)
-                    dll_path = os.path.join(build_dir, "stone_rs.dll")
+                    dll_path = os.path.join(build_dir, "xylem_rs.dll")
                     built = subprocess.run([rustc, "--crate-type", "cdylib", "-O", "-o", dll_path, path], capture_output=True, text=True)
                     if built.returncode != 0:
                         print(built.stderr, end="")
@@ -476,7 +476,7 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
                     skipped += 1
                     continue
                 recorded = subprocess.run(
-                    [sys.executable, "-m", "stone.cli", "record-external", path, "--job", rs_job, "--language", "rust", "--function", rs_function],
+                    [sys.executable, "-m", "xylem.cli", "record-external", path, "--job", rs_job, "--language", "rust", "--function", rs_function],
                     capture_output=True,
                     text=True,
                 )
@@ -494,12 +494,12 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
                 with open(path, "r", encoding="utf-8") as f:
                     for line in f:
                         text = line.strip()
-                        if text.startswith("// stone:job "):
-                            c_job = text[len("// stone:job "):].strip()
-                        elif text.startswith("// stone:function "):
-                            c_function = text[len("// stone:function "):].strip()
+                        if text.startswith("// xylem:job "):
+                            c_job = text[len("// xylem:job "):].strip()
+                        elif text.startswith("// xylem:function "):
+                            c_function = text[len("// xylem:function "):].strip()
                 if not c_job or not c_function:
-                    print(f"{name} Refused. No stone:job or stone:function.")
+                    print(f"{name} Refused. No xylem:job or xylem:function.")
                     failed += 1
                     refused += 1
                     continue
@@ -548,7 +548,7 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
                     skipped += 1
                     continue
                 result = subprocess.run(
-                    [sys.executable, "-m", "stone.cli", "record-external", path, "--job", c_job, "--language", "c", "--function", c_function],
+                    [sys.executable, "-m", "xylem.cli", "record-external", path, "--job", c_job, "--language", "c", "--function", c_function],
                     capture_output=True, text=True
                 )
                 print(result.stdout, end="")
@@ -568,7 +568,7 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
             continue
         print(f"--- {name}")
         report = subprocess.run(
-            [sys.executable, "-m", "stone.cli", "report", path],
+            [sys.executable, "-m", "xylem.cli", "report", path],
             capture_output=True, text=True
         )
         if report.returncode != 0:
@@ -598,7 +598,7 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
                 print(f"{name} Untested. Saved to shelf.")
                 failed += 1
                 continue
-        argv = [sys.executable, "-m", "stone.cli", "hash-function", path]
+        argv = [sys.executable, "-m", "xylem.cli", "hash-function", path]
         if category:
             argv += ["--category", category]
         if job:
@@ -974,7 +974,7 @@ def main():
         if not files:
             print("No pack files found.")
             return
-        print(f"Stone Packs ({len(files)})\n")
+        print(f"Xylem Packs ({len(files)})\n")
         for name in sorted(files):
             path = os.path.join(pack_dir, name)
             try:

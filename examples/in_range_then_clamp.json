@@ -2,7 +2,7 @@
   "name": "in_range then clamp",
   "expect": 0.5,
   "steps": [
-    {"name": "stone:math.in_range", "args": [5, 0, 10]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 0.5], "language": "python"}
+    {"name": "xylem:math.in_range", "args": [5, 0, 10]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 0.5], "language": "python"}
   ]
 }

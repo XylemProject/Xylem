@@ -2,7 +2,7 @@
   "name": "hermite then clamp",
   "expect": 0,
   "steps": [
-    {"name": "stone:math.hermite", "args": [2]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 1], "language": "python"}
+    {"name": "xylem:math.hermite", "args": [2]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 1], "language": "python"}
   ]
 }

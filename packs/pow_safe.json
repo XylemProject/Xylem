@@ -2,7 +2,7 @@
   "pack": "pack:math.pow_safe",
   "description": "Pow safe, then clamp. Order only. Parameters stay in the run file.",
   "order": [
-    "stone:math.pow_safe",
-    "stone:util.clamp"
+    "xylem:math.pow_safe",
+    "xylem:util.clamp"
   ]
 }

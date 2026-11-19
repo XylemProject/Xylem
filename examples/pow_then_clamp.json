@@ -2,7 +2,7 @@
   "name": "pow then clamp",
   "expect": 5,
   "steps": [
-    {"name": "stone:math.pow", "args": [2, 3]},
-    {"name": "stone:util.clamp", "args": ["$prev", 0, 5], "language": "python"}
+    {"name": "xylem:math.pow", "args": [2, 3]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 5], "language": "python"}
   ]
 }

@@ -1,5 +1,5 @@
-// stone:job stone:math.smooth_min
-// stone:function smooth_min_rs
+// xylem:job xylem:math.smooth_min
+// xylem:function smooth_min_rs
 
 #[no_mangle]
 pub extern "C" fn smooth_min_rs(a: f64, b: f64, k: f64) -> f64 {

@@ -1,5 +1,5 @@
-// stone:job stone:math.bounce_out
-// stone:function bounce_out_rs
+// xylem:job xylem:math.bounce_out
+// xylem:function bounce_out_rs
 
 #[no_mangle]
 pub extern "C" fn bounce_out_rs(t: f64) -> f64 {
