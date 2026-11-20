@@ -1,3 +1,6 @@
+// xylem:job xylem:util.clamp
+// xylem:function clamp_c
+
 int clamp_c(int value, int minimum, int maximum) {
     if (value < minimum) {
         return minimum;
