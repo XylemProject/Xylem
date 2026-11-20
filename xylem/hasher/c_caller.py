@@ -110,7 +110,7 @@ def load_c(source_file: str, function_name: str, arg_count: int):
     digest = _source_digest(source_file)
     key = (os.path.abspath(source_file), function_name, arg_count, digest)
     if key in _loaded:
-        return _loaded[key]
+        return _loaded[key][0]
     ret_kind, arg_kinds = parse_c_signature(source_file, arg_count)
     gcc = find_gcc()
     if not gcc:
@@ -138,7 +138,7 @@ def load_c(source_file: str, function_name: str, arg_count: int):
         encoded = [_encode_arg(item, kind) for item, kind in zip(args, arg_kinds)]
         return _decode_result(raw_fn(*encoded), ret_kind)
 
-    _loaded[key] = wrapper
+    _loaded[key] = (wrapper, raw_fn, ret_kind, arg_kinds)
     return wrapper
 
 def call_c(source_file: str, function_name: str, args: list):
@@ -146,19 +146,29 @@ def call_c(source_file: str, function_name: str, args: list):
     return fn(*args)
 
 def time_c(source_file: str, function_name: str, cases: list):
-    """Time calls only. Compile happens once and is not included."""
+    """Time calls only. Compile happens once and is not included.
+
+    Matches time_rust: encode arguments once, then time the raw ctypes
+    function. Encode/decode stay on call_c; they are not part of the bench.
+    """
     if not cases:
         return None
     arg_count = len(cases[0].get("args") or [])
-    fn = load_c(source_file, function_name, arg_count)
-    prepared = [list(case.get("args") or []) for case in cases]
+    load_c(source_file, function_name, arg_count)
+    digest = _source_digest(source_file)
+    key = (os.path.abspath(source_file), function_name, arg_count, digest)
+    _wrapper, raw_fn, _ret_kind, arg_kinds = _loaded[key]
+    prepared = []
+    for case in cases:
+        args = case.get("args") or []
+        prepared.append([_encode_arg(item, kind) for item, kind in zip(args, arg_kinds)])
     for args in prepared:
-        fn(*args)
+        raw_fn(*args)
     loops = 300
     start = time.perf_counter()
     for _ in range(loops):
         for args in prepared:
-            fn(*args)
+            raw_fn(*args)
     elapsed = time.perf_counter() - start
     return round((elapsed / (loops * max(len(prepared), 1))) * 1_000_000, 3)
 
