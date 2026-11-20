@@ -1,0 +1,12 @@
+[
+  {"args": [100, 30], "expect": 70},
+  {"args": [10, 25], "expect": 0},
+  {"args": [10, 0], "expect": 10},
+  {"args": [100, 100], "expect": 0},
+  {"args": [0, 10], "expect": 0},
+  {"args": [50, -10], "expect": 60},
+  {"args": [10.5, 2.5], "expect": 8.0},
+  {"args": [5, 5], "expect": 0},
+  {"args": [1, 0], "expect": 1},
+  {"args": [0, 0], "expect": 0}
+]
