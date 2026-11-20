@@ -21,6 +21,8 @@ Xylem does not download a compiler. The how-to can name the install command. The
 
 A caller compiles or loads one local file and calls one symbol. Python's caller is the importer. C's caller is xylem/hasher/c_caller.py. A new language gets its own file. It does not share the C compiler flags.
 
+C defaults to int arguments and an int return. An optional `// xylem:signature double(double, double)` marker on the .c file selects double; a NaN result is returned as None. With no marker, existing int backends stay unchanged.
+
 The caller must:
 
 - refuse if the tool is not on PATH

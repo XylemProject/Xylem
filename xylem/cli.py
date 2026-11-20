@@ -19,7 +19,7 @@ from .hasher.normalizer import normalize
 from .hasher.tester import run_basic_tests, is_safe_for_hashing
 from .hasher.library import save_hash, save_external, list_hashes, get_by_short_id, delete_hash, search_by_intent, decide_status, find_by_name, find_backends, get_hash_path
 from .hasher.categorize import guess_category
-from .hasher.c_caller import call_c, time_c, find_gcc, load_c
+from .hasher.c_caller import call_c, time_c, find_gcc, load_c, c_values_equal
 from .hasher.rust_caller import call_rust, time_rust, find_rustc, load_rust
 from .hasher.languages import describe_languages, admit_source
 
@@ -196,7 +196,7 @@ def call_hash(name: str, raw_args: list, quiet: bool = False, backend: str = "",
                 args = [parse_call_arg(item) for item in raw_args]
                 result = call_c(external.get("source_file"), external.get("function_name"), args)
                 expected = expected_for_c(external.get("source_file"), args)
-                if expected is not None and result != expected:
+                if expected is not None and not c_values_equal(result, expected):
                     print(f"C result {result} did not match expected {expected}")
                     sys.exit(1)
                 if not quiet:
@@ -524,12 +524,12 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
                         c_ok = False
                 for case in c_cases if c_ok else []:
                     try:
-                        actual = int(c_fn(*[int(item) for item in case.get("args", [])]))
+                        actual = c_fn(*(case.get("args") or []))
                     except Exception as e:
                         print(f"Case error: {e}")
                         c_ok = False
                         break
-                    if actual != case.get("expect"):
+                    if not c_values_equal(actual, case.get("expect")):
                         print(f"Case failed: got {actual}, expected {case.get('expect')}")
                         c_ok = False
                         break
