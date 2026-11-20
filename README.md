@@ -30,6 +30,6 @@ Do not paste proprietary engine code. Do not execute untrusted uploads. Unknown 
 
 Status
 
-Catalog starter. Hashes, names, intents, packs, dependency checks, and result cases exist. Multiple language backends, a caller, and web scraping do not.
+Catalog starter. Hashes, names, intents, packs, dependency checks, result cases, and a local caller exist. Jobs may have Python, C, and Rust backends. Web scraping does not.
 
 Xylem core is MIT. Actor-Director is a separate project.

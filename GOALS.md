@@ -21,8 +21,8 @@ Actor-Director is a separate project. It may choose Xylem jobs later. It is not 
 - Packs and verify. Missing jobs are reported, not downloaded.
 - `call` and `run`. `$prev` passes the last result. A run `expect` fails the chain if the final value does not match.
 - `--backend` forces one verified backend. `--language` filters by language.
-- `bench` re-times verified Python backends and a recorded C backend. Timing is local and is not part of the hash. C bench time excludes compile.
-- `record-external` can note a non-Python pass. For C it says the entry can be called if `gcc` is on PATH.
+- `bench` re-times verified Python, C, and Rust backends. Timing is local and is not part of the hash. C and Rust bench time excludes compile.
+- `record-external` can note a non-Python pass. C can be called if `gcc` is on PATH. Rust can be called if `rustc` is on PATH.
 - A C call prints Expect from the sibling cases file and exits if the result does not match.
 - `ADDING_A_LANGUAGE.md` documents how to add a loader. The verifier does not invent one.
 - Publish stays off. `library/` stays off GitHub.
@@ -81,6 +81,7 @@ Actor-Director is a separate project. It may choose Xylem jobs later. It is not 
 - It needs a sibling .cases.json named `<file>.c.cases.json`.
 - It is compiled once, tested, and recorded only if every case passes.
 - If gcc is missing, it is refused.
+- An optional `// xylem:signature` marker selects double arguments and return; the default is int. The C caller compiles a per-function -O2 DLL.
 - The C hash is now built from language, job, and function only.
 - A matching C file is skipped.
 - The six existing C entries were re-recorded under the new hash.
@@ -89,18 +90,18 @@ Actor-Director is a separate project. It may choose Xylem jobs later. It is not 
   - `// xylem:job xylem:util.clamp`
   - `// xylem:function clamp_rs`
 - It needs a sibling .cases.json named `<file>.rs.cases.json`.
-- It is currently refused with "Rust loader not implemented yet."
+- The Rust caller compiles a per-function optimized DLL, runs the cases, and records the backend only if every case passes. If rustc is missing, it is refused. About 206 Rust backends exist.
 - The C and Python paths are unchanged.
 - A .go file is handed to the Go path if it has two comments:
   - `// xylem:job xylem:util.clamp`
   - `// xylem:function clamp_go`
 - It needs a sibling .cases.json named `<file>.go.cases.json`.
-- It is currently refused with "Go loader not implemented yet."
+- It is currently refused with "Go loader not implemented yet." Go still needs a toolchain and a caller.
 - A .zig file is handed to the Zig path if it has two comments:
   - `// xylem:job xylem:util.clamp`
   - `// xylem:function clamp_zig`
 - It needs a sibling .cases.json named `<file>.zig.cases.json`.
-- It is currently refused with "Zig loader not implemented yet."
+- It is currently refused with "Zig loader not implemented yet." Zig still needs a toolchain and a caller.
 - The C, Python, and Rust paths are unchanged.
 
 ## Decisions (2026-10-29)
@@ -129,15 +130,15 @@ Actor-Director is a separate project. It may choose Xylem jobs later. It is not 
 
 ### Catalog
 - 118 Python jobs are local, with cases, chains, and packs.
-- C has a few verified backends.
-- Other languages are refused until loaders exist.
+- The C caller supports int and double signatures and per-function -O2 DLLs.
+- The Rust caller exists, with about 206 backends.
+- Go and Zig are still stubs and need toolchains.
 - The practical target before public contributions is a few hundred solid jobs overall, not per language.
 - Each language should have at least some verified backends before a public release or a Doom demo on weak hardware.
 ## Not built
 
 - An auto hasher. Hash by hand until then.
 - A caller that does not need the original source file.
-- A general C bench. This one uses the sibling cases file.
 - A license check.
 - A review step before publish.
 - A real game runtime, Doom port, or engine pack.

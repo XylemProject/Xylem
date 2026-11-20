@@ -23,6 +23,8 @@ A caller compiles or loads one local file and calls one symbol. Python's caller 
 
 C defaults to int arguments and an int return. An optional `// xylem:signature double(double, double)` marker on the .c file selects double; a NaN result is returned as None. With no marker, existing int backends stay unchanged.
 
+Rust is xylem/hasher/rust_caller.py. An optional `// xylem:returns optional_bool` marker on the .rs file selects an i32 tri-state return (1 true, 0 false, -1 None). With no marker, bool, float, and int detection is unchanged.
+
 The caller must:
 
 - refuse if the tool is not on PATH

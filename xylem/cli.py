@@ -1073,11 +1073,12 @@ def main():
         print(f"Status:   verified_external")
         print(f"Saved to: {path}")
         if language.lower() == "c":
-            print("C can be called if gcc is on PATH. This entry stays local.")
+            print("C can be called if gcc is on PATH.")
         elif language.lower() == "rust":
-            print("Rust can be called if rustc is on PATH. This entry stays local.")
+            print("Rust can be called if rustc is on PATH.")
         else:
             print("This entry is not callable. The caller does not run this language yet.")
+        print("The entry is a file in library/. Whether to push it is your choice.")
 
     elif cmd == "publish":
         target = sys.argv[2] if len(sys.argv) > 2 else ""
