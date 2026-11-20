@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "c035fb3f9a9e7b733a619ed1fc7fb04b43f6c1acd77f17ea44294b86530905d5",
+  "short_id": "xylem-v1:c035fb3f9a9e7b73",
+  "hierarchical_name": "xylem:math.sinc",
+  "job": "xylem:math.sinc",
+  "language": "python",
+  "timing_us": 0.214,
+  "function_name": "sinc",
+  "category": "math",
+  "intent": "sin(x) divided by x, with 1 at zero",
+  "depends_on": [],
+  "source_file": "examples/sinc.py",
+  "normalized_length": 236,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-20T15:26:40.416619+00:00",
+  "updated_at": "2026-11-20T15:26:40.416632+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/sinc.py"
+  ]
+}

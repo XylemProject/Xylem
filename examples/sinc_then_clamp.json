@@ -1,0 +1,8 @@
+{
+  "name": "sinc then clamp",
+  "expect": 0.5,
+  "steps": [
+    {"name": "xylem:math.sinc", "args": [0]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 0.5], "language": "python"}
+  ]
+}
