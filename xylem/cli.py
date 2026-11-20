@@ -787,7 +787,8 @@ def bench_job(job: str, language: str = ""):
         sys.exit(1)
     scored = []
     for entry in matches:
-        if str(entry.get("language", "python")).lower() == "c":
+        language = str(entry.get("language", "python")).lower()
+        if language == "c":
             source = entry.get("source_file") or ""
             case_path = source + ".cases.json" if source.endswith(".c") else ""
             if not case_path or not os.path.isfile(case_path):
@@ -796,12 +797,22 @@ def bench_job(job: str, language: str = ""):
                 with open(case_path, "r", encoding="utf-8") as f:
                     cases = json.load(f)
                 timing = time_c(source, entry.get("function_name") or "", cases)
+        elif language == "rust":
+            source = entry.get("source_file") or ""
+            case_path = source + ".cases.json" if source.endswith(".rs") else ""
+            if not case_path or not os.path.isfile(case_path):
+                timing = None
+            else:
+                with open(case_path, "r", encoding="utf-8") as f:
+                    cases = json.load(f)
+                timing = time_rust(source, entry.get("function_name") or "", cases)
         else:
             timing = time_cases(entry.get("source_file") or "", entry.get("function_name") or "")
         scored.append((timing if timing is not None else 10**12, entry, timing))
     scored.sort(key=lambda item: item[0])
     print(f"Bench for {job}")
     print("C time excludes compile.")
+    print("Rust time excludes compile.")
     for _, entry, timing in scored:
         shown = "no cases" if timing is None else f"{timing} us"
         print(f"  {entry.get('function_name')}  {entry.get('language', 'python')}  {shown}  {entry.get('source_file')}")
