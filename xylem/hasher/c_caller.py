@@ -12,9 +12,17 @@ _SIGNATURE_RE = re.compile(
 )
 
 
+_C_OPT = "-O2"
+
+
 def _source_digest(source_file: str) -> str:
+    """Hash source plus the opt flag so stale unoptimized DLLs are not reused."""
+    hasher = hashlib.sha256()
     with open(source_file, "rb") as f:
-        return hashlib.sha256(f.read()).hexdigest()[:8]
+        hasher.update(f.read())
+    hasher.update(b"\0opt=")
+    hasher.update(_C_OPT.encode("ascii"))
+    return hasher.hexdigest()[:8]
 
 
 def _source_text(source_file: str) -> str:
@@ -111,12 +119,12 @@ def load_c(source_file: str, function_name: str, arg_count: int):
     os.makedirs(build_dir, exist_ok=True)
     safe = "".join(ch if ch.isalnum() or ch in "-_" else "_" for ch in function_name) or "fn"
     dll_path = os.path.join(build_dir, f"xylem_c_{safe}_{digest}.dll")
-    command = [gcc, "-shared", "-o", dll_path, source_file, "-Wl,--export-all-symbols"]
+    command = [gcc, _C_OPT, "-shared", "-o", dll_path, source_file, "-Wl,--export-all-symbols"]
     built = subprocess.run(command, capture_output=True, text=True)
     if built.returncode != 0:
         # Windows may lock a prior DLL; fall back to a unique output path.
         dll_path = os.path.join(build_dir, f"xylem_c_{safe}_{digest}_{os.getpid()}.dll")
-        command = [gcc, "-shared", "-o", dll_path, source_file, "-Wl,--export-all-symbols"]
+        command = [gcc, _C_OPT, "-shared", "-o", dll_path, source_file, "-Wl,--export-all-symbols"]
         built = subprocess.run(command, capture_output=True, text=True)
         if built.returncode != 0:
             raise RuntimeError(built.stderr.strip() or "C compile failed")

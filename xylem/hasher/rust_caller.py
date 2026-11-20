@@ -5,6 +5,11 @@ import time
 
 _loaded = {}
 
+# rustc -O is equivalent to -C opt-level=3. Include the tag in DLL names so
+# stale unoptimized builds are not reused.
+_RS_OPT = "-O"
+_RS_OPT_TAG = "O"
+
 
 def _source_text(source_file: str) -> str:
     try:
@@ -34,7 +39,7 @@ def load_rust(source_file: str, function_name: str, arg_count: int):
     if not source_file or not os.path.isfile(source_file):
         raise FileNotFoundError(f"Rust source not found: {source_file}")
     kind = _abi_kind(source_file)
-    key = (os.path.abspath(source_file), function_name, arg_count, kind)
+    key = (os.path.abspath(source_file), function_name, arg_count, kind, _RS_OPT_TAG)
     if key in _loaded:
         return _loaded[key]
     rustc = find_rustc()
@@ -43,13 +48,13 @@ def load_rust(source_file: str, function_name: str, arg_count: int):
     build_dir = os.path.join(os.getcwd(), "build")
     os.makedirs(build_dir, exist_ok=True)
     safe = "".join(ch if ch.isalnum() or ch in "-_" else "_" for ch in function_name) or "fn"
-    dll_path = os.path.join(build_dir, f"xylem_rs_{safe}.dll")
-    command = [rustc, "--crate-type", "cdylib", "-O", "-o", dll_path, source_file]
+    dll_path = os.path.join(build_dir, f"xylem_rs_{safe}_{_RS_OPT_TAG}.dll")
+    command = [rustc, "--crate-type", "cdylib", _RS_OPT, "-o", dll_path, source_file]
     built = subprocess.run(command, capture_output=True, text=True)
     if built.returncode != 0:
         # Windows may lock a prior DLL; fall back to a unique output path.
-        dll_path = os.path.join(build_dir, f"xylem_rs_{safe}_{os.getpid()}.dll")
-        command = [rustc, "--crate-type", "cdylib", "-O", "-o", dll_path, source_file]
+        dll_path = os.path.join(build_dir, f"xylem_rs_{safe}_{_RS_OPT_TAG}_{os.getpid()}.dll")
+        command = [rustc, "--crate-type", "cdylib", _RS_OPT, "-o", dll_path, source_file]
         built = subprocess.run(command, capture_output=True, text=True)
         if built.returncode != 0:
             raise RuntimeError((built.stderr or built.stdout or "Rust compile failed").strip())
