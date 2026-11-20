@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "0df083f1b4cfe403b733865fd5fd7d1bbe73969c9cc25f308370e70f6a7ab554",
+  "short_id": "xylem-v1:0df083f1b4cfe403",
+  "hierarchical_name": "xylem:math.max3",
+  "job": "xylem:math.max3",
+  "language": "python",
+  "timing_us": 0.228,
+  "function_name": "max3",
+  "category": "math",
+  "intent": "return the largest of three numbers",
+  "depends_on": [],
+  "source_file": "examples/max3.py",
+  "normalized_length": 120,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-20T14:52:58.460755+00:00",
+  "updated_at": "2026-11-20T14:52:58.460777+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/max3.py"
+  ]
+}

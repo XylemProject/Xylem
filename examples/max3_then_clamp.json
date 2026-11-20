@@ -1,0 +1,8 @@
+{
+  "name": "max3 then clamp",
+  "expect": 5,
+  "steps": [
+    {"name": "xylem:math.max3", "args": [3, 7, 5]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 5], "language": "python"}
+  ]
+}
