@@ -433,8 +433,7 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
                 if not os.path.isfile(path + ".cases.json"):
                     skipped += 1
                     continue
-                rustc = shutil.which("rustc")
-                if not rustc:
+                if not find_rustc():
                     print(f"{name} Refused. rustc is not on PATH.")
                     failed += 1
                     refused += 1
@@ -443,28 +442,22 @@ def hash_dir(folder: str, category: str = "", job: str = "", intent: str = ""):
                     rs_cases = json.load(f)
                 rs_ok = isinstance(rs_cases, list) and bool(rs_cases)
                 if rs_ok:
-                    build_dir = os.path.join(os.getcwd(), "build")
-                    os.makedirs(build_dir, exist_ok=True)
-                    dll_path = os.path.join(build_dir, "xylem_rs.dll")
-                    built = subprocess.run([rustc, "--crate-type", "cdylib", "-O", "-o", dll_path, path], capture_output=True, text=True)
-                    if built.returncode != 0:
-                        print(built.stderr, end="")
-                        rs_ok = False
-                if rs_ok:
                     try:
-                        import ctypes
-                        rs_fn = getattr(ctypes.CDLL(dll_path), rs_function)
-                        rs_fn.restype = ctypes.c_int
-                        rs_fn.argtypes = [ctypes.c_int] * len(rs_cases[0].get("args") or [])
-                        for case in rs_cases:
-                            actual = int(rs_fn(*[int(item) for item in case.get("args", [])]))
-                            if actual != case.get("expect"):
-                                print(f"Case failed: got {actual}, expected {case.get('expect')}")
-                                rs_ok = False
-                                break
+                        load_rust(path, rs_function, len(rs_cases[0].get("args") or []))
                     except Exception as e:
                         print(f"Case error: {e}")
                         rs_ok = False
+                for case in rs_cases if rs_ok else []:
+                    try:
+                        actual = call_rust(path, rs_function, case.get("args") or [])
+                    except Exception as e:
+                        print(f"Case error: {e}")
+                        rs_ok = False
+                        break
+                    if not rust_values_equal(actual, case.get("expect")):
+                        print(f"Case failed: got {actual}, expected {case.get('expect')}")
+                        rs_ok = False
+                        break
                 if not rs_ok:
                     print(f"{name} Rust cases failed.")
                     failed += 1
