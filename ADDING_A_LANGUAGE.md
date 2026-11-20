@@ -21,7 +21,7 @@ Xylem does not download a compiler. The how-to can name the install command. The
 
 A caller compiles or loads one local file and calls one symbol. Python's caller is the importer. C's caller is xylem/hasher/c_caller.py. A new language gets its own file. It does not share the C compiler flags.
 
-C defaults to int arguments and an int return. An optional `// xylem:signature double(double, double)` marker on the .c file selects double; a NaN result is returned as None. With no marker, existing int backends stay unchanged.
+C defaults to int arguments and an int return. An optional `// xylem:signature double(double, double)` marker on the .c file selects double; a NaN result is returned as None. With no marker, existing int backends stay unchanged. An optional `// xylem:returns optional_bool` marker on the .c file selects an int tri-state return (1 true, 0 false, -1 None), the same as Rust. Argument types still come from the signature marker when present.
 
 Rust is xylem/hasher/rust_caller.py. An optional `// xylem:returns optional_bool` marker on the .rs file selects an i32 tri-state return (1 true, 0 false, -1 None). With no marker, bool, float, and int detection is unchanged.
 

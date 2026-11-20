@@ -39,8 +39,19 @@ def _normalize_c_type(name: str) -> str:
     raise RuntimeError(f"Unsupported C signature type: {name}")
 
 
+def _has_optional_bool(source_file: str) -> bool:
+    for line in _source_text(source_file).splitlines():
+        if line.strip() == "// xylem:returns optional_bool":
+            return True
+    return False
+
+
 def parse_c_signature(source_file: str, arg_count: int):
-    """Return (return_kind, arg_kinds). No marker means all ints."""
+    """Return (return_kind, arg_kinds). No marker means all ints.
+
+    `// xylem:returns optional_bool` overrides the return kind (int: 1/0/-1).
+    Argument types still come from `// xylem:signature` when present.
+    """
     text = _source_text(source_file)
     parsed = None
     for line in text.splitlines():
@@ -49,17 +60,20 @@ def parse_c_signature(source_file: str, arg_count: int):
             parsed = match
             break
     if parsed is None:
-        return "int", ["int"] * arg_count
-    ret_kind = _normalize_c_type(parsed.group(1))
-    raw_args = parsed.group(2).strip()
-    if not raw_args:
-        arg_kinds = []
+        ret_kind, arg_kinds = "int", ["int"] * arg_count
     else:
-        arg_kinds = [_normalize_c_type(part) for part in raw_args.split(",")]
-    if len(arg_kinds) != arg_count:
-        raise RuntimeError(
-            f"C signature has {len(arg_kinds)} argument types, but {arg_count} were provided"
-        )
+        ret_kind = _normalize_c_type(parsed.group(1))
+        raw_args = parsed.group(2).strip()
+        if not raw_args:
+            arg_kinds = []
+        else:
+            arg_kinds = [_normalize_c_type(part) for part in raw_args.split(",")]
+        if len(arg_kinds) != arg_count:
+            raise RuntimeError(
+                f"C signature has {len(arg_kinds)} argument types, but {arg_count} were provided"
+            )
+    if _has_optional_bool(source_file):
+        ret_kind = "optional_bool"
     return ret_kind, arg_kinds
 
 
@@ -67,6 +81,7 @@ def _ctype(kind: str):
     import ctypes
     if kind == "double":
         return ctypes.c_double
+    # int and optional_bool both use c_int
     return ctypes.c_int
 
 
@@ -81,6 +96,15 @@ def _encode_arg(item, kind: str):
 
 
 def _decode_result(raw, kind: str):
+    if kind == "optional_bool":
+        value = int(raw)
+        if value == 1:
+            return True
+        if value == 0:
+            return False
+        if value == -1:
+            return None
+        raise RuntimeError(f"optional_bool expected 1, 0, or -1, got {value}")
     if kind == "double":
         result = float(raw)
         if math.isnan(result):
