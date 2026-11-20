@@ -19,14 +19,23 @@ def _source_text(source_file: str) -> str:
         return ""
 
 
+def _uses_float_args(source_file: str) -> bool:
+    text = _source_text(source_file)
+    return "f64" in text or "f32" in text
+
+
 def _abi_kind(source_file: str) -> str:
     """Detect ABI from the Rust source.
 
+    - optional_bool: marker `// xylem:returns optional_bool` (i32: 1 true, 0 false, -1 None)
     - bool: signature returns bool (comparisons)
     - float: uses f64/f32 (optional NaN stands for None)
     - int: existing i32 path
     """
     text = _source_text(source_file)
+    for line in text.splitlines():
+        if line.strip() == "// xylem:returns optional_bool":
+            return "optional_bool"
     if "-> bool" in text:
         return "bool"
     if "f64" in text or "f32" in text:
@@ -61,11 +70,16 @@ def load_rust(source_file: str, function_name: str, arg_count: int):
     import ctypes
     lib = ctypes.CDLL(dll_path)
     fn = getattr(lib, function_name)
-    if kind == "bool":
+    if kind == "optional_bool":
+        fn.restype = ctypes.c_int
+        if _uses_float_args(source_file):
+            fn.argtypes = [ctypes.c_double] * arg_count
+        else:
+            fn.argtypes = [ctypes.c_int] * arg_count
+    elif kind == "bool":
         fn.restype = ctypes.c_bool
         # Bool jobs with f64 params use doubles; plain i32 bool jobs stay ints.
-        text = _source_text(source_file)
-        if "f64" in text or "f32" in text:
+        if _uses_float_args(source_file):
             fn.argtypes = [ctypes.c_double] * arg_count
         else:
             fn.argtypes = [ctypes.c_int] * arg_count
@@ -81,12 +95,12 @@ def load_rust(source_file: str, function_name: str, arg_count: int):
 
 def _encode_arg(item, kind: str):
     if item is None:
-        if kind in ("float", "bool"):
+        if kind in ("float", "bool", "optional_bool"):
             return float("nan")
         raise TypeError("None arg is only supported on float/bool Rust backends")
     if kind == "int":
         return int(item)
-    if kind == "bool":
+    if kind in ("bool", "optional_bool"):
         # Match float-arg bool backends; int-arg bool backends get ints via load.
         return float(item) if not isinstance(item, bool) else float(int(item))
     # float
@@ -94,6 +108,15 @@ def _encode_arg(item, kind: str):
 
 
 def _decode_result(raw, kind: str):
+    if kind == "optional_bool":
+        value = int(raw)
+        if value == 1:
+            return True
+        if value == 0:
+            return False
+        if value == -1:
+            return None
+        raise RuntimeError(f"optional_bool expected 1, 0, or -1, got {value}")
     if kind == "bool":
         return bool(raw)
     if kind == "float":
@@ -108,12 +131,12 @@ def _decode_result(raw, kind: str):
 
 def call_rust(source_file: str, function_name: str, args: list):
     fn, kind = load_rust(source_file, function_name, len(args))
-    # For bool backends that use i32 args, encode as int.
-    if kind == "bool":
-        text = _source_text(source_file)
-        if "f64" not in text and "f32" not in text:
-            encoded = [int(item) for item in args]
+    # For bool / optional_bool backends that use i32 args, encode as int.
+    if kind in ("bool", "optional_bool") and not _uses_float_args(source_file):
+        encoded = [int(item) for item in args]
+        if kind == "bool":
             return bool(fn(*encoded))
+        return _decode_result(fn(*encoded), kind)
     encoded = [_encode_arg(item, kind) for item in args]
     return _decode_result(fn(*encoded), kind)
 
@@ -127,12 +150,8 @@ def time_rust(source_file: str, function_name: str, cases: list):
     prepared = []
     for case in cases:
         args = case.get("args") or []
-        if kind == "bool":
-            text = _source_text(source_file)
-            if "f64" not in text and "f32" not in text:
-                prepared.append([int(item) for item in args])
-            else:
-                prepared.append([_encode_arg(item, kind) for item in args])
+        if kind in ("bool", "optional_bool") and not _uses_float_args(source_file):
+            prepared.append([int(item) for item in args])
         else:
             prepared.append([_encode_arg(item, kind) for item in args])
     for args in prepared:
