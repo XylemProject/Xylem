@@ -1,0 +1,8 @@
+{
+  "name": "remainder then clamp",
+  "expect": 1.0,
+  "steps": [
+    {"name": "xylem:math.remainder", "args": [7, 3]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 5], "language": "python"}
+  ]
+}

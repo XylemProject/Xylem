@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "cd8838e34b64d3601411158b106e1b897631a7b2fb17131a7f357ccc416f01ec",
+  "short_id": "xylem-v1:cd8838e34b64d360",
+  "hierarchical_name": "xylem:math.remainder",
+  "job": "xylem:math.remainder",
+  "language": "python",
+  "timing_us": 0.299,
+  "function_name": "remainder",
+  "category": "math",
+  "intent": "IEEE remainder of x divided by y, using the nearest integer quotient",
+  "depends_on": [],
+  "source_file": "examples/remainder.py",
+  "normalized_length": 290,
+  "tests_passed": 15,
+  "tests_total": 15,
+  "created_at": "2026-11-20T16:00:46.801710+00:00",
+  "updated_at": "2026-11-20T16:00:46.801723+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/remainder.py"
+  ]
+}
