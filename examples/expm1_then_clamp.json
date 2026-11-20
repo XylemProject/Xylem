@@ -1,0 +1,8 @@
+{
+  "name": "expm1 then clamp",
+  "expect": 1,
+  "steps": [
+    {"name": "xylem:math.expm1", "args": [1]},
+    {"name": "xylem:util.clamp", "args": ["$prev", 0, 1], "language": "python"}
+  ]
+}

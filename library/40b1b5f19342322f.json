@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "40b1b5f19342322f80e358311c156eadd6181abe1af4f57c636737067812150b",
+  "short_id": "xylem-v1:40b1b5f19342322f",
+  "hierarchical_name": "xylem:math.expm1",
+  "job": "xylem:math.expm1",
+  "language": "python",
+  "timing_us": 0.342,
+  "function_name": "expm1",
+  "category": "math",
+  "intent": "e raised to x minus one",
+  "depends_on": [],
+  "source_file": "examples/expm1.py",
+  "normalized_length": 181,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "created_at": "2026-11-20T15:00:50.308300+00:00",
+  "updated_at": "2026-11-20T15:00:50.308317+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/expm1.py"
+  ]
+}

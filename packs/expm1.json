@@ -1,0 +1,8 @@
+{
+  "pack": "pack:math.expm1",
+  "description": "Expm1, then clamp. Order only. Parameters stay in the run file.",
+  "order": [
+    "xylem:math.expm1",
+    "xylem:util.clamp"
+  ]
+}
