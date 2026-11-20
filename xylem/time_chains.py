@@ -2,10 +2,8 @@
 
 Two timing paths are reported:
 
-- wrapper: goes through call_c/call_rust each step. Those helpers re-read and
-  hash or parse the source file on every call (load_c's cache key includes
-  _source_digest; load_rust calls _abi_kind -> _source_text). Compile is
-  cached, but the per-call file I/O dominates.
+- wrapper: goes through call_c/call_rust each step (encode, ctypes call, decode).
+  Source digest/text/ABI are cached by resolved path, mtime, and size.
 - raw: pre-resolves the ctypes function handle after warmup, then encodes
   args and calls the raw function, the same approach as time_c/time_rust.
   $prev still has to be encoded each step because it changes.
@@ -74,7 +72,7 @@ def _values_equal(left, right) -> bool:
 
 
 def _make_wrapper_caller(entry, arg_count: int):
-    """Stock path: call_c/call_rust (re-reads source) or a loaded Python fn."""
+    """Stock path: call_c/call_rust or a loaded Python fn."""
     from xylem.cli import load_entry_function
     from xylem.hasher.c_caller import call_c, load_c
     from xylem.hasher.rust_caller import call_rust, load_rust
@@ -114,15 +112,7 @@ def _make_raw_caller(entry, arg_count: int):
     source = _resolve_source(entry)
     function_name = entry.get("function_name") or ""
     if language == "c":
-        c_caller.load_c(source, function_name, arg_count)
-        raw_fn = ret_kind = arg_kinds = None
-        abspath = os.path.abspath(source)
-        for key, value in c_caller._loaded.items():
-            if key[0] == abspath and key[1] == function_name and key[2] == arg_count:
-                _wrapper, raw_fn, ret_kind, arg_kinds = value
-                break
-        if raw_fn is None:
-            raise RuntimeError(f"C raw handle missing for {function_name}")
+        _wrapper, raw_fn, ret_kind, arg_kinds = c_caller.c_raw_parts(source, function_name, arg_count)
 
         def call(args, _fn=raw_fn, _ret=ret_kind, _kinds=arg_kinds):
             encoded = [c_caller._encode_arg(item, kind) for item, kind in zip(args, _kinds)]
@@ -279,8 +269,9 @@ def time_chain(path: str, raw_runs: int = 5, wrapper_runs: int = 3):
         return 1
     _p(f"Verify: all variants and both paths match (final={python_final!r})")
 
-    raw_loops = _calibrate(raw_prepared["python"], 0.25, 800, 20000)
-    wrapper_loops = _calibrate(wrapper_prepared["c"], 0.25, 200, 600)
+    # Pin to the same iteration counts used in the t646u baseline timings.
+    raw_loops = 20000
+    wrapper_loops = 200
     _p(f"Raw path iterations: {raw_loops}  (runs={raw_runs})")
     _p(f"Wrapper path iterations: {wrapper_loops}  (runs={wrapper_runs})")
 
@@ -292,7 +283,7 @@ def time_chain(path: str, raw_runs: int = 5, wrapper_runs: int = 3):
         )
     _summarize("raw", variants, raw_results, steps)
 
-    _p("Path: wrapper (call_c/call_rust, per-call source read)")
+    _p("Path: wrapper (call_c/call_rust)")
     wrapper_results = {}
     for variant in variants:
         wrapper_results[variant] = _time_variant(

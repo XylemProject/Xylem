@@ -2,32 +2,71 @@ import hashlib
 import math
 import os
 import re
+import stat
 import subprocess
 import time
 
 _loaded = {}
+_source_meta = {}
+_resolve_cache = {}
+_call_cache = {}
+_gcc_name = None
 
 _SIGNATURE_RE = re.compile(
     r"^//\s*xylem:signature\s+([A-Za-z_][A-Za-z0-9_]*)\s*\((.*)\)\s*$"
 )
 
-
 _C_OPT = "-O2"
+
+
+def _resolve_path(source_file: str) -> str:
+    cwd = os.getcwd()
+    key = (source_file, cwd)
+    cached = _resolve_cache.get(key)
+    if cached is not None:
+        return cached
+    resolved = os.path.abspath(source_file)
+    _resolve_cache[key] = resolved
+    return resolved
+
+
+def _file_ident(path: str):
+    st = os.stat(path)
+    if not stat.S_ISREG(st.st_mode):
+        raise FileNotFoundError(f"C source not found: {path}")
+    return (st.st_mtime_ns, st.st_size)
+
+
+def _cached_source(resolved: str, ident=None):
+    """Return (text, digest) for a source file, cached by (path, mtime_ns, size)."""
+    if ident is None:
+        ident = _file_ident(resolved)
+    hit = _source_meta.get(resolved)
+    if hit is not None and hit[0] == ident:
+        return hit[1], hit[2]
+    with open(resolved, "rb") as handle:
+        data = handle.read()
+    hasher = hashlib.sha256()
+    hasher.update(data)
+    hasher.update(b"\0opt=")
+    hasher.update(_C_OPT.encode("ascii"))
+    digest = hasher.hexdigest()[:8]
+    text = data.decode("utf-8")
+    _source_meta[resolved] = (ident, text, digest)
+    return text, digest
 
 
 def _source_digest(source_file: str) -> str:
     """Hash source plus the opt flag so stale unoptimized DLLs are not reused."""
-    hasher = hashlib.sha256()
-    with open(source_file, "rb") as f:
-        hasher.update(f.read())
-    hasher.update(b"\0opt=")
-    hasher.update(_C_OPT.encode("ascii"))
-    return hasher.hexdigest()[:8]
+    resolved = _resolve_path(source_file)
+    _text, digest = _cached_source(resolved)
+    return digest
 
 
 def _source_text(source_file: str) -> str:
-    with open(source_file, "r", encoding="utf-8") as f:
-        return f.read()
+    resolved = _resolve_path(source_file)
+    text, _digest = _cached_source(resolved)
+    return text
 
 
 def _normalize_c_type(name: str) -> str:
@@ -39,11 +78,15 @@ def _normalize_c_type(name: str) -> str:
     raise RuntimeError(f"Unsupported C signature type: {name}")
 
 
-def _has_optional_bool(source_file: str) -> bool:
-    for line in _source_text(source_file).splitlines():
+def _optional_bool_in_text(text: str) -> bool:
+    for line in text.splitlines():
         if line.strip() == "// xylem:returns optional_bool":
             return True
     return False
+
+
+def _has_optional_bool(source_file: str) -> bool:
+    return _optional_bool_in_text(_source_text(source_file))
 
 
 def parse_c_signature(source_file: str, arg_count: int):
@@ -72,7 +115,7 @@ def parse_c_signature(source_file: str, arg_count: int):
             raise RuntimeError(
                 f"C signature has {len(arg_kinds)} argument types, but {arg_count} were provided"
             )
-    if _has_optional_bool(source_file):
+    if _optional_bool_in_text(text):
         ret_kind = "optional_bool"
     return ret_kind, arg_kinds
 
@@ -115,6 +158,48 @@ def _decode_result(raw, kind: str):
     return int(raw)
 
 
+def _arg_encoder(kind: str):
+    if kind == "double":
+        def encode(item):
+            if item is None:
+                return float("nan")
+            return float(item)
+        return encode
+
+    def encode(item):
+        if item is None:
+            raise TypeError("None arg is only supported on double C backends")
+        return int(item)
+    return encode
+
+
+def _result_decoder(kind: str):
+    if kind == "optional_bool":
+        def decode(raw):
+            value = int(raw)
+            if value == 1:
+                return True
+            if value == 0:
+                return False
+            if value == -1:
+                return None
+            raise RuntimeError(f"optional_bool expected 1, 0, or -1, got {value}")
+        return decode
+    if kind == "double":
+        def decode(raw):
+            result = float(raw)
+            if math.isnan(result):
+                return None
+            if result.is_integer() and abs(result) < 2**53:
+                return int(result)
+            return result
+        return decode
+
+    def decode(raw):
+        return int(raw)
+    return decode
+
+
 def c_values_equal(result, expected) -> bool:
     """Exact match for ints and None; allow tiny float noise."""
     if result == expected:
@@ -129,13 +214,24 @@ def c_values_equal(result, expected) -> bool:
 
 def load_c(source_file: str, function_name: str, arg_count: int):
     """Compile once and return a callable. Does not download a compiler."""
-    if not source_file or not os.path.isfile(source_file):
+    if not source_file:
         raise FileNotFoundError(f"C source not found: {source_file}")
-    digest = _source_digest(source_file)
-    key = (os.path.abspath(source_file), function_name, arg_count, digest)
-    if key in _loaded:
-        return _loaded[key][0]
-    ret_kind, arg_kinds = parse_c_signature(source_file, arg_count)
+    resolved = _resolve_path(source_file)
+    try:
+        ident = _file_ident(resolved)
+    except OSError:
+        raise FileNotFoundError(f"C source not found: {source_file}")
+    live_key = (resolved, function_name, arg_count)
+    entry = _loaded.get(live_key)
+    if entry is not None and entry["ident"] == ident:
+        _call_cache[(source_file, function_name, arg_count)] = (resolved, ident, entry["wrapper"])
+        return entry["wrapper"]
+    text, digest = _cached_source(resolved, ident)
+    if entry is not None and entry["digest"] == digest:
+        entry["ident"] = ident
+        _call_cache[(source_file, function_name, arg_count)] = (resolved, ident, entry["wrapper"])
+        return entry["wrapper"]
+    ret_kind, arg_kinds = parse_c_signature(resolved, arg_count)
     gcc = find_gcc()
     if not gcc:
         raise RuntimeError("C backend requested, no gcc or clang on PATH")
@@ -157,17 +253,47 @@ def load_c(source_file: str, function_name: str, arg_count: int):
     raw_fn = getattr(lib, function_name)
     raw_fn.restype = _ctype(ret_kind)
     raw_fn.argtypes = [_ctype(kind) for kind in arg_kinds]
+    encoders = [_arg_encoder(kind) for kind in arg_kinds]
+    decoder = _result_decoder(ret_kind)
 
-    def wrapper(*args):
-        encoded = [_encode_arg(item, kind) for item, kind in zip(args, arg_kinds)]
-        return _decode_result(raw_fn(*encoded), ret_kind)
+    def wrapper(*args, _fn=raw_fn, _encoders=encoders, _decoder=decoder):
+        encoded = [encode(item) for encode, item in zip(_encoders, args)]
+        return _decoder(_fn(*encoded))
 
-    _loaded[key] = (wrapper, raw_fn, ret_kind, arg_kinds)
+    _loaded[live_key] = {
+        "ident": ident,
+        "digest": digest,
+        "wrapper": wrapper,
+        "raw_fn": raw_fn,
+        "ret_kind": ret_kind,
+        "arg_kinds": arg_kinds,
+    }
+    _call_cache[(source_file, function_name, arg_count)] = (resolved, ident, wrapper)
     return wrapper
 
+
+def c_raw_parts(source_file: str, function_name: str, arg_count: int):
+    """Return (wrapper, raw_fn, ret_kind, arg_kinds) after a load."""
+    load_c(source_file, function_name, arg_count)
+    resolved = _resolve_path(source_file)
+    entry = _loaded[(resolved, function_name, arg_count)]
+    return entry["wrapper"], entry["raw_fn"], entry["ret_kind"], entry["arg_kinds"]
+
+
 def call_c(source_file: str, function_name: str, args: list):
-    fn = load_c(source_file, function_name, len(args))
+    arg_count = len(args)
+    hit = _call_cache.get((source_file, function_name, arg_count))
+    if hit is not None:
+        resolved, ident, wrapper = hit
+        try:
+            current = _file_ident(resolved)
+        except OSError:
+            current = None
+        if current == ident:
+            return wrapper(*args)
+    fn = load_c(source_file, function_name, arg_count)
     return fn(*args)
+
 
 def time_c(source_file: str, function_name: str, cases: list):
     """Time calls only. Compile happens once and is not included.
@@ -178,10 +304,7 @@ def time_c(source_file: str, function_name: str, cases: list):
     if not cases:
         return None
     arg_count = len(cases[0].get("args") or [])
-    load_c(source_file, function_name, arg_count)
-    digest = _source_digest(source_file)
-    key = (os.path.abspath(source_file), function_name, arg_count, digest)
-    _wrapper, raw_fn, _ret_kind, arg_kinds = _loaded[key]
+    _wrapper, raw_fn, _ret_kind, arg_kinds = c_raw_parts(source_file, function_name, arg_count)
     prepared = []
     for case in cases:
         args = case.get("args") or []
@@ -196,12 +319,17 @@ def time_c(source_file: str, function_name: str, cases: list):
     elapsed = time.perf_counter() - start
     return round((elapsed / (loops * max(len(prepared), 1))) * 1_000_000, 3)
 
+
 def find_gcc():
+    global _gcc_name
+    if _gcc_name:
+        return _gcc_name
     for name in ("gcc", "clang"):
         try:
             found = subprocess.run([name, "--version"], capture_output=True, text=True)
         except FileNotFoundError:
             continue
         if found.returncode == 0:
+            _gcc_name = name
             return name
     return ""
