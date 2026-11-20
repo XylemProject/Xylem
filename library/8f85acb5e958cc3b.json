@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "8f85acb5e958cc3b97a991b06e288730e99ced21133fad5b8a5e2aa9b9323535",
+  "short_id": "xylem-v1:8f85acb5e958cc3b",
+  "hierarchical_name": "xylem:math.log1p",
+  "job": "xylem:math.log1p",
+  "language": "python",
+  "timing_us": 0.316,
+  "function_name": "log1p",
+  "category": "math",
+  "intent": "natural log of 1 plus x",
+  "depends_on": [],
+  "source_file": "examples/log1p.py",
+  "normalized_length": 219,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-20T14:59:32.760565+00:00",
+  "updated_at": "2026-11-20T14:59:32.760583+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/log1p.py"
+  ]
+}

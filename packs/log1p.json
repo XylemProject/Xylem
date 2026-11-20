@@ -1,0 +1,8 @@
+{
+  "pack": "pack:math.log1p",
+  "description": "Log1p, then clamp. Order only. Parameters stay in the run file.",
+  "order": [
+    "xylem:math.log1p",
+    "xylem:util.clamp"
+  ]
+}
