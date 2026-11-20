@@ -1,0 +1,127 @@
+{
+  "name": "cheap ops order b",
+  "description": "Same 16 cheap arithmetic jobs as chain_cheap.json, different order, same seed 2. Final output is expected to differ.",
+  "expect": -1.0,
+  "steps": [
+    {
+      "name": "xylem:math.double",
+      "args": [
+        2
+      ]
+    },
+    {
+      "name": "xylem:math.mul",
+      "args": [
+        "$prev",
+        3
+      ]
+    },
+    {
+      "name": "xylem:math.inc",
+      "args": [
+        2
+      ]
+    },
+    {
+      "name": "xylem:math.add",
+      "args": [
+        "$prev",
+        1
+      ]
+    },
+    {
+      "name": "xylem:math.half",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.negate",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.sub",
+      "args": [
+        "$prev",
+        2
+      ]
+    },
+    {
+      "name": "xylem:math.dec",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.double",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.mul",
+      "args": [
+        "$prev",
+        0.5
+      ]
+    },
+    {
+      "name": "xylem:math.inc",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.add",
+      "args": [
+        "$prev",
+        4
+      ]
+    },
+    {
+      "name": "xylem:math.half",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.sub",
+      "args": [
+        "$prev",
+        1
+      ]
+    },
+    {
+      "name": "xylem:math.inc",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.dec",
+      "args": [
+        "$prev"
+      ]
+    }
+  ],
+  "mixed": [
+    "python",
+    "c",
+    "rust",
+    "c",
+    "python",
+    "rust",
+    "c",
+    "python",
+    "c",
+    "rust",
+    "python",
+    "c",
+    "rust",
+    "python",
+    "c",
+    "rust"
+  ]
+}

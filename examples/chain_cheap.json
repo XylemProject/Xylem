@@ -1,0 +1,127 @@
+{
+  "name": "cheap ops order a",
+  "description": "16 cheap arithmetic jobs, order A. Every step has Python, Rust, and C backends. Pair with chain_cheap_reordered.json.",
+  "expect": -3.25,
+  "steps": [
+    {
+      "name": "xylem:math.inc",
+      "args": [
+        2
+      ]
+    },
+    {
+      "name": "xylem:math.double",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.add",
+      "args": [
+        "$prev",
+        1
+      ]
+    },
+    {
+      "name": "xylem:math.mul",
+      "args": [
+        "$prev",
+        3
+      ]
+    },
+    {
+      "name": "xylem:math.half",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.sub",
+      "args": [
+        "$prev",
+        2
+      ]
+    },
+    {
+      "name": "xylem:math.dec",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.negate",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.inc",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.double",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.add",
+      "args": [
+        "$prev",
+        4
+      ]
+    },
+    {
+      "name": "xylem:math.mul",
+      "args": [
+        "$prev",
+        0.5
+      ]
+    },
+    {
+      "name": "xylem:math.half",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.sub",
+      "args": [
+        "$prev",
+        1
+      ]
+    },
+    {
+      "name": "xylem:math.dec",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.inc",
+      "args": [
+        "$prev"
+      ]
+    }
+  ],
+  "mixed": [
+    "python",
+    "c",
+    "rust",
+    "c",
+    "python",
+    "rust",
+    "c",
+    "python",
+    "c",
+    "rust",
+    "python",
+    "c",
+    "rust",
+    "python",
+    "c",
+    "rust"
+  ]
+}

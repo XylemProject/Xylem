@@ -80,6 +80,7 @@ Commands:
   verify-examples [files...]  Test a sequence of local files. Defaults to cased examples. Does not hash or publish.
   report <file>            Match, similar, or new. Does not hash or publish.
   time-runs <file> <file>  Time two run files. Passes follow the longer chain. Winner only if one stays ahead.
+  time-chains [file.json ...]  Time a chain across Python, Rust, C, and mixed backends. Compile is excluded.
   publish <short-id>       Not enabled yet (local library only)
   packs                    List local pack files
   verify [pack-file]       Check pack jobs against the local library
@@ -1044,6 +1045,10 @@ def main():
 
     elif cmd == "time-runs":
         time_runs(sys.argv[2] if len(sys.argv) > 2 else "", sys.argv[3] if len(sys.argv) > 3 else "")
+
+    elif cmd == "time-chains":
+        from xylem.time_chains import main as time_chains_main
+        raise SystemExit(time_chains_main(sys.argv[2:]))
 
     elif cmd == "languages":
         for line in describe_languages():

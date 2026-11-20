@@ -1,0 +1,141 @@
+{
+  "name": "physics math step",
+  "description": "16-step physics-like step using math jobs with Python+Rust+C (apply_gravity/apply_drag have no C backend). Gravity*dt, integrate, drag, clamp, hypot, blend, smootherstep.",
+  "expect": 2.0,
+  "steps": [
+    {
+      "name": "xylem:math.mul",
+      "args": [
+        9.81,
+        0.016
+      ]
+    },
+    {
+      "name": "xylem:math.add",
+      "args": [
+        "$prev",
+        2.5
+      ]
+    },
+    {
+      "name": "xylem:math.mul",
+      "args": [
+        "$prev",
+        0.98
+      ]
+    },
+    {
+      "name": "xylem:math.max2",
+      "args": [
+        "$prev",
+        -50
+      ]
+    },
+    {
+      "name": "xylem:math.min2",
+      "args": [
+        "$prev",
+        50
+      ]
+    },
+    {
+      "name": "xylem:math.mul",
+      "args": [
+        "$prev",
+        0.016
+      ]
+    },
+    {
+      "name": "xylem:math.add",
+      "args": [
+        "$prev",
+        10
+      ]
+    },
+    {
+      "name": "xylem:math.hypot",
+      "args": [
+        "$prev",
+        3
+      ]
+    },
+    {
+      "name": "xylem:math.mix_safe",
+      "args": [
+        "$prev",
+        8,
+        0.25
+      ]
+    },
+    {
+      "name": "xylem:math.remap_safe",
+      "args": [
+        "$prev",
+        0,
+        20,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "xylem:math.saturate_safe",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.smootherstep_safe",
+      "args": [
+        0,
+        1,
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.lerp",
+      "args": [
+        0,
+        15,
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.hypot3",
+      "args": [
+        "$prev",
+        1,
+        2
+      ]
+    },
+    {
+      "name": "xylem:math.sqrt_safe",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.trunc",
+      "args": [
+        "$prev"
+      ]
+    }
+  ],
+  "mixed": [
+    "rust",
+    "python",
+    "rust",
+    "c",
+    "c",
+    "rust",
+    "python",
+    "c",
+    "rust",
+    "c",
+    "python",
+    "c",
+    "python",
+    "c",
+    "rust",
+    "python"
+  ]
+}

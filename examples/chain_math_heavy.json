@@ -1,0 +1,126 @@
+{
+  "name": "math heavy",
+  "description": "16-step math-heavy chain of trig, hypot, smootherstep, noise, and logs. Every step has Python, Rust, and C backends.",
+  "expect": 0.7857048088537795,
+  "steps": [
+    {
+      "name": "xylem:math.sin_deg",
+      "args": [
+        30
+      ]
+    },
+    {
+      "name": "xylem:math.acos_deg",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.cos_deg",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.asin_deg",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.radians",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.sinc",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.hypot_safe",
+      "args": [
+        "$prev",
+        0.4
+      ]
+    },
+    {
+      "name": "xylem:math.smootherstep_safe",
+      "args": [
+        0,
+        2,
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.noise1_safe",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.hypot3",
+      "args": [
+        "$prev",
+        0.2,
+        0.3
+      ]
+    },
+    {
+      "name": "xylem:math.log1p",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.expm1",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.atan_deg",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.wrap_degrees_safe",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.triangle_wave_safe",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.saturate_safe",
+      "args": [
+        "$prev"
+      ]
+    }
+  ],
+  "mixed": [
+    "rust",
+    "rust",
+    "rust",
+    "rust",
+    "python",
+    "c",
+    "c",
+    "c",
+    "c",
+    "c",
+    "rust",
+    "rust",
+    "python",
+    "python",
+    "c",
+    "python"
+  ]
+}

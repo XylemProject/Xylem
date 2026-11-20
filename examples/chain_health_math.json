@@ -1,0 +1,122 @@
+{
+  "name": "health math turn",
+  "description": "14-step health-like turn using math jobs with Python+Rust+C (apply_damage/heal have no C backend). Damage, floor/cap, heal, drain, remap, saturate, lerp back.",
+  "expect": 77.0,
+  "steps": [
+    {
+      "name": "xylem:math.sub",
+      "args": [
+        100,
+        30
+      ]
+    },
+    {
+      "name": "xylem:math.max2",
+      "args": [
+        "$prev",
+        0
+      ]
+    },
+    {
+      "name": "xylem:math.min2",
+      "args": [
+        "$prev",
+        100
+      ]
+    },
+    {
+      "name": "xylem:math.add",
+      "args": [
+        "$prev",
+        15
+      ]
+    },
+    {
+      "name": "xylem:math.min2",
+      "args": [
+        "$prev",
+        100
+      ]
+    },
+    {
+      "name": "xylem:math.mul",
+      "args": [
+        "$prev",
+        0.85
+      ]
+    },
+    {
+      "name": "xylem:math.add",
+      "args": [
+        "$prev",
+        4
+      ]
+    },
+    {
+      "name": "xylem:math.max2",
+      "args": [
+        "$prev",
+        0
+      ]
+    },
+    {
+      "name": "xylem:math.min2",
+      "args": [
+        "$prev",
+        100
+      ]
+    },
+    {
+      "name": "xylem:math.remap_safe",
+      "args": [
+        "$prev",
+        0,
+        100,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "xylem:math.saturate_safe",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.lerp",
+      "args": [
+        0,
+        100,
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.floor",
+      "args": [
+        "$prev"
+      ]
+    },
+    {
+      "name": "xylem:math.inc",
+      "args": [
+        "$prev"
+      ]
+    }
+  ],
+  "mixed": [
+    "python",
+    "c",
+    "c",
+    "python",
+    "c",
+    "rust",
+    "python",
+    "c",
+    "c",
+    "rust",
+    "rust",
+    "c",
+    "python",
+    "python"
+  ]
+}
