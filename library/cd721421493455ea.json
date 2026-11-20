@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "cd721421493455eace126659307affb89bb33d163466ddf40da9b09c51f13254",
+  "short_id": "xylem-v1:cd721421493455ea",
+  "hierarchical_name": "xylem:math.median3",
+  "job": "xylem:math.median3",
+  "language": "python",
+  "timing_us": 0.278,
+  "function_name": "median3",
+  "category": "math",
+  "intent": "return the median of three numbers",
+  "depends_on": [],
+  "source_file": "examples/median3.py",
+  "normalized_length": 180,
+  "tests_passed": 13,
+  "tests_total": 13,
+  "created_at": "2026-11-20T14:55:11.041748+00:00",
+  "updated_at": "2026-11-20T14:55:11.041769+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/median3.py"
+  ]
+}
