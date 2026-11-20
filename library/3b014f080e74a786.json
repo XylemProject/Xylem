@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "3b014f080e74a7862cd4f088a06c635524fe42fbf0914e605ea3e8cf273baf5f",
+  "short_id": "xylem-v1:3b014f080e74a786",
+  "hierarchical_name": "xylem:math.fmod",
+  "job": "xylem:math.fmod",
+  "language": "python",
+  "timing_us": 0.288,
+  "function_name": "fmod",
+  "category": "math",
+  "intent": "remainder of x divided by y, with the sign of x",
+  "depends_on": [],
+  "source_file": "examples/fmod.py",
+  "normalized_length": 259,
+  "tests_passed": 14,
+  "tests_total": 14,
+  "created_at": "2026-11-20T15:48:37.477426+00:00",
+  "updated_at": "2026-11-20T15:48:37.477437+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/fmod.py"
+  ]
+}

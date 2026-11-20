@@ -1,0 +1,8 @@
+{
+  "pack": "pack:math.fmod",
+  "description": "Fmod, then clamp. Order only. Parameters stay in the run file.",
+  "order": [
+    "xylem:math.fmod",
+    "xylem:util.clamp"
+  ]
+}
