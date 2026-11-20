@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "content_hash": "0bc828699e5ccc885b1e144f3b7531973cef94bb60d3b3c7d0d92f3938247aa2",
+  "short_id": "xylem-v1:0bc828699e5ccc88",
+  "hierarchical_name": "xylem:math.approx_equal",
+  "job": "xylem:math.approx_equal",
+  "language": "python",
+  "timing_us": 0.37,
+  "function_name": "approx_equal",
+  "category": "math",
+  "intent": "return whether two numbers differ by at most eps",
+  "depends_on": [],
+  "source_file": "examples/approx_equal.py",
+  "normalized_length": 295,
+  "tests_passed": 14,
+  "tests_total": 14,
+  "created_at": "2026-11-20T15:10:43.529901+00:00",
+  "updated_at": "2026-11-20T15:10:43.529921+00:00",
+  "status": "verified_basic",
+  "seen_sources": [
+    "examples/approx_equal.py"
+  ]
+}

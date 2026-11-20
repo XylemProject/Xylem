@@ -1,0 +1,8 @@
+{
+  "pack": "pack:math.approx_equal",
+  "description": "Approx equal, then clamp. Order only. Parameters stay in the run file.",
+  "order": [
+    "xylem:math.approx_equal",
+    "xylem:util.clamp"
+  ]
+}
